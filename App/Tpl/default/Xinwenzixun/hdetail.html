@@ -1,0 +1,58 @@
+<include file="Public:header" />
+<script>
+$(document).ready(function(e) {
+$('#did').load('/index.php?a=did&m=Article&item={$contentDetail["id"]}');
+});
+</script>
+<style>
+
+</style>
+<!--单页-->
+<div class="wp">
+<div class="bannar1"><img src="/Public/img/bannar1.jpg" width="980" height="148" /></div>
+<div class="weizhi"><a href="/">首页</a> > <a href="{$murl}">新闻中心</a> {~get_parent_cat($catelist,$contentDetail['category_id'],$jingtai,$moduleName)}  </div>
+  <div class="left_box">
+  <h3>新闻中心</h3>
+  <ul class="yiji">
+  <volist name ="catelist" id="voc">
+  <li><a href="{$voc['url']}">{$voc.str_repeat}{$voc['title']}</a></li>
+ </volist>
+      
+     
+  </ul>
+  
+   
+  </div>
+  <div class="right_box">
+  
+  <div class="news_box">
+  <div class="content_box">
+  <h1 class="title">{$contentDetail.title}</h1>
+   <div class="laiyuan">
+   <span class="lai">来源：{$contentDetail.copy_from|default='本站'} {$contentDetail.copy_from|default='本站'}　发布时间：[{$contentDetail.create_time|date="Y-m-d",###}]浏览：</span><span id="did"></span>
+   </div>
+   <if condition="$contentDetail['description'] neq ''">
+   <div class="zhaiyao">
+   {$contentDetail.description}
+   </div>
+   </if>
+   <div class="cont_box">
+   
+   {$contentDetail.content}
+   </div>
+  
+<div class="cl"></div> 
+
+<div class="shangxia">
+   上一篇：{$shang_link}<br />
+   下一篇：{$xia_link}
+   </div>
+
+
+  </div>
+  </div>
+  
+  <div class="page"></div>
+  </div>
+  </div>
+<include file="Public:footer"/>

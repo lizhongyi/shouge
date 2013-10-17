@@ -1,0 +1,34 @@
+<div class="right">
+<!--公告-->
+<div class="news moban">
+<h3><strong>挑选模板</strong></h3>
+<ul>
+<volist name="globalcat" id="row">
+<li>{$row.str_repeat} <a href="{:U('Product/index', array('category' => $row['id']))}" class="{$Think.get.category|a2bc=$row['id'], 'current',''}">{$row.title}</a></li>
+</volist>
+</ul>
+
+<div class="di"></div>
+</div>
+<!--新闻-->
+<div class="kefu">
+
+<h3><strong>客服中心</strong></h3>
+<div class="box_center">
+{$Page_kefu}
+</div>
+<div class="di"></div>
+</div>
+<!--联系-->
+<div class="wenti"><h3><strong>常见问题</strong></h3>
+<ul>
+<volist name="nlist" id="vo">
+<li><a href="{:U('Article/detail',array('item'=>$vo['id']))}" target="_blank">{$vo.title|msubstr=0,18}</a></li>
+</volist>
+<div><a class="more" href="{:U('Article/index',array('category'=>4))}">查看更多>></a></div>
+</ul>
+<div class="di"></div>
+</div>
+
+
+</div>

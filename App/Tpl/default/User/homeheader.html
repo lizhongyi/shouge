@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8" />
+<title>{$username}的主页-{$sysConfig.site_name} </title>
+
+<link href="/Public/css/user.css" rel="stylesheet" type="text/css" />
+
+<script language="javascript" type="text/javascript" src="/Public/Js/jquery.js"></script>
+<script language="javascript" type="text/javascript" src="/Public/Js/Jquery/jquery.validate.js"></script>
+
+
+<script src="__PUBLIC__/Js/birth.js"></script>
+<script language="javascript" type="text/javascript" src="/Public/Js/city.js"></script>
+
+
+<script language="javascript" type="text/javascript" src="/Public/Js/plus.js"></script>
+
+
+<style>
+body{ background:#F8F8F8}
+.umenu{
+	position: absolute;
+	left: -1px;
+	top: -1px;
+	width: 99%;
+	height:40px;
+	z-index:400;
+}
+.hmemu{ float:left; width:200px; height:36px; line-height:36px;}
+.hmemu li a{ float:left; padding:0 15px; margin-right:8px; background:#F8F8F8;}
+</style>
+</head>
+
+<body>
+<div class="home_header" >
+<div class="mid">
+  <div class="logo"><a href="/"><img src="/Public/img/logo.png" border=0 /></a></div>
+    <ul class="hmemu">
+    <li><a href="/">网站首页</a></li>
+    <li><a href="/User/index">个人中心</a></li>
+  
+  </ul><div class="zhuangtai loginTop">
+  <div class="s_face"><img src="<if condition="$user['face'] neq ''">{$user['face']}<else/>
+/Public/img/face.jpg
+</if>" width="40" height="38"/></div><div class="s_uname">
+
+<if condition="$user['realname'] neq ''">
+{$user['realname']}
+<else/>
+{$user['username']}
+</if>
+
+</div><div id="tongzhi" class="tongzhi" <if condition="$tongzhi['sixin'] eq '0' "> style="display:none" <else/> style="display:block"  </if>>{$tongzhi['sixin']}</div><a href="javascript:void(0)" class="umenu"> </a>
+<ul style="clear:both; display:none" id="set">
+
+<li style="position:relative"><a href="{:U('User/sms')}">私信</a><div  class="tongzhi" <if condition="$tongzhi['sixin'] eq '0' "> style="display:none" <else/> style="display:block;absolute;top:5px; left:54px"  </if>>{$tongzhi['sixin']}</div></li>
+<li><a href="{:U('User/profile')}">资料</a></li>
+<li><a href="{:U('User/logout')}">退出</a></li>
+
+</ul>
+</div>
+<div class="cl"></div>
+</div>
+
+</div>

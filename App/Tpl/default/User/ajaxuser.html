@@ -1,0 +1,15 @@
+
+<div class="ajax_list">
+<volist name="userlist" id="vo">
+
+<a href="javascript:;" class="x_user" toid="{$vo['id']}" uname="{$vo['realname']}"><div class="ubox">
+<div class="uface"><img src="<if condition="$vo['face'] neq ''">{$vo['face']}<else/>/Public/img/face.jpg</if>" width="38" height="34"/></div>
+<div class="ucont">
+<div class="u_name"><b>{$vo['realname']}</b><br>{$vo['motto']}
+</div>
+</div>
+<div class="cl"></div>
+</div>
+</a>
+</volist>
+</div>

@@ -1,0 +1,51 @@
+[ 2012-09-10T10:38:29+08:00 ] /admin.php?a=login&m=Public&jumpUri=L2FkbWluLnBocA | INFO: Tag[ app_begin ] --START--
+[ 2012-09-10T10:38:29+08:00 ] /admin.php?a=login&m=Public&jumpUri=L2FkbWluLnBocA | INFO: Run ReadHtmlCache Behavior [ RunTime:0.007437s ]
+[ 2012-09-10T10:38:29+08:00 ] /admin.php?a=login&m=Public&jumpUri=L2FkbWluLnBocA | INFO: Tag[ app_begin ] --END-- [ RunTime:0.007642s ]
+[ 2012-09-10T10:38:29+08:00 ] /admin.php?a=login&m=Public&jumpUri=L2FkbWluLnBocA | INFO: Tag[ view_template ] --START--
+[ 2012-09-10T10:38:29+08:00 ] /admin.php?a=login&m=Public&jumpUri=L2FkbWluLnBocA | INFO: Run LocationTemplate Behavior [ RunTime:0.013270s ]
+[ 2012-09-10T10:38:29+08:00 ] /admin.php?a=login&m=Public&jumpUri=L2FkbWluLnBocA | INFO: Tag[ view_template ] --END-- [ RunTime:0.013437s ]
+[ 2012-09-10T10:38:29+08:00 ] /admin.php?a=login&m=Public&jumpUri=L2FkbWluLnBocA | INFO: Tag[ view_parse ] --START--
+[ 2012-09-10T10:38:30+08:00 ] /admin.php?a=login&m=Public&jumpUri=L2FkbWluLnBocA | INFO: Run ParseTemplate Behavior [ RunTime:0.090047s ]
+[ 2012-09-10T10:38:30+08:00 ] /admin.php?a=login&m=Public&jumpUri=L2FkbWluLnBocA | INFO: Tag[ view_parse ] --END-- [ RunTime:0.090417s ]
+[ 2012-09-10T10:38:30+08:00 ] /admin.php?a=login&m=Public&jumpUri=L2FkbWluLnBocA | INFO: Tag[ view_filter ] --START--
+[ 2012-09-10T10:38:30+08:00 ] /admin.php?a=login&m=Public&jumpUri=L2FkbWluLnBocA | INFO: Run ContentReplace Behavior [ RunTime:0.007013s ]
+[ 2012-09-10T10:38:30+08:00 ] /admin.php?a=login&m=Public&jumpUri=L2FkbWluLnBocA | INFO: Run TokenBuild Behavior [ RunTime:0.007307s ]
+[ 2012-09-10T10:38:30+08:00 ] /admin.php?a=login&m=Public&jumpUri=L2FkbWluLnBocA | INFO: Run WriteHtmlCache Behavior [ RunTime:0.006808s ]
+[ 2012-09-10T10:38:30+08:00 ] /admin.php?a=login&m=Public&jumpUri=L2FkbWluLnBocA | INFO: Run ShowRuntime Behavior [ RunTime:0.013702s ]
+[ 2012-09-10T10:38:30+08:00 ] /admin.php?a=login&m=Public&jumpUri=L2FkbWluLnBocA | INFO: Tag[ view_filter ] --END-- [ RunTime:0.035229s ]
+[ 2012-09-10T10:38:30+08:00 ] /admin.php?a=login&m=Public&jumpUri=L2FkbWluLnBocA | INFO: Tag[ view_end ] --START--
+[ 2012-09-10T10:38:30+08:00 ] /admin.php?a=login&m=Public&jumpUri=L2FkbWluLnBocA | INFO: Run ShowPageTrace Behavior [ RunTime:0.007437s ]
+[ 2012-09-10T10:38:30+08:00 ] /admin.php?a=login&m=Public&jumpUri=L2FkbWluLnBocA | INFO: Tag[ view_end ] --END-- [ RunTime:0.007578s ]
+[ 2012-09-10T10:38:35+08:00 ] /admin.php | INFO: Tag[ app_begin ] --START--
+[ 2012-09-10T10:38:35+08:00 ] /admin.php | INFO: Run ReadHtmlCache Behavior [ RunTime:0.007204s ]
+[ 2012-09-10T10:38:35+08:00 ] /admin.php | INFO: Tag[ app_begin ] --END-- [ RunTime:0.007412s ]
+[ 2012-09-10T10:38:35+08:00 ] /admin.php | NOTIC: [2048] Declaration of AdvModel::_before_insert() should be compatible with that of Model::_before_insert() AdvModel.class.php 第 18 行.
+[ 2012-09-10T10:38:35+08:00 ] /admin.php | NOTIC: [2048] Declaration of AdvModel::_before_update() should be compatible with that of Model::_before_update() AdvModel.class.php 第 18 行.
+[ 2012-09-10T10:38:35+08:00 ] /admin.php | NOTIC: [2048] Declaration of AdvModel::_after_select() should be compatible with that of Model::_after_select() AdvModel.class.php 第 18 行.
+[ 2012-09-10T10:38:35+08:00 ] /admin.php | NOTIC: [2048] Declaration of AdvModel::_after_find() should be compatible with that of Model::_after_find() AdvModel.class.php 第 18 行.
+[ 2012-09-10T10:38:35+08:00 ] /admin.php | SQL: SHOW COLUMNS FROM `yge_module` [ RunTime:0.164114s ]
+[ 2012-09-10T10:38:35+08:00 ] /admin.php | SQL: SELECT * FROM `yge_module` WHERE left_menu=1 and status=0 ORDER BY display_order DESC,id ASC  [ RunTime:0.001895s ]
+[ 2012-09-10T10:38:35+08:00 ] /admin.php | NOTIC: [8] Undefined variable: security IndexAction.class.php 第 23 行.
+[ 2012-09-10T10:38:35+08:00 ] /admin.php | SQL: select version() [ RunTime:0.002876s ]
+[ 2012-09-10T10:38:35+08:00 ] /admin.php | SQL: SHOW COLUMNS FROM `yge_admin` [ RunTime:0.003955s ]
+[ 2012-09-10T10:38:35+08:00 ] /admin.php | SQL: SELECT * FROM `yge_admin` WHERE id=1 LIMIT 1   [ RunTime:0.001752s ]
+[ 2012-09-10T10:38:35+08:00 ] /admin.php | SQL: SHOW COLUMNS FROM `yge_admin_log` [ RunTime:0.010740s ]
+[ 2012-09-10T10:38:35+08:00 ] /admin.php | SQL: INSERT INTO `yge_admin_log` (`user_id`,`username`,`action`,`ip`,`create_time`) VALUES (1,'lizhongyi','/admin.php','127.0.0.1',1347244715) [ RunTime:0.017031s ]
+[ 2012-09-10T10:38:35+08:00 ] /admin.php | INFO: Tag[ view_template ] --START--
+[ 2012-09-10T10:38:35+08:00 ] /admin.php | INFO: Run LocationTemplate Behavior [ RunTime:0.013021s ]
+[ 2012-09-10T10:38:35+08:00 ] /admin.php | INFO: Tag[ view_template ] --END-- [ RunTime:0.013176s ]
+[ 2012-09-10T10:38:35+08:00 ] /admin.php | INFO: Tag[ view_parse ] --START--
+[ 2012-09-10T10:38:35+08:00 ] /admin.php | NOTIC: [8] Use of undefined constant menunames - assumed 'menunames' 8036b6ce8dcda916f02254a7b19498b1.php 第 58 行.
+[ 2012-09-10T10:38:35+08:00 ] /admin.php | NOTIC: [8] Undefined variable: _TPL 8036b6ce8dcda916f02254a7b19498b1.php 第 58 行.
+[ 2012-09-10T10:38:35+08:00 ] /admin.php | NOTIC: [8] Undefined variable: value 8036b6ce8dcda916f02254a7b19498b1.php 第 58 行.
+[ 2012-09-10T10:38:35+08:00 ] /admin.php | INFO: Run ParseTemplate Behavior [ RunTime:0.139043s ]
+[ 2012-09-10T10:38:35+08:00 ] /admin.php | INFO: Tag[ view_parse ] --END-- [ RunTime:0.139217s ]
+[ 2012-09-10T10:38:35+08:00 ] /admin.php | INFO: Tag[ view_filter ] --START--
+[ 2012-09-10T10:38:35+08:00 ] /admin.php | INFO: Run ContentReplace Behavior [ RunTime:0.007194s ]
+[ 2012-09-10T10:38:35+08:00 ] /admin.php | INFO: Run TokenBuild Behavior [ RunTime:0.006905s ]
+[ 2012-09-10T10:38:35+08:00 ] /admin.php | INFO: Run WriteHtmlCache Behavior [ RunTime:0.006587s ]
+[ 2012-09-10T10:38:35+08:00 ] /admin.php | INFO: Run ShowRuntime Behavior [ RunTime:0.006926s ]
+[ 2012-09-10T10:38:35+08:00 ] /admin.php | INFO: Tag[ view_filter ] --END-- [ RunTime:0.027981s ]
+[ 2012-09-10T10:38:35+08:00 ] /admin.php | INFO: Tag[ view_end ] --START--
+[ 2012-09-10T10:38:35+08:00 ] /admin.php | INFO: Run ShowPageTrace Behavior [ RunTime:0.008070s ]
+[ 2012-09-10T10:38:35+08:00 ] /admin.php | INFO: Tag[ view_end ] --END-- [ RunTime:0.008221s ]

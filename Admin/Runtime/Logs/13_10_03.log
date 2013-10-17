@@ -1,0 +1,1811 @@
+[ 2013-10-03T13:39:08+08:00 ] 127.0.0.1 /admin.php/Public/login/jumpUri/L2FkbWluLnBocA.html
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004785s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004984s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001380s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004071s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.042778s ]
+INFO: [ view_template ] --END-- [ RunTime:0.007109s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.051395s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057318s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.108747s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.112533s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.116182s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.119699s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014740s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.123569s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004193s ]
+
+[ 2013-10-03T13:39:22+08:00 ] 127.0.0.1 /admin.php
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.004079s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004192s ]
+NOTIC: [2048] Declaration of AdvModel::_before_insert() should be compatible with that of Model::_before_insert() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+NOTIC: [2048] Declaration of AdvModel::_before_update() should be compatible with that of Model::_before_update() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+NOTIC: [2048] Declaration of AdvModel::_after_select() should be compatible with that of Model::_after_select() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+NOTIC: [2048] Declaration of AdvModel::_after_find() should be compatible with that of Model::_after_find() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `yge_module` [ RunTime:0.027578s ]
+SQL: SELECT * FROM `yge_module` WHERE left_menu=1 and status=0 ORDER BY display_order DESC,id ASC  [ RunTime:0.000752s ]
+NOTIC: [8] Undefined variable: security E:\phpnow\vhosts\shebao\Admin\Lib\Action\IndexAction.class.php 第 45 行.
+SQL: select version() [ RunTime:0.013526s ]
+SQL: SHOW COLUMNS FROM `yge_admin` [ RunTime:0.002264s ]
+SQL: SELECT * FROM `yge_admin` WHERE id=1 LIMIT 1   [ RunTime:0.000299s ]
+SQL: SHOW COLUMNS FROM `yge_admin_log` [ RunTime:0.042422s ]
+SQL: INSERT INTO `yge_admin_log` (`user_id`,`username`,`action`,`ip`,`create_time`) VALUES (1,'lizhongyi','/admin.php','127.0.0.1',1380778762) [ RunTime:0.039796s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.202052s ]
+INFO: [ view_template ] --END-- [ RunTime:0.006836s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant menunames - assumed 'menunames' E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\8036b6ce8dcda916f02254a7b19498b1.php 第 115 行.
+NOTIC: [8] Undefined variable: _TPL E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\8036b6ce8dcda916f02254a7b19498b1.php 第 115 行.
+NOTIC: [8] Undefined variable: value E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\8036b6ce8dcda916f02254a7b19498b1.php 第 115 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.209604s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.100423s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.310058s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.314079s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.318123s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.321695s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015747s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.325909s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004518s ]
+
+[ 2013-10-03T13:39:39+08:00 ] 127.0.0.1 /admin.php/Config/index.html
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004200s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004320s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001281s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004154s ]
+NOTIC: [2048] Declaration of AdvModel::_before_insert() should be compatible with that of Model::_before_insert() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+NOTIC: [2048] Declaration of AdvModel::_before_update() should be compatible with that of Model::_before_update() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+NOTIC: [2048] Declaration of AdvModel::_after_select() should be compatible with that of Model::_after_select() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+NOTIC: [2048] Declaration of AdvModel::_after_find() should be compatible with that of Model::_after_find() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `yge_module` [ RunTime:0.002121s ]
+SQL: SELECT * FROM `yge_module` WHERE left_menu=1 and status=0 ORDER BY display_order DESC,id ASC  [ RunTime:0.000424s ]
+SQL: SHOW COLUMNS FROM `yge_config` [ RunTime:0.015502s ]
+SQL: SHOW COLUMNS FROM `yge_admin_log` [ RunTime:0.001980s ]
+SQL: INSERT INTO `yge_admin_log` (`user_id`,`username`,`action`,`ip`,`create_time`) VALUES (1,'lizhongyi','/admin.php/Config/index.html','127.0.0.1',1380778779) [ RunTime:0.000266s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.125729s ]
+INFO: [ view_template ] --END-- [ RunTime:0.007910s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant menunames - assumed 'menunames' E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\25ffad8b1333df45988848fdab8dbe42.php 第 115 行.
+NOTIC: [8] Undefined variable: _TPL E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\25ffad8b1333df45988848fdab8dbe42.php 第 115 行.
+NOTIC: [8] Undefined variable: value E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\25ffad8b1333df45988848fdab8dbe42.php 第 115 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.134390s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058820s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.193255s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.197237s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.200963s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.204665s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015228s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.208588s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004330s ]
+
+[ 2013-10-03T13:46:52+08:00 ] 127.0.0.1 /admin.php/Config/index.html
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004239s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004371s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001503s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004509s ]
+NOTIC: [2048] Declaration of AdvModel::_before_insert() should be compatible with that of Model::_before_insert() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+NOTIC: [2048] Declaration of AdvModel::_before_update() should be compatible with that of Model::_before_update() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+NOTIC: [2048] Declaration of AdvModel::_after_select() should be compatible with that of Model::_after_select() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+NOTIC: [2048] Declaration of AdvModel::_after_find() should be compatible with that of Model::_after_find() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `yge_module` [ RunTime:0.002041s ]
+SQL: SELECT * FROM `yge_module` WHERE left_menu=1 and status=0 ORDER BY display_order DESC,id ASC  [ RunTime:0.000403s ]
+SQL: SHOW COLUMNS FROM `yge_config` [ RunTime:0.003753s ]
+SQL: SHOW COLUMNS FROM `yge_admin_log` [ RunTime:0.003203s ]
+SQL: INSERT INTO `yge_admin_log` (`user_id`,`username`,`action`,`ip`,`create_time`) VALUES (1,'lizhongyi','/admin.php/Config/index.html','127.0.0.1',1380779212) [ RunTime:0.000382s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.094218s ]
+INFO: [ view_template ] --END-- [ RunTime:0.006843s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant menunames - assumed 'menunames' E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\25ffad8b1333df45988848fdab8dbe42.php 第 115 行.
+NOTIC: [8] Undefined variable: _TPL E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\25ffad8b1333df45988848fdab8dbe42.php 第 115 行.
+NOTIC: [8] Undefined variable: value E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\25ffad8b1333df45988848fdab8dbe42.php 第 115 行.
+NOTIC: [8] Undefined index:  robots E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\25ffad8b1333df45988848fdab8dbe42.php 第 533 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.101892s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052554s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.154477s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.158250s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.161980s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.165577s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014866s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.169436s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004079s ]
+
+[ 2013-10-03T13:47:02+08:00 ] 127.0.0.1 /admin.php/Config/doModify.html
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004308s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004409s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004109s ]
+NOTIC: [2048] Declaration of AdvModel::_before_insert() should be compatible with that of Model::_before_insert() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+NOTIC: [2048] Declaration of AdvModel::_before_update() should be compatible with that of Model::_before_update() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+NOTIC: [2048] Declaration of AdvModel::_after_select() should be compatible with that of Model::_after_select() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+NOTIC: [2048] Declaration of AdvModel::_after_find() should be compatible with that of Model::_after_find() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `yge_module` [ RunTime:0.002030s ]
+SQL: SELECT * FROM `yge_module` WHERE left_menu=1 and status=0 ORDER BY display_order DESC,id ASC  [ RunTime:0.000410s ]
+SQL: SHOW COLUMNS FROM `yge_config` [ RunTime:0.002966s ]
+NOTIC: [2] Missing argument 1 for dHtml() E:\phpnow\vhosts\shebao\includes\conn.php 第 130 行.
+NOTIC: [8] Undefined variable: string E:\phpnow\vhosts\shebao\includes\conn.php 第 132 行.
+NOTIC: [8] Undefined variable: string E:\phpnow\vhosts\shebao\includes\conn.php 第 140 行.
+SQL: UPDATE `yge_config` SET `site_name`='上海代收社保网',`site_url`='shebao.com',`email`='',`contact_name`='',`company_name`='上海代收社保网',`address`='北京市海淀区',`telephone`='',`fax`='',`mobile_telephone`='',`qq`='',`msn`='',`icp`='',`web_status`=0,`status_description`='',`header_content`='',`footer_content`='地址：上海市闵行区莘庄碧秀路98弄6号1401\r\n交通路线：地铁一号线莘庄站北出口走路5分钟就到\r\n电话：021-51602273；021-51088951\r\n传真：021-51992272\r\n客服QQ：304869866 QQ：2532450507\r\n紧急联系：15000266097 13918340537',`sys_log`=1,`sys_log_ext`='index,delete,modify,insert,update,login',`run_system`='window,linux',`watermark_status`=0,`watermark_size`='500',`global_attach_size`=3000000,`global_attach_suffix`='jpg,gif,bmp,png,doc,docx,rar,7z,zip,png,swf,xls,pdf,',`global_thumb_status`=1,`global_thumb_size`='500,220',`seo_title`='这是沃我们的网站',`seo_keyword`='阿萨德均按时大大',`seo_description`='阿斯达啊实打实大的是',`smtpserver`='smtp.qq.com',`smtpport`=25,`smtpyz`=1,`smtpmail`='165256676@qq.com',`smtpuser`='165256676',`smtppass`='jjj' WHERE ( `id` = 1 ) [ RunTime:0.035185s ]
+NOTIC: [8] Undefined variable: configFooter E:\phpnow\vhosts\shebao\Admin\Lib\Action\ConfigAction.class.php 第 127 行.
+NOTIC: [8] Undefined variable: configBody E:\phpnow\vhosts\shebao\Admin\Lib\Action\ConfigAction.class.php 第 145 行.
+SQL: SHOW COLUMNS FROM `yge_admin_log` [ RunTime:0.002863s ]
+SQL: INSERT INTO `yge_admin_log` (`user_id`,`username`,`action`,`ip`,`create_time`) VALUES (1,'lizhongyi','/admin.php/Config/doModify.html (编辑系统配置)','127.0.0.1',1380779222) [ RunTime:0.000282s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.126637s ]
+INFO: [ view_template ] --END-- [ RunTime:0.006069s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.133333s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055191s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.188569s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.192512s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.196243s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.199770s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015027s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.203686s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004201s ]
+
+[ 2013-10-03T13:47:05+08:00 ] 127.0.0.1 /admin.php/Config
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004219s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004335s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004309s ]
+NOTIC: [8] Undefined index:  jingtai E:\phpnow\vhosts\shebao\Admin\Lib\Action\GlobalAction.class.php 第 26 行.
+NOTIC: [2048] Declaration of AdvModel::_before_insert() should be compatible with that of Model::_before_insert() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+NOTIC: [2048] Declaration of AdvModel::_before_update() should be compatible with that of Model::_before_update() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+NOTIC: [2048] Declaration of AdvModel::_after_select() should be compatible with that of Model::_after_select() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+NOTIC: [2048] Declaration of AdvModel::_after_find() should be compatible with that of Model::_after_find() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `yge_module` [ RunTime:0.002114s ]
+SQL: SELECT * FROM `yge_module` WHERE left_menu=1 and status=0 ORDER BY display_order DESC,id ASC  [ RunTime:0.000426s ]
+SQL: SHOW COLUMNS FROM `yge_config` [ RunTime:0.003123s ]
+SQL: SHOW COLUMNS FROM `yge_admin_log` [ RunTime:0.001931s ]
+SQL: INSERT INTO `yge_admin_log` (`user_id`,`username`,`action`,`ip`,`create_time`) VALUES (1,'lizhongyi','/admin.php/Config','127.0.0.1',1380779225) [ RunTime:0.000647s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.088667s ]
+INFO: [ view_template ] --END-- [ RunTime:0.007124s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant menunames - assumed 'menunames' E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\25ffad8b1333df45988848fdab8dbe42.php 第 115 行.
+NOTIC: [8] Undefined variable: _TPL E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\25ffad8b1333df45988848fdab8dbe42.php 第 115 行.
+NOTIC: [8] Undefined variable: value E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\25ffad8b1333df45988848fdab8dbe42.php 第 115 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.096586s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051346s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.147966s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.151838s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.155777s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.159771s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015632s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.163694s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004017s ]
+
+[ 2013-10-03T13:48:30+08:00 ] 127.0.0.1 /admin.php/Config
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004638s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004764s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001483s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003970s ]
+NOTIC: [8] Undefined index:  jingtai E:\phpnow\vhosts\shebao\Admin\Lib\Action\GlobalAction.class.php 第 26 行.
+NOTIC: [2048] Declaration of AdvModel::_before_insert() should be compatible with that of Model::_before_insert() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+NOTIC: [2048] Declaration of AdvModel::_before_update() should be compatible with that of Model::_before_update() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+NOTIC: [2048] Declaration of AdvModel::_after_select() should be compatible with that of Model::_after_select() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+NOTIC: [2048] Declaration of AdvModel::_after_find() should be compatible with that of Model::_after_find() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `yge_module` [ RunTime:0.003404s ]
+SQL: SELECT * FROM `yge_module` WHERE left_menu=1 and status=0 ORDER BY display_order DESC,id ASC  [ RunTime:0.000478s ]
+SQL: SHOW COLUMNS FROM `yge_config` [ RunTime:0.004140s ]
+SQL: SHOW COLUMNS FROM `yge_admin_log` [ RunTime:0.001985s ]
+SQL: INSERT INTO `yge_admin_log` (`user_id`,`username`,`action`,`ip`,`create_time`) VALUES (1,'lizhongyi','/admin.php/Config','127.0.0.1',1380779310) [ RunTime:0.000579s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.142307s ]
+INFO: [ view_template ] --END-- [ RunTime:0.006742s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant menunames - assumed 'menunames' E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\25ffad8b1333df45988848fdab8dbe42.php 第 115 行.
+NOTIC: [8] Undefined variable: _TPL E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\25ffad8b1333df45988848fdab8dbe42.php 第 115 行.
+NOTIC: [8] Undefined variable: value E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\25ffad8b1333df45988848fdab8dbe42.php 第 115 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.149800s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.096222s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.246069s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.250020s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.254039s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.257685s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015943s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.262115s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004540s ]
+
+[ 2013-10-03T13:48:36+08:00 ] 127.0.0.1 /admin.php/Config/doModify.html
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004430s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004555s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001505s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004045s ]
+NOTIC: [8] Undefined index:  jingtai E:\phpnow\vhosts\shebao\Admin\Lib\Action\GlobalAction.class.php 第 26 行.
+NOTIC: [2048] Declaration of AdvModel::_before_insert() should be compatible with that of Model::_before_insert() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+NOTIC: [2048] Declaration of AdvModel::_before_update() should be compatible with that of Model::_before_update() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+NOTIC: [2048] Declaration of AdvModel::_after_select() should be compatible with that of Model::_after_select() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+NOTIC: [2048] Declaration of AdvModel::_after_find() should be compatible with that of Model::_after_find() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `yge_module` [ RunTime:0.002583s ]
+SQL: SELECT * FROM `yge_module` WHERE left_menu=1 and status=0 ORDER BY display_order DESC,id ASC  [ RunTime:0.000485s ]
+SQL: SHOW COLUMNS FROM `yge_config` [ RunTime:0.003141s ]
+NOTIC: [2] Missing argument 1 for dHtml() E:\phpnow\vhosts\shebao\includes\conn.php 第 130 行.
+NOTIC: [8] Undefined variable: string E:\phpnow\vhosts\shebao\includes\conn.php 第 132 行.
+NOTIC: [8] Undefined variable: string E:\phpnow\vhosts\shebao\includes\conn.php 第 140 行.
+SQL: UPDATE `yge_config` SET `site_name`='上海代收社保网',`site_url`='shebao.com',`email`='',`contact_name`='',`company_name`='上海代收社保网',`address`='北京市海淀区',`telephone`='',`fax`='',`mobile_telephone`='',`qq`='',`msn`='',`icp`='',`web_status`=0,`status_description`='',`header_content`='',`footer_content`='地址：上海市闵行区莘庄碧秀路98弄6号1401\r\n交通路线：地铁一号线莘庄站北出口走路5分钟就到\r\n电话：021-51602273；021-51088951\r\n传真：021-51992272\r\n客服QQ：304869866 QQ：2532450507\r\n紧急联系：15000266097 13918340537',`sys_log`=1,`sys_log_ext`='index,delete,modify,insert,update,login',`run_system`='window,linux',`watermark_status`=0,`watermark_size`='500',`global_attach_size`=3000000,`global_attach_suffix`='jpg,gif,bmp,png,doc,docx,rar,7z,zip,png,swf,xls,pdf,',`global_thumb_status`=1,`global_thumb_size`='500,220',`seo_title`='这是沃我们的网站',`seo_keyword`='阿萨德均按时大大',`seo_description`='阿斯达啊实打实大的是',`smtpserver`='smtp.qq.com',`smtpport`=25,`smtpyz`=1,`smtpmail`='165256676@qq.com',`smtpuser`='165256676',`smtppass`='jjj' WHERE ( `id` = 1 ) [ RunTime:0.000650s ]
+NOTIC: [8] Undefined variable: configFooter E:\phpnow\vhosts\shebao\Admin\Lib\Action\ConfigAction.class.php 第 127 行.
+NOTIC: [8] Undefined variable: configBody E:\phpnow\vhosts\shebao\Admin\Lib\Action\ConfigAction.class.php 第 145 行.
+SQL: SHOW COLUMNS FROM `yge_admin_log` [ RunTime:0.001971s ]
+SQL: INSERT INTO `yge_admin_log` (`user_id`,`username`,`action`,`ip`,`create_time`) VALUES (1,'lizhongyi','/admin.php/Config/doModify.html (编辑系统配置)','127.0.0.1',1380779316) [ RunTime:0.000472s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.094826s ]
+INFO: [ view_template ] --END-- [ RunTime:0.006168s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.101579s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041212s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.142840s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.146636s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.150448s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.154459s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015473s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.158398s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004245s ]
+
+[ 2013-10-03T13:48:39+08:00 ] 127.0.0.1 /admin.php/Config
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004436s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004559s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003955s ]
+NOTIC: [8] Undefined index:  jingtai E:\phpnow\vhosts\shebao\Admin\Lib\Action\GlobalAction.class.php 第 26 行.
+NOTIC: [2048] Declaration of AdvModel::_before_insert() should be compatible with that of Model::_before_insert() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+NOTIC: [2048] Declaration of AdvModel::_before_update() should be compatible with that of Model::_before_update() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+NOTIC: [2048] Declaration of AdvModel::_after_select() should be compatible with that of Model::_after_select() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+NOTIC: [2048] Declaration of AdvModel::_after_find() should be compatible with that of Model::_after_find() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `yge_module` [ RunTime:0.002448s ]
+SQL: SELECT * FROM `yge_module` WHERE left_menu=1 and status=0 ORDER BY display_order DESC,id ASC  [ RunTime:0.000645s ]
+SQL: SHOW COLUMNS FROM `yge_config` [ RunTime:0.023204s ]
+SQL: SHOW COLUMNS FROM `yge_admin_log` [ RunTime:0.002031s ]
+SQL: INSERT INTO `yge_admin_log` (`user_id`,`username`,`action`,`ip`,`create_time`) VALUES (1,'lizhongyi','/admin.php/Config','127.0.0.1',1380779319) [ RunTime:0.000266s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.109456s ]
+INFO: [ view_template ] --END-- [ RunTime:0.007070s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant menunames - assumed 'menunames' E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\25ffad8b1333df45988848fdab8dbe42.php 第 115 行.
+NOTIC: [8] Undefined variable: _TPL E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\25ffad8b1333df45988848fdab8dbe42.php 第 115 行.
+NOTIC: [8] Undefined variable: value E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\25ffad8b1333df45988848fdab8dbe42.php 第 115 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.117243s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054372s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.171665s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.175582s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.179784s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.183388s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015590s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.187356s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004206s ]
+
+[ 2013-10-03T13:49:45+08:00 ] 127.0.0.1 /admin.php/Article/index.html
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004497s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004628s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003895s ]
+NOTIC: [8] Undefined index:  jingtai E:\phpnow\vhosts\shebao\Admin\Lib\Action\GlobalAction.class.php 第 26 行.
+NOTIC: [2048] Declaration of AdvModel::_before_insert() should be compatible with that of Model::_before_insert() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+NOTIC: [2048] Declaration of AdvModel::_before_update() should be compatible with that of Model::_before_update() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+NOTIC: [2048] Declaration of AdvModel::_after_select() should be compatible with that of Model::_after_select() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+NOTIC: [2048] Declaration of AdvModel::_after_find() should be compatible with that of Model::_after_find() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `yge_module` [ RunTime:0.002406s ]
+SQL: SELECT * FROM `yge_module` WHERE left_menu=1 and status=0 ORDER BY display_order DESC,id ASC  [ RunTime:0.001293s ]
+SQL: SHOW COLUMNS FROM `yge_category` [ RunTime:0.002159s ]
+SQL: SELECT * FROM `yge_category` ORDER BY display_order DESC,id DESC  [ RunTime:0.000495s ]
+SQL: SHOW COLUMNS FROM `yge_article` [ RunTime:0.002479s ]
+NOTIC: [8] Undefined index:  title E:\phpnow\vhosts\shebao\Admin\Lib\Action\ArticleAction.class.php 第 52 行.
+NOTIC: [8] Undefined index:  orderBy E:\phpnow\vhosts\shebao\Admin\Lib\Action\ArticleAction.class.php 第 53 行.
+NOTIC: [8] Undefined index:  orderType E:\phpnow\vhosts\shebao\Admin\Lib\Action\ArticleAction.class.php 第 54 行.
+NOTIC: [8] Undefined index:  recommend E:\phpnow\vhosts\shebao\Admin\Lib\Action\ArticleAction.class.php 第 55 行.
+NOTIC: [8] Undefined index:  categoryId E:\phpnow\vhosts\shebao\Admin\Lib\Action\ArticleAction.class.php 第 56 行.
+NOTIC: [8] Undefined index:  userId E:\phpnow\vhosts\shebao\Admin\Lib\Action\ArticleAction.class.php 第 57 行.
+NOTIC: [8] Undefined index:  status E:\phpnow\vhosts\shebao\Admin\Lib\Action\ArticleAction.class.php 第 58 行.
+NOTIC: [8] Undefined index:  istop E:\phpnow\vhosts\shebao\Admin\Lib\Action\ArticleAction.class.php 第 59 行.
+NOTIC: [8] Undefined index:  createTime E:\phpnow\vhosts\shebao\Admin\Lib\Action\ArticleAction.class.php 第 60 行.
+NOTIC: [8] Undefined index:  createTime1 E:\phpnow\vhosts\shebao\Admin\Lib\Action\ArticleAction.class.php 第 61 行.
+NOTIC: [8] Undefined index:  viewCount E:\phpnow\vhosts\shebao\Admin\Lib\Action\ArticleAction.class.php 第 62 行.
+NOTIC: [8] Undefined index:  viewCount1 E:\phpnow\vhosts\shebao\Admin\Lib\Action\ArticleAction.class.php 第 63 行.
+NOTIC: [8] Undefined index:  pageSize E:\phpnow\vhosts\shebao\Admin\Lib\Action\ArticleAction.class.php 第 67 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `yge_article` LIMIT 1   [ RunTime:0.000206s ]
+SQL: SELECT a.*,b.title as category FROM yge_article a LEFT JOIN yge_category b on a.category_id=b.id ORDER BY a.id DESC LIMIT 0,15   [ RunTime:0.000330s ]
+NOTIC: [8] Undefined variable: list E:\phpnow\vhosts\shebao\Admin\Lib\Action\ArticleAction.class.php 第 82 行.
+SQL: SHOW COLUMNS FROM `yge_admin_log` [ RunTime:0.001971s ]
+SQL: INSERT INTO `yge_admin_log` (`user_id`,`username`,`action`,`ip`,`create_time`) VALUES (1,'lizhongyi','/admin.php/Article/index.html','127.0.0.1',1380779385) [ RunTime:0.000276s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.127215s ]
+INFO: [ view_template ] --END-- [ RunTime:0.006929s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant menunames - assumed 'menunames' E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\c43067ef845fef4eec5db14c625b53cb.php 第 115 行.
+NOTIC: [8] Undefined variable: _TPL E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\c43067ef845fef4eec5db14c625b53cb.php 第 115 行.
+NOTIC: [8] Undefined variable: value E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\c43067ef845fef4eec5db14c625b53cb.php 第 115 行.
+NOTIC: [8] Undefined index:  title E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\c43067ef845fef4eec5db14c625b53cb.php 第 267 行.
+NOTIC: [8] Undefined index:  categoryId E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\c43067ef845fef4eec5db14c625b53cb.php 第 269 行.
+NOTIC: [8] Undefined index:  userId E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\c43067ef845fef4eec5db14c625b53cb.php 第 271 行.
+NOTIC: [8] Undefined index:  createTime E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\c43067ef845fef4eec5db14c625b53cb.php 第 273 行.
+NOTIC: [8] Undefined index:  createTime1 E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\c43067ef845fef4eec5db14c625b53cb.php 第 275 行.
+NOTIC: [8] Undefined index:  recommend E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\c43067ef845fef4eec5db14c625b53cb.php 第 277 行.
+NOTIC: [8] Undefined index:  status E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\c43067ef845fef4eec5db14c625b53cb.php 第 279 行.
+NOTIC: [8] Undefined index:  istop E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\c43067ef845fef4eec5db14c625b53cb.php 第 281 行.
+NOTIC: [8] Undefined index:  viewCount E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\c43067ef845fef4eec5db14c625b53cb.php 第 283 行.
+NOTIC: [8] Undefined index:  viewCount1 E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\c43067ef845fef4eec5db14c625b53cb.php 第 285 行.
+NOTIC: [8] Undefined index:  orderType E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\c43067ef845fef4eec5db14c625b53cb.php 第 287 行.
+NOTIC: [8] Undefined index:  orderBy E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\c43067ef845fef4eec5db14c625b53cb.php 第 289 行.
+NOTIC: [8] Undefined index:  pageSize E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\c43067ef845fef4eec5db14c625b53cb.php 第 291 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.134860s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.061312s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.196223s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.200302s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.203970s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.207488s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015174s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.211501s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004131s ]
+
+[ 2013-10-03T13:49:47+08:00 ] 127.0.0.1 /admin.php/Article/insert.html
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004189s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004296s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001392s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004143s ]
+NOTIC: [8] Undefined index:  jingtai E:\phpnow\vhosts\shebao\Admin\Lib\Action\GlobalAction.class.php 第 26 行.
+NOTIC: [2048] Declaration of AdvModel::_before_insert() should be compatible with that of Model::_before_insert() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+NOTIC: [2048] Declaration of AdvModel::_before_update() should be compatible with that of Model::_before_update() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+NOTIC: [2048] Declaration of AdvModel::_after_select() should be compatible with that of Model::_after_select() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+NOTIC: [2048] Declaration of AdvModel::_after_find() should be compatible with that of Model::_after_find() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `yge_module` [ RunTime:0.002019s ]
+SQL: SELECT * FROM `yge_module` WHERE left_menu=1 and status=0 ORDER BY display_order DESC,id ASC  [ RunTime:0.000457s ]
+SQL: SHOW COLUMNS FROM `yge_category` [ RunTime:0.002173s ]
+SQL: SELECT * FROM `yge_category` ORDER BY display_order DESC,id DESC  [ RunTime:0.000504s ]
+SQL: SHOW COLUMNS FROM `yge_article` [ RunTime:0.002676s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.086193s ]
+INFO: [ view_template ] --END-- [ RunTime:0.006610s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant menunames - assumed 'menunames' E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\5d743f5998dd95cdf888747d474cbae8.php 第 116 行.
+NOTIC: [8] Undefined variable: _TPL E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\5d743f5998dd95cdf888747d474cbae8.php 第 116 行.
+NOTIC: [8] Undefined variable: value E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\5d743f5998dd95cdf888747d474cbae8.php 第 116 行.
+NOTIC: [8] Undefined variable: vo E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\5d743f5998dd95cdf888747d474cbae8.php 第 298 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.093481s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.077242s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.170768s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.174544s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.178194s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.181701s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015097s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.185966s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004025s ]
+
+[ 2013-10-03T13:49:47+08:00 ] ERR: (ThinkException) 非法操作:index.css
+[ 2013-10-03T13:49:47+08:00 ] ERR: (ThinkException) 无法加载模块:plugins
+[ 2013-10-03T13:50:02+08:00 ] 127.0.0.1 /admin.php/Article/doInsert.html
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004593s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004712s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001356s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003885s ]
+NOTIC: [8] Undefined index:  jingtai E:\phpnow\vhosts\shebao\Admin\Lib\Action\GlobalAction.class.php 第 26 行.
+NOTIC: [2048] Declaration of AdvModel::_before_insert() should be compatible with that of Model::_before_insert() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+NOTIC: [2048] Declaration of AdvModel::_before_update() should be compatible with that of Model::_before_update() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+NOTIC: [2048] Declaration of AdvModel::_after_select() should be compatible with that of Model::_after_select() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+NOTIC: [2048] Declaration of AdvModel::_after_find() should be compatible with that of Model::_after_find() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `yge_module` [ RunTime:0.001999s ]
+SQL: SELECT * FROM `yge_module` WHERE left_menu=1 and status=0 ORDER BY display_order DESC,id ASC  [ RunTime:0.000441s ]
+SQL: SHOW COLUMNS FROM `yge_category` [ RunTime:0.002160s ]
+SQL: SELECT * FROM `yge_category` ORDER BY display_order DESC,id DESC  [ RunTime:0.000584s ]
+SQL: SHOW COLUMNS FROM `yge_article` [ RunTime:0.003881s ]
+SQL: INSERT INTO `yge_article` (`title`,`category_id`,`description`,`content`,`template`,`tags`,`keyword`,`link_url`,`copy_from`,`from_link`,`recommend`,`status`,`istop`,`view_count`,`display_order`,`create_time`,`user_id`,`username`,`title_style`,`title_style_serialize`) VALUES ('在测试一个新闻吧',124,'','在测试一个新闻吧在测试一个新闻吧在测试一个新闻吧','','','','','','',0,0,0,0,0,1380729600,1,'lizhongyi','','') [ RunTime:0.008444s ]
+NOTIC: [8] Undefined index:  jingtai E:\phpnow\vhosts\shebao\Admin\Lib\Action\ArticleAction.class.php 第 141 行.
+SQL: SHOW COLUMNS FROM `yge_admin_log` [ RunTime:0.002278s ]
+SQL: INSERT INTO `yge_admin_log` (`user_id`,`username`,`action`,`ip`,`create_time`) VALUES (1,'lizhongyi','/admin.php/Article/doInsert.html (录入:854)','127.0.0.1',1380779402) [ RunTime:0.000269s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.119443s ]
+INFO: [ view_template ] --END-- [ RunTime:0.006031s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.126049s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031551s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.157637s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.161311s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.164937s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.168782s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014901s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.172628s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004127s ]
+
+[ 2013-10-03T13:50:06+08:00 ] 127.0.0.1 /admin.php?m=Article
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003907s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004011s ]
+NOTIC: [8] Undefined index:  jingtai E:\phpnow\vhosts\shebao\Admin\Lib\Action\GlobalAction.class.php 第 26 行.
+NOTIC: [2048] Declaration of AdvModel::_before_insert() should be compatible with that of Model::_before_insert() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+NOTIC: [2048] Declaration of AdvModel::_before_update() should be compatible with that of Model::_before_update() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+NOTIC: [2048] Declaration of AdvModel::_after_select() should be compatible with that of Model::_after_select() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+NOTIC: [2048] Declaration of AdvModel::_after_find() should be compatible with that of Model::_after_find() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `yge_module` [ RunTime:0.002274s ]
+SQL: SELECT * FROM `yge_module` WHERE left_menu=1 and status=0 ORDER BY display_order DESC,id ASC  [ RunTime:0.000446s ]
+SQL: SHOW COLUMNS FROM `yge_category` [ RunTime:0.002221s ]
+SQL: SELECT * FROM `yge_category` ORDER BY display_order DESC,id DESC  [ RunTime:0.000503s ]
+SQL: SHOW COLUMNS FROM `yge_article` [ RunTime:0.002593s ]
+NOTIC: [8] Undefined index:  title E:\phpnow\vhosts\shebao\Admin\Lib\Action\ArticleAction.class.php 第 52 行.
+NOTIC: [8] Undefined index:  orderBy E:\phpnow\vhosts\shebao\Admin\Lib\Action\ArticleAction.class.php 第 53 行.
+NOTIC: [8] Undefined index:  orderType E:\phpnow\vhosts\shebao\Admin\Lib\Action\ArticleAction.class.php 第 54 行.
+NOTIC: [8] Undefined index:  recommend E:\phpnow\vhosts\shebao\Admin\Lib\Action\ArticleAction.class.php 第 55 行.
+NOTIC: [8] Undefined index:  categoryId E:\phpnow\vhosts\shebao\Admin\Lib\Action\ArticleAction.class.php 第 56 行.
+NOTIC: [8] Undefined index:  userId E:\phpnow\vhosts\shebao\Admin\Lib\Action\ArticleAction.class.php 第 57 行.
+NOTIC: [8] Undefined index:  status E:\phpnow\vhosts\shebao\Admin\Lib\Action\ArticleAction.class.php 第 58 行.
+NOTIC: [8] Undefined index:  istop E:\phpnow\vhosts\shebao\Admin\Lib\Action\ArticleAction.class.php 第 59 行.
+NOTIC: [8] Undefined index:  createTime E:\phpnow\vhosts\shebao\Admin\Lib\Action\ArticleAction.class.php 第 60 行.
+NOTIC: [8] Undefined index:  createTime1 E:\phpnow\vhosts\shebao\Admin\Lib\Action\ArticleAction.class.php 第 61 行.
+NOTIC: [8] Undefined index:  viewCount E:\phpnow\vhosts\shebao\Admin\Lib\Action\ArticleAction.class.php 第 62 行.
+NOTIC: [8] Undefined index:  viewCount1 E:\phpnow\vhosts\shebao\Admin\Lib\Action\ArticleAction.class.php 第 63 行.
+NOTIC: [8] Undefined index:  pageSize E:\phpnow\vhosts\shebao\Admin\Lib\Action\ArticleAction.class.php 第 67 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `yge_article` LIMIT 1   [ RunTime:0.000209s ]
+SQL: SELECT a.*,b.title as category FROM yge_article a LEFT JOIN yge_category b on a.category_id=b.id ORDER BY a.id DESC LIMIT 0,15   [ RunTime:0.013597s ]
+NOTIC: [8] Undefined variable: list E:\phpnow\vhosts\shebao\Admin\Lib\Action\ArticleAction.class.php 第 82 行.
+SQL: SHOW COLUMNS FROM `yge_admin_log` [ RunTime:0.002223s ]
+SQL: INSERT INTO `yge_admin_log` (`user_id`,`username`,`action`,`ip`,`create_time`) VALUES (1,'lizhongyi','/admin.php?m=Article','127.0.0.1',1380779406) [ RunTime:0.000265s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.129377s ]
+INFO: [ view_template ] --END-- [ RunTime:0.006856s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant menunames - assumed 'menunames' E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\c43067ef845fef4eec5db14c625b53cb.php 第 115 行.
+NOTIC: [8] Undefined variable: _TPL E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\c43067ef845fef4eec5db14c625b53cb.php 第 115 行.
+NOTIC: [8] Undefined variable: value E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\c43067ef845fef4eec5db14c625b53cb.php 第 115 行.
+NOTIC: [8] Undefined index:  title E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\c43067ef845fef4eec5db14c625b53cb.php 第 267 行.
+NOTIC: [8] Undefined index:  categoryId E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\c43067ef845fef4eec5db14c625b53cb.php 第 269 行.
+NOTIC: [8] Undefined index:  userId E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\c43067ef845fef4eec5db14c625b53cb.php 第 271 行.
+NOTIC: [8] Undefined index:  createTime E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\c43067ef845fef4eec5db14c625b53cb.php 第 273 行.
+NOTIC: [8] Undefined index:  createTime1 E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\c43067ef845fef4eec5db14c625b53cb.php 第 275 行.
+NOTIC: [8] Undefined index:  recommend E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\c43067ef845fef4eec5db14c625b53cb.php 第 277 行.
+NOTIC: [8] Undefined index:  status E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\c43067ef845fef4eec5db14c625b53cb.php 第 279 行.
+NOTIC: [8] Undefined index:  istop E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\c43067ef845fef4eec5db14c625b53cb.php 第 281 行.
+NOTIC: [8] Undefined index:  viewCount E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\c43067ef845fef4eec5db14c625b53cb.php 第 283 行.
+NOTIC: [8] Undefined index:  viewCount1 E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\c43067ef845fef4eec5db14c625b53cb.php 第 285 行.
+NOTIC: [8] Undefined index:  orderType E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\c43067ef845fef4eec5db14c625b53cb.php 第 287 行.
+NOTIC: [8] Undefined index:  orderBy E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\c43067ef845fef4eec5db14c625b53cb.php 第 289 行.
+NOTIC: [8] Undefined index:  pageSize E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\c43067ef845fef4eec5db14c625b53cb.php 第 291 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.136931s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050521s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.187529s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.191564s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.195243s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.198777s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015057s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.202665s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004135s ]
+
+[ 2013-10-03T14:17:21+08:00 ] 127.0.0.1 /admin.php/Fagui/index.html
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004457s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004590s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003891s ]
+NOTIC: [8] Undefined index:  jingtai E:\phpnow\vhosts\shebao\Admin\Lib\Action\GlobalAction.class.php 第 26 行.
+NOTIC: [2048] Declaration of AdvModel::_before_insert() should be compatible with that of Model::_before_insert() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+NOTIC: [2048] Declaration of AdvModel::_before_update() should be compatible with that of Model::_before_update() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+NOTIC: [2048] Declaration of AdvModel::_after_select() should be compatible with that of Model::_after_select() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+NOTIC: [2048] Declaration of AdvModel::_after_find() should be compatible with that of Model::_after_find() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `yge_module` [ RunTime:0.002663s ]
+SQL: SELECT * FROM `yge_module` WHERE left_menu=1 and status=0 ORDER BY display_order DESC,id ASC  [ RunTime:0.000477s ]
+SQL: SHOW COLUMNS FROM `yge_category` [ RunTime:0.002148s ]
+SQL: SELECT * FROM `yge_category` ORDER BY display_order DESC,id DESC  [ RunTime:0.000545s ]
+SQL: SHOW COLUMNS FROM `yge_fagui` [ RunTime:0.014328s ]
+NOTIC: [8] Undefined index:  title E:\phpnow\vhosts\shebao\Admin\Lib\Action\FaguiAction.class.php 第 52 行.
+NOTIC: [8] Undefined index:  orderBy E:\phpnow\vhosts\shebao\Admin\Lib\Action\FaguiAction.class.php 第 53 行.
+NOTIC: [8] Undefined index:  orderType E:\phpnow\vhosts\shebao\Admin\Lib\Action\FaguiAction.class.php 第 54 行.
+NOTIC: [8] Undefined index:  recommend E:\phpnow\vhosts\shebao\Admin\Lib\Action\FaguiAction.class.php 第 55 行.
+NOTIC: [8] Undefined index:  categoryId E:\phpnow\vhosts\shebao\Admin\Lib\Action\FaguiAction.class.php 第 56 行.
+NOTIC: [8] Undefined index:  userId E:\phpnow\vhosts\shebao\Admin\Lib\Action\FaguiAction.class.php 第 57 行.
+NOTIC: [8] Undefined index:  status E:\phpnow\vhosts\shebao\Admin\Lib\Action\FaguiAction.class.php 第 58 行.
+NOTIC: [8] Undefined index:  istop E:\phpnow\vhosts\shebao\Admin\Lib\Action\FaguiAction.class.php 第 59 行.
+NOTIC: [8] Undefined index:  createTime E:\phpnow\vhosts\shebao\Admin\Lib\Action\FaguiAction.class.php 第 60 行.
+NOTIC: [8] Undefined index:  createTime1 E:\phpnow\vhosts\shebao\Admin\Lib\Action\FaguiAction.class.php 第 61 行.
+NOTIC: [8] Undefined index:  viewCount E:\phpnow\vhosts\shebao\Admin\Lib\Action\FaguiAction.class.php 第 62 行.
+NOTIC: [8] Undefined index:  viewCount1 E:\phpnow\vhosts\shebao\Admin\Lib\Action\FaguiAction.class.php 第 63 行.
+NOTIC: [8] Undefined index:  pageSize E:\phpnow\vhosts\shebao\Admin\Lib\Action\FaguiAction.class.php 第 67 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `yge_fagui` LIMIT 1   [ RunTime:0.000215s ]
+SQL: SELECT a.*,b.title as category FROM yge_Fagui a LEFT JOIN yge_category b on a.category_id=b.id ORDER BY a.id DESC LIMIT 0,15   [ RunTime:0.000262s ]
+NOTIC: [8] Undefined variable: list E:\phpnow\vhosts\shebao\Admin\Lib\Action\FaguiAction.class.php 第 82 行.
+SQL: SHOW COLUMNS FROM `yge_admin_log` [ RunTime:0.003378s ]
+SQL: INSERT INTO `yge_admin_log` (`user_id`,`username`,`action`,`ip`,`create_time`) VALUES (1,'lizhongyi','/admin.php/Fagui/index.html','127.0.0.1',1380781041) [ RunTime:0.000410s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.127013s ]
+INFO: [ view_template ] --END-- [ RunTime:0.007873s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant menunames - assumed 'menunames' E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\8a45a277918087013d46cd3c97f3845f.php 第 115 行.
+NOTIC: [8] Undefined variable: _TPL E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\8a45a277918087013d46cd3c97f3845f.php 第 115 行.
+NOTIC: [8] Undefined variable: value E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\8a45a277918087013d46cd3c97f3845f.php 第 115 行.
+NOTIC: [8] Undefined index:  title E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\8a45a277918087013d46cd3c97f3845f.php 第 268 行.
+NOTIC: [8] Undefined index:  categoryId E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\8a45a277918087013d46cd3c97f3845f.php 第 270 行.
+NOTIC: [8] Undefined index:  userId E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\8a45a277918087013d46cd3c97f3845f.php 第 272 行.
+NOTIC: [8] Undefined index:  createTime E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\8a45a277918087013d46cd3c97f3845f.php 第 274 行.
+NOTIC: [8] Undefined index:  createTime1 E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\8a45a277918087013d46cd3c97f3845f.php 第 276 行.
+NOTIC: [8] Undefined index:  recommend E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\8a45a277918087013d46cd3c97f3845f.php 第 278 行.
+NOTIC: [8] Undefined index:  status E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\8a45a277918087013d46cd3c97f3845f.php 第 280 行.
+NOTIC: [8] Undefined index:  istop E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\8a45a277918087013d46cd3c97f3845f.php 第 282 行.
+NOTIC: [8] Undefined index:  viewCount E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\8a45a277918087013d46cd3c97f3845f.php 第 284 行.
+NOTIC: [8] Undefined index:  viewCount1 E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\8a45a277918087013d46cd3c97f3845f.php 第 286 行.
+NOTIC: [8] Undefined index:  orderType E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\8a45a277918087013d46cd3c97f3845f.php 第 288 行.
+NOTIC: [8] Undefined index:  orderBy E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\8a45a277918087013d46cd3c97f3845f.php 第 290 行.
+NOTIC: [8] Undefined index:  pageSize E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\8a45a277918087013d46cd3c97f3845f.php 第 292 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.135607s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051706s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.187356s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.191132s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.194896s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.198803s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015516s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.202973s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004032s ]
+
+[ 2013-10-03T14:17:23+08:00 ] 127.0.0.1 /admin.php/Fagui/insert.html
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004117s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004223s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004584s ]
+NOTIC: [8] Undefined index:  jingtai E:\phpnow\vhosts\shebao\Admin\Lib\Action\GlobalAction.class.php 第 26 行.
+NOTIC: [2048] Declaration of AdvModel::_before_insert() should be compatible with that of Model::_before_insert() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+NOTIC: [2048] Declaration of AdvModel::_before_update() should be compatible with that of Model::_before_update() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+NOTIC: [2048] Declaration of AdvModel::_after_select() should be compatible with that of Model::_after_select() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+NOTIC: [2048] Declaration of AdvModel::_after_find() should be compatible with that of Model::_after_find() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `yge_module` [ RunTime:0.001995s ]
+SQL: SELECT * FROM `yge_module` WHERE left_menu=1 and status=0 ORDER BY display_order DESC,id ASC  [ RunTime:0.000401s ]
+SQL: SHOW COLUMNS FROM `yge_category` [ RunTime:0.002459s ]
+SQL: SELECT * FROM `yge_category` ORDER BY display_order DESC,id DESC  [ RunTime:0.000525s ]
+SQL: SHOW COLUMNS FROM `yge_fagui` [ RunTime:0.002411s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.088075s ]
+INFO: [ view_template ] --END-- [ RunTime:0.006887s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant menunames - assumed 'menunames' E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\fe113bcec2a6423102018860d3504266.php 第 117 行.
+NOTIC: [8] Undefined variable: _TPL E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\fe113bcec2a6423102018860d3504266.php 第 117 行.
+NOTIC: [8] Undefined variable: value E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\fe113bcec2a6423102018860d3504266.php 第 117 行.
+NOTIC: [8] Undefined variable: vo E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\fe113bcec2a6423102018860d3504266.php 第 299 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.095702s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.115900s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.211649s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.215444s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.219203s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.222794s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015498s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.227241s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004219s ]
+
+[ 2013-10-03T14:17:23+08:00 ] ERR: (ThinkException) 无法加载模块:plugins
+[ 2013-10-03T14:17:23+08:00 ] ERR: (ThinkException) 非法操作:index.css
+[ 2013-10-03T14:17:40+08:00 ] 127.0.0.1 /admin.php/Fagui/doInsert.html
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004339s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004433s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001284s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003898s ]
+NOTIC: [8] Undefined index:  jingtai E:\phpnow\vhosts\shebao\Admin\Lib\Action\GlobalAction.class.php 第 26 行.
+NOTIC: [2048] Declaration of AdvModel::_before_insert() should be compatible with that of Model::_before_insert() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+NOTIC: [2048] Declaration of AdvModel::_before_update() should be compatible with that of Model::_before_update() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+NOTIC: [2048] Declaration of AdvModel::_after_select() should be compatible with that of Model::_after_select() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+NOTIC: [2048] Declaration of AdvModel::_after_find() should be compatible with that of Model::_after_find() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `yge_module` [ RunTime:0.003207s ]
+SQL: SELECT * FROM `yge_module` WHERE left_menu=1 and status=0 ORDER BY display_order DESC,id ASC  [ RunTime:0.000442s ]
+SQL: SHOW COLUMNS FROM `yge_category` [ RunTime:0.002258s ]
+SQL: SELECT * FROM `yge_category` ORDER BY display_order DESC,id DESC  [ RunTime:0.000542s ]
+SQL: SHOW COLUMNS FROM `yge_fagui` [ RunTime:0.002375s ]
+SQL: INSERT INTO `yge_fagui` (`title`,`category_id`,`description`,`content`,`template`,`tags`,`keyword`,`link_url`,`copy_from`,`from_link`,`recommend`,`status`,`istop`,`view_count`,`display_order`,`create_time`,`user_id`,`username`,`title_style`,`title_style_serialize`) VALUES ('这是一条测试好吧',131,'这是一条测试好吧','这是一条测试好吧这是一条测试好吧','','','','','','',0,0,0,0,0,2013,1,'lizhongyi','','') [ RunTime:0.013300s ]
+NOTIC: [8] Undefined index:  jingtai E:\phpnow\vhosts\shebao\Admin\Lib\Action\FaguiAction.class.php 第 141 行.
+SQL: SHOW COLUMNS FROM `yge_admin_log` [ RunTime:0.002788s ]
+SQL: INSERT INTO `yge_admin_log` (`user_id`,`username`,`action`,`ip`,`create_time`) VALUES (1,'lizhongyi','/admin.php/Fagui/doInsert.html (录入:851)','127.0.0.1',1380781059) [ RunTime:0.000372s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.111425s ]
+INFO: [ view_template ] --END-- [ RunTime:0.006936s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.118954s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033961s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.152960s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.156705s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.160454s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.164208s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015367s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.168419s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004078s ]
+
+[ 2013-10-03T14:17:43+08:00 ] 127.0.0.1 /admin.php?m=Fagui
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003884s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003986s ]
+NOTIC: [8] Undefined index:  jingtai E:\phpnow\vhosts\shebao\Admin\Lib\Action\GlobalAction.class.php 第 26 行.
+NOTIC: [2048] Declaration of AdvModel::_before_insert() should be compatible with that of Model::_before_insert() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+NOTIC: [2048] Declaration of AdvModel::_before_update() should be compatible with that of Model::_before_update() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+NOTIC: [2048] Declaration of AdvModel::_after_select() should be compatible with that of Model::_after_select() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+NOTIC: [2048] Declaration of AdvModel::_after_find() should be compatible with that of Model::_after_find() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `yge_module` [ RunTime:0.002312s ]
+SQL: SELECT * FROM `yge_module` WHERE left_menu=1 and status=0 ORDER BY display_order DESC,id ASC  [ RunTime:0.000426s ]
+SQL: SHOW COLUMNS FROM `yge_category` [ RunTime:0.016512s ]
+SQL: SELECT * FROM `yge_category` ORDER BY display_order DESC,id DESC  [ RunTime:0.000515s ]
+SQL: SHOW COLUMNS FROM `yge_fagui` [ RunTime:0.002371s ]
+NOTIC: [8] Undefined index:  title E:\phpnow\vhosts\shebao\Admin\Lib\Action\FaguiAction.class.php 第 52 行.
+NOTIC: [8] Undefined index:  orderBy E:\phpnow\vhosts\shebao\Admin\Lib\Action\FaguiAction.class.php 第 53 行.
+NOTIC: [8] Undefined index:  orderType E:\phpnow\vhosts\shebao\Admin\Lib\Action\FaguiAction.class.php 第 54 行.
+NOTIC: [8] Undefined index:  recommend E:\phpnow\vhosts\shebao\Admin\Lib\Action\FaguiAction.class.php 第 55 行.
+NOTIC: [8] Undefined index:  categoryId E:\phpnow\vhosts\shebao\Admin\Lib\Action\FaguiAction.class.php 第 56 行.
+NOTIC: [8] Undefined index:  userId E:\phpnow\vhosts\shebao\Admin\Lib\Action\FaguiAction.class.php 第 57 行.
+NOTIC: [8] Undefined index:  status E:\phpnow\vhosts\shebao\Admin\Lib\Action\FaguiAction.class.php 第 58 行.
+NOTIC: [8] Undefined index:  istop E:\phpnow\vhosts\shebao\Admin\Lib\Action\FaguiAction.class.php 第 59 行.
+NOTIC: [8] Undefined index:  createTime E:\phpnow\vhosts\shebao\Admin\Lib\Action\FaguiAction.class.php 第 60 行.
+NOTIC: [8] Undefined index:  createTime1 E:\phpnow\vhosts\shebao\Admin\Lib\Action\FaguiAction.class.php 第 61 行.
+NOTIC: [8] Undefined index:  viewCount E:\phpnow\vhosts\shebao\Admin\Lib\Action\FaguiAction.class.php 第 62 行.
+NOTIC: [8] Undefined index:  viewCount1 E:\phpnow\vhosts\shebao\Admin\Lib\Action\FaguiAction.class.php 第 63 行.
+NOTIC: [8] Undefined index:  pageSize E:\phpnow\vhosts\shebao\Admin\Lib\Action\FaguiAction.class.php 第 67 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `yge_fagui` LIMIT 1   [ RunTime:0.000202s ]
+SQL: SELECT a.*,b.title as category FROM yge_Fagui a LEFT JOIN yge_category b on a.category_id=b.id ORDER BY a.id DESC LIMIT 0,15   [ RunTime:0.010713s ]
+NOTIC: [8] Undefined variable: list E:\phpnow\vhosts\shebao\Admin\Lib\Action\FaguiAction.class.php 第 82 行.
+SQL: SHOW COLUMNS FROM `yge_admin_log` [ RunTime:0.002014s ]
+SQL: INSERT INTO `yge_admin_log` (`user_id`,`username`,`action`,`ip`,`create_time`) VALUES (1,'lizhongyi','/admin.php?m=Fagui','127.0.0.1',1380781063) [ RunTime:0.000274s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.118099s ]
+INFO: [ view_template ] --END-- [ RunTime:0.006697s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant menunames - assumed 'menunames' E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\8a45a277918087013d46cd3c97f3845f.php 第 115 行.
+NOTIC: [8] Undefined variable: _TPL E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\8a45a277918087013d46cd3c97f3845f.php 第 115 行.
+NOTIC: [8] Undefined variable: value E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\8a45a277918087013d46cd3c97f3845f.php 第 115 行.
+NOTIC: [8] Undefined index:  title E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\8a45a277918087013d46cd3c97f3845f.php 第 268 行.
+NOTIC: [8] Undefined index:  categoryId E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\8a45a277918087013d46cd3c97f3845f.php 第 270 行.
+NOTIC: [8] Undefined index:  userId E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\8a45a277918087013d46cd3c97f3845f.php 第 272 行.
+NOTIC: [8] Undefined index:  createTime E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\8a45a277918087013d46cd3c97f3845f.php 第 274 行.
+NOTIC: [8] Undefined index:  createTime1 E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\8a45a277918087013d46cd3c97f3845f.php 第 276 行.
+NOTIC: [8] Undefined index:  recommend E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\8a45a277918087013d46cd3c97f3845f.php 第 278 行.
+NOTIC: [8] Undefined index:  status E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\8a45a277918087013d46cd3c97f3845f.php 第 280 行.
+NOTIC: [8] Undefined index:  istop E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\8a45a277918087013d46cd3c97f3845f.php 第 282 行.
+NOTIC: [8] Undefined index:  viewCount E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\8a45a277918087013d46cd3c97f3845f.php 第 284 行.
+NOTIC: [8] Undefined index:  viewCount1 E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\8a45a277918087013d46cd3c97f3845f.php 第 286 行.
+NOTIC: [8] Undefined index:  orderType E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\8a45a277918087013d46cd3c97f3845f.php 第 288 行.
+NOTIC: [8] Undefined index:  orderBy E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\8a45a277918087013d46cd3c97f3845f.php 第 290 行.
+NOTIC: [8] Undefined index:  pageSize E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\8a45a277918087013d46cd3c97f3845f.php 第 292 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.126425s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051678s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.178115s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.181957s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.185682s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.189247s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015505s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.193743s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004327s ]
+
+[ 2013-10-03T14:43:40+08:00 ] 127.0.0.1 /admin.php
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003833s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003932s ]
+NOTIC: [8] Undefined index:  jingtai E:\phpnow\vhosts\shebao\Admin\Lib\Action\GlobalAction.class.php 第 26 行.
+NOTIC: [2048] Declaration of AdvModel::_before_insert() should be compatible with that of Model::_before_insert() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+NOTIC: [2048] Declaration of AdvModel::_before_update() should be compatible with that of Model::_before_update() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+NOTIC: [2048] Declaration of AdvModel::_after_select() should be compatible with that of Model::_after_select() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+NOTIC: [2048] Declaration of AdvModel::_after_find() should be compatible with that of Model::_after_find() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `yge_module` [ RunTime:0.002522s ]
+SQL: SELECT * FROM `yge_module` WHERE left_menu=1 and status=0 ORDER BY display_order DESC,id ASC  [ RunTime:0.000684s ]
+NOTIC: [8] Undefined variable: security E:\phpnow\vhosts\shebao\Admin\Lib\Action\IndexAction.class.php 第 45 行.
+SQL: select version() [ RunTime:0.000226s ]
+SQL: SHOW COLUMNS FROM `yge_admin` [ RunTime:0.002625s ]
+SQL: SELECT * FROM `yge_admin` WHERE id=1 LIMIT 1   [ RunTime:0.000415s ]
+SQL: SHOW COLUMNS FROM `yge_admin_log` [ RunTime:0.002328s ]
+SQL: INSERT INTO `yge_admin_log` (`user_id`,`username`,`action`,`ip`,`create_time`) VALUES (1,'lizhongyi','/admin.php','127.0.0.1',1380782620) [ RunTime:0.000337s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.082654s ]
+INFO: [ view_template ] --END-- [ RunTime:0.006789s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant menunames - assumed 'menunames' E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\8036b6ce8dcda916f02254a7b19498b1.php 第 115 行.
+NOTIC: [8] Undefined variable: _TPL E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\8036b6ce8dcda916f02254a7b19498b1.php 第 115 行.
+NOTIC: [8] Undefined variable: value E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\8036b6ce8dcda916f02254a7b19498b1.php 第 115 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.090174s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.068344s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.158544s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.162479s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.166233s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.169729s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015181s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.173821s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004057s ]
+
+[ 2013-10-03T14:43:42+08:00 ] 127.0.0.1 /admin.php/Page/index.html
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004237s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004343s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004257s ]
+NOTIC: [2048] Declaration of AdvModel::_before_insert() should be compatible with that of Model::_before_insert() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+NOTIC: [2048] Declaration of AdvModel::_before_update() should be compatible with that of Model::_before_update() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+NOTIC: [2048] Declaration of AdvModel::_after_select() should be compatible with that of Model::_after_select() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+NOTIC: [2048] Declaration of AdvModel::_after_find() should be compatible with that of Model::_after_find() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `yge_category` [ RunTime:0.003029s ]
+SQL: SELECT * FROM `yge_category` WHERE parent_id=132 ORDER BY display_order DESC,id DESC  [ RunTime:0.000502s ]
+NOTIC: [8] Undefined variable: rr E:\phpnow\vhosts\shebao\Admin\Lib\Action\PageAction.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `yge_page` [ RunTime:0.002901s ]
+NOTIC: [8] Undefined index:  jingtai E:\phpnow\vhosts\shebao\Admin\Lib\Action\GlobalAction.class.php 第 26 行.
+SQL: SHOW COLUMNS FROM `yge_module` [ RunTime:0.005724s ]
+SQL: SELECT * FROM `yge_module` WHERE left_menu=1 and status=0 ORDER BY display_order DESC,id ASC  [ RunTime:0.001417s ]
+NOTIC: [8] Undefined index:  title E:\phpnow\vhosts\shebao\Admin\Lib\Action\PageAction.class.php 第 67 行.
+NOTIC: [8] Undefined index:  linkLabel E:\phpnow\vhosts\shebao\Admin\Lib\Action\PageAction.class.php 第 69 行.
+NOTIC: [8] Undefined index:  orderBy E:\phpnow\vhosts\shebao\Admin\Lib\Action\PageAction.class.php 第 71 行.
+NOTIC: [8] Undefined index:  orderType E:\phpnow\vhosts\shebao\Admin\Lib\Action\PageAction.class.php 第 73 行.
+NOTIC: [8] Undefined index:  pageSize E:\phpnow\vhosts\shebao\Admin\Lib\Action\PageAction.class.php 第 77 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `yge_page` LIMIT 1   [ RunTime:0.002773s ]
+SQL: SELECT a.*,b.title as category FROM yge_Page a LEFT JOIN yge_category b on a.category_id=b.id ORDER BY id DESC LIMIT 0,15   [ RunTime:0.000716s ]
+SQL: SHOW COLUMNS FROM `yge_admin_log` [ RunTime:0.003294s ]
+SQL: INSERT INTO `yge_admin_log` (`user_id`,`username`,`action`,`ip`,`create_time`) VALUES (1,'lizhongyi','/admin.php/Page/index.html','127.0.0.1',1380782622) [ RunTime:0.000581s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.151936s ]
+INFO: [ view_template ] --END-- [ RunTime:0.007823s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant menunames - assumed 'menunames' E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\739212a7974ab3661672f72aeaac9f81.php 第 115 行.
+NOTIC: [8] Undefined variable: _TPL E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\739212a7974ab3661672f72aeaac9f81.php 第 115 行.
+NOTIC: [8] Undefined variable: value E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\739212a7974ab3661672f72aeaac9f81.php 第 115 行.
+NOTIC: [8] Undefined index:  title E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\739212a7974ab3661672f72aeaac9f81.php 第 195 行.
+NOTIC: [8] Undefined index:  linkLabel E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\739212a7974ab3661672f72aeaac9f81.php 第 197 行.
+NOTIC: [8] Undefined index:  orderType E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\739212a7974ab3661672f72aeaac9f81.php 第 199 行.
+NOTIC: [8] Undefined index:  orderBy E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\739212a7974ab3661672f72aeaac9f81.php 第 201 行.
+NOTIC: [8] Undefined index:  pageSize E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\739212a7974ab3661672f72aeaac9f81.php 第 203 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.160459s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058791s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.219310s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.223940s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.228058s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.231650s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.016597s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.236019s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004369s ]
+
+[ 2013-10-03T14:43:45+08:00 ] 127.0.0.1 /admin.php/Page/modify/id/33.html
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004516s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004655s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001540s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004387s ]
+NOTIC: [2048] Declaration of AdvModel::_before_insert() should be compatible with that of Model::_before_insert() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+NOTIC: [2048] Declaration of AdvModel::_before_update() should be compatible with that of Model::_before_update() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+NOTIC: [2048] Declaration of AdvModel::_after_select() should be compatible with that of Model::_after_select() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+NOTIC: [2048] Declaration of AdvModel::_after_find() should be compatible with that of Model::_after_find() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `yge_category` [ RunTime:0.003286s ]
+SQL: SELECT * FROM `yge_category` WHERE parent_id=132 ORDER BY display_order DESC,id DESC  [ RunTime:0.000513s ]
+NOTIC: [8] Undefined variable: rr E:\phpnow\vhosts\shebao\Admin\Lib\Action\PageAction.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `yge_page` [ RunTime:0.003073s ]
+NOTIC: [8] Undefined index:  jingtai E:\phpnow\vhosts\shebao\Admin\Lib\Action\GlobalAction.class.php 第 26 行.
+SQL: SHOW COLUMNS FROM `yge_module` [ RunTime:0.002232s ]
+SQL: SELECT * FROM `yge_module` WHERE left_menu=1 and status=0 ORDER BY display_order DESC,id ASC  [ RunTime:0.000430s ]
+SQL: SELECT * FROM `yge_page` WHERE id=33 LIMIT 1   [ RunTime:0.000328s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.091693s ]
+INFO: [ view_template ] --END-- [ RunTime:0.006922s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant menunames - assumed 'menunames' E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\7f1f4d85118c945173116ae47d4cfdb3.php 第 117 行.
+NOTIC: [8] Undefined variable: _TPL E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\7f1f4d85118c945173116ae47d4cfdb3.php 第 117 行.
+NOTIC: [8] Undefined variable: value E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\7f1f4d85118c945173116ae47d4cfdb3.php 第 117 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.099328s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.077770s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.177142s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.181212s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.186757s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.190812s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.017762s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.195008s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004281s ]
+
+[ 2013-10-03T14:43:54+08:00 ] 127.0.0.1 /admin.php/Page/doModify.html
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004321s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004424s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001597s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004245s ]
+NOTIC: [2048] Declaration of AdvModel::_before_insert() should be compatible with that of Model::_before_insert() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+NOTIC: [2048] Declaration of AdvModel::_before_update() should be compatible with that of Model::_before_update() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+NOTIC: [2048] Declaration of AdvModel::_after_select() should be compatible with that of Model::_after_select() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+NOTIC: [2048] Declaration of AdvModel::_after_find() should be compatible with that of Model::_after_find() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `yge_category` [ RunTime:0.002229s ]
+SQL: SELECT * FROM `yge_category` WHERE parent_id=132 ORDER BY display_order DESC,id DESC  [ RunTime:0.000428s ]
+NOTIC: [8] Undefined variable: rr E:\phpnow\vhosts\shebao\Admin\Lib\Action\PageAction.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `yge_page` [ RunTime:0.002199s ]
+NOTIC: [8] Undefined index:  jingtai E:\phpnow\vhosts\shebao\Admin\Lib\Action\GlobalAction.class.php 第 26 行.
+SQL: SHOW COLUMNS FROM `yge_module` [ RunTime:0.002183s ]
+SQL: SELECT * FROM `yge_module` WHERE left_menu=1 and status=0 ORDER BY display_order DESC,id ASC  [ RunTime:0.000430s ]
+NOTIC: [8] Undefined index:  attach_file E:\phpnow\vhosts\shebao\includes\conn.php 第 6 行.
+SQL: UPDATE `yge_page` SET `title`='联系方式',`link_label`='lianxifangshi',`category_id`=133,`content`='联系方式',`keyword`='',`template`='',`description`='',`update_time`=1380782634 WHERE ( `id` = 33 ) [ RunTime:0.000377s ]
+SQL: SHOW COLUMNS FROM `yge_admin_log` [ RunTime:0.002451s ]
+SQL: INSERT INTO `yge_admin_log` (`user_id`,`username`,`action`,`ip`,`create_time`) VALUES (1,'lizhongyi','/admin.php/Page/doModify.html (编辑:33)','127.0.0.1',1380782634) [ RunTime:0.000419s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.098745s ]
+INFO: [ view_template ] --END-- [ RunTime:0.006253s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.105566s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033278s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.138904s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.142842s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.146523s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.150000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015243s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.154229s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004091s ]
+
+[ 2013-10-03T14:43:57+08:00 ] 127.0.0.1 /admin.php/Page
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004520s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004641s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006996s ]
+NOTIC: [2048] Declaration of AdvModel::_before_insert() should be compatible with that of Model::_before_insert() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+NOTIC: [2048] Declaration of AdvModel::_before_update() should be compatible with that of Model::_before_update() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+NOTIC: [2048] Declaration of AdvModel::_after_select() should be compatible with that of Model::_after_select() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+NOTIC: [2048] Declaration of AdvModel::_after_find() should be compatible with that of Model::_after_find() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `yge_category` [ RunTime:0.002193s ]
+SQL: SELECT * FROM `yge_category` WHERE parent_id=132 ORDER BY display_order DESC,id DESC  [ RunTime:0.000423s ]
+NOTIC: [8] Undefined variable: rr E:\phpnow\vhosts\shebao\Admin\Lib\Action\PageAction.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `yge_page` [ RunTime:0.002206s ]
+NOTIC: [8] Undefined index:  jingtai E:\phpnow\vhosts\shebao\Admin\Lib\Action\GlobalAction.class.php 第 26 行.
+SQL: SHOW COLUMNS FROM `yge_module` [ RunTime:0.002230s ]
+SQL: SELECT * FROM `yge_module` WHERE left_menu=1 and status=0 ORDER BY display_order DESC,id ASC  [ RunTime:0.000457s ]
+NOTIC: [8] Undefined index:  title E:\phpnow\vhosts\shebao\Admin\Lib\Action\PageAction.class.php 第 67 行.
+NOTIC: [8] Undefined index:  linkLabel E:\phpnow\vhosts\shebao\Admin\Lib\Action\PageAction.class.php 第 69 行.
+NOTIC: [8] Undefined index:  orderBy E:\phpnow\vhosts\shebao\Admin\Lib\Action\PageAction.class.php 第 71 行.
+NOTIC: [8] Undefined index:  orderType E:\phpnow\vhosts\shebao\Admin\Lib\Action\PageAction.class.php 第 73 行.
+NOTIC: [8] Undefined index:  pageSize E:\phpnow\vhosts\shebao\Admin\Lib\Action\PageAction.class.php 第 77 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `yge_page` LIMIT 1   [ RunTime:0.000370s ]
+SQL: SELECT a.*,b.title as category FROM yge_Page a LEFT JOIN yge_category b on a.category_id=b.id ORDER BY id DESC LIMIT 0,15   [ RunTime:0.000443s ]
+SQL: SHOW COLUMNS FROM `yge_admin_log` [ RunTime:0.002350s ]
+SQL: INSERT INTO `yge_admin_log` (`user_id`,`username`,`action`,`ip`,`create_time`) VALUES (1,'lizhongyi','/admin.php/Page','127.0.0.1',1380782637) [ RunTime:0.000277s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.097846s ]
+INFO: [ view_template ] --END-- [ RunTime:0.006893s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant menunames - assumed 'menunames' E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\739212a7974ab3661672f72aeaac9f81.php 第 115 行.
+NOTIC: [8] Undefined variable: _TPL E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\739212a7974ab3661672f72aeaac9f81.php 第 115 行.
+NOTIC: [8] Undefined variable: value E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\739212a7974ab3661672f72aeaac9f81.php 第 115 行.
+NOTIC: [8] Undefined index:  title E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\739212a7974ab3661672f72aeaac9f81.php 第 195 行.
+NOTIC: [8] Undefined index:  linkLabel E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\739212a7974ab3661672f72aeaac9f81.php 第 197 行.
+NOTIC: [8] Undefined index:  orderType E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\739212a7974ab3661672f72aeaac9f81.php 第 199 行.
+NOTIC: [8] Undefined index:  orderBy E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\739212a7974ab3661672f72aeaac9f81.php 第 201 行.
+NOTIC: [8] Undefined index:  pageSize E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\739212a7974ab3661672f72aeaac9f81.php 第 203 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.105464s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052368s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.157881s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.161674s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.165445s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.169380s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015374s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.173354s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004074s ]
+
+[ 2013-10-03T14:44:23+08:00 ] 127.0.0.1 /admin.php/Page/modify/id/33.html
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004199s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004307s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001312s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004250s ]
+NOTIC: [2048] Declaration of AdvModel::_before_insert() should be compatible with that of Model::_before_insert() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+NOTIC: [2048] Declaration of AdvModel::_before_update() should be compatible with that of Model::_before_update() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+NOTIC: [2048] Declaration of AdvModel::_after_select() should be compatible with that of Model::_after_select() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+NOTIC: [2048] Declaration of AdvModel::_after_find() should be compatible with that of Model::_after_find() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `yge_category` [ RunTime:0.002283s ]
+SQL: SELECT * FROM `yge_category` WHERE parent_id=132 ORDER BY display_order DESC,id DESC  [ RunTime:0.000638s ]
+NOTIC: [8] Undefined variable: rr E:\phpnow\vhosts\shebao\Admin\Lib\Action\PageAction.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `yge_page` [ RunTime:0.002062s ]
+NOTIC: [8] Undefined index:  jingtai E:\phpnow\vhosts\shebao\Admin\Lib\Action\GlobalAction.class.php 第 26 行.
+SQL: SHOW COLUMNS FROM `yge_module` [ RunTime:0.002201s ]
+SQL: SELECT * FROM `yge_module` WHERE left_menu=1 and status=0 ORDER BY display_order DESC,id ASC  [ RunTime:0.000537s ]
+SQL: SELECT * FROM `yge_page` WHERE id=33 LIMIT 1   [ RunTime:0.000317s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.092023s ]
+INFO: [ view_template ] --END-- [ RunTime:0.006575s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant menunames - assumed 'menunames' E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\7f1f4d85118c945173116ae47d4cfdb3.php 第 117 行.
+NOTIC: [8] Undefined variable: _TPL E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\7f1f4d85118c945173116ae47d4cfdb3.php 第 117 行.
+NOTIC: [8] Undefined variable: value E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\7f1f4d85118c945173116ae47d4cfdb3.php 第 117 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.099321s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058239s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.157609s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.161457s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.165086s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.168876s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015107s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.172810s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004087s ]
+
+[ 2013-10-03T14:45:00+08:00 ] 127.0.0.1 /admin.php/Page/doModify.html
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004159s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004256s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001281s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004956s ]
+NOTIC: [2048] Declaration of AdvModel::_before_insert() should be compatible with that of Model::_before_insert() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+NOTIC: [2048] Declaration of AdvModel::_before_update() should be compatible with that of Model::_before_update() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+NOTIC: [2048] Declaration of AdvModel::_after_select() should be compatible with that of Model::_after_select() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+NOTIC: [2048] Declaration of AdvModel::_after_find() should be compatible with that of Model::_after_find() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `yge_category` [ RunTime:0.002051s ]
+SQL: SELECT * FROM `yge_category` WHERE parent_id=132 ORDER BY display_order DESC,id DESC  [ RunTime:0.000509s ]
+NOTIC: [8] Undefined variable: rr E:\phpnow\vhosts\shebao\Admin\Lib\Action\PageAction.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `yge_page` [ RunTime:0.002394s ]
+NOTIC: [8] Undefined index:  jingtai E:\phpnow\vhosts\shebao\Admin\Lib\Action\GlobalAction.class.php 第 26 行.
+SQL: SHOW COLUMNS FROM `yge_module` [ RunTime:0.002116s ]
+SQL: SELECT * FROM `yge_module` WHERE left_menu=1 and status=0 ORDER BY display_order DESC,id ASC  [ RunTime:0.000516s ]
+NOTIC: [8] Undefined index:  attach_file E:\phpnow\vhosts\shebao\includes\conn.php 第 6 行.
+SQL: UPDATE `yge_page` SET `title`='联系方式',`link_label`='lianxifangshi',`category_id`=133,`content`='<iframe width=\"504\" height=\"642\" frameborder=\"0\" scrolling=\"no\" marginheight=\"0\" marginwidth=\"0\" src=\"http://j.map.baidu.com/1tQmn\"></iframe>',`keyword`='',`template`='',`description`='',`update_time`=1380782700 WHERE ( `id` = 33 ) [ RunTime:0.000726s ]
+SQL: SHOW COLUMNS FROM `yge_admin_log` [ RunTime:0.001932s ]
+SQL: INSERT INTO `yge_admin_log` (`user_id`,`username`,`action`,`ip`,`create_time`) VALUES (1,'lizhongyi','/admin.php/Page/doModify.html (编辑:33)','127.0.0.1',1380782700) [ RunTime:0.000261s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.096261s ]
+INFO: [ view_template ] --END-- [ RunTime:0.006759s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.103597s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036185s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.139841s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.143818s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.147610s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.151178s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015436s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.155367s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004219s ]
+
+[ 2013-10-03T14:45:03+08:00 ] 127.0.0.1 /admin.php/Page
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004687s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004845s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003942s ]
+NOTIC: [2048] Declaration of AdvModel::_before_insert() should be compatible with that of Model::_before_insert() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+NOTIC: [2048] Declaration of AdvModel::_before_update() should be compatible with that of Model::_before_update() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+NOTIC: [2048] Declaration of AdvModel::_after_select() should be compatible with that of Model::_after_select() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+NOTIC: [2048] Declaration of AdvModel::_after_find() should be compatible with that of Model::_after_find() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `yge_category` [ RunTime:0.002208s ]
+SQL: SELECT * FROM `yge_category` WHERE parent_id=132 ORDER BY display_order DESC,id DESC  [ RunTime:0.000420s ]
+NOTIC: [8] Undefined variable: rr E:\phpnow\vhosts\shebao\Admin\Lib\Action\PageAction.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `yge_page` [ RunTime:0.002159s ]
+NOTIC: [8] Undefined index:  jingtai E:\phpnow\vhosts\shebao\Admin\Lib\Action\GlobalAction.class.php 第 26 行.
+SQL: SHOW COLUMNS FROM `yge_module` [ RunTime:0.002181s ]
+SQL: SELECT * FROM `yge_module` WHERE left_menu=1 and status=0 ORDER BY display_order DESC,id ASC  [ RunTime:0.000481s ]
+NOTIC: [8] Undefined index:  title E:\phpnow\vhosts\shebao\Admin\Lib\Action\PageAction.class.php 第 67 行.
+NOTIC: [8] Undefined index:  linkLabel E:\phpnow\vhosts\shebao\Admin\Lib\Action\PageAction.class.php 第 69 行.
+NOTIC: [8] Undefined index:  orderBy E:\phpnow\vhosts\shebao\Admin\Lib\Action\PageAction.class.php 第 71 行.
+NOTIC: [8] Undefined index:  orderType E:\phpnow\vhosts\shebao\Admin\Lib\Action\PageAction.class.php 第 73 行.
+NOTIC: [8] Undefined index:  pageSize E:\phpnow\vhosts\shebao\Admin\Lib\Action\PageAction.class.php 第 77 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `yge_page` LIMIT 1   [ RunTime:0.000262s ]
+SQL: SELECT a.*,b.title as category FROM yge_Page a LEFT JOIN yge_category b on a.category_id=b.id ORDER BY id DESC LIMIT 0,15   [ RunTime:0.000454s ]
+SQL: SHOW COLUMNS FROM `yge_admin_log` [ RunTime:0.002012s ]
+SQL: INSERT INTO `yge_admin_log` (`user_id`,`username`,`action`,`ip`,`create_time`) VALUES (1,'lizhongyi','/admin.php/Page','127.0.0.1',1380782703) [ RunTime:0.000262s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.094075s ]
+INFO: [ view_template ] --END-- [ RunTime:0.007273s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant menunames - assumed 'menunames' E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\739212a7974ab3661672f72aeaac9f81.php 第 115 行.
+NOTIC: [8] Undefined variable: _TPL E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\739212a7974ab3661672f72aeaac9f81.php 第 115 行.
+NOTIC: [8] Undefined variable: value E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\739212a7974ab3661672f72aeaac9f81.php 第 115 行.
+NOTIC: [8] Undefined index:  title E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\739212a7974ab3661672f72aeaac9f81.php 第 195 行.
+NOTIC: [8] Undefined index:  linkLabel E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\739212a7974ab3661672f72aeaac9f81.php 第 197 行.
+NOTIC: [8] Undefined index:  orderType E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\739212a7974ab3661672f72aeaac9f81.php 第 199 行.
+NOTIC: [8] Undefined index:  orderBy E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\739212a7974ab3661672f72aeaac9f81.php 第 201 行.
+NOTIC: [8] Undefined index:  pageSize E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\739212a7974ab3661672f72aeaac9f81.php 第 203 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.102053s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052005s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.154109s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.158295s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.162387s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.166263s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.016467s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.170680s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004222s ]
+
+[ 2013-10-03T14:45:06+08:00 ] 127.0.0.1 /admin.php/Page/modify/id/33.html
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004269s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004398s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003922s ]
+NOTIC: [2048] Declaration of AdvModel::_before_insert() should be compatible with that of Model::_before_insert() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+NOTIC: [2048] Declaration of AdvModel::_before_update() should be compatible with that of Model::_before_update() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+NOTIC: [2048] Declaration of AdvModel::_after_select() should be compatible with that of Model::_after_select() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+NOTIC: [2048] Declaration of AdvModel::_after_find() should be compatible with that of Model::_after_find() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `yge_category` [ RunTime:0.002594s ]
+SQL: SELECT * FROM `yge_category` WHERE parent_id=132 ORDER BY display_order DESC,id DESC  [ RunTime:0.000501s ]
+NOTIC: [8] Undefined variable: rr E:\phpnow\vhosts\shebao\Admin\Lib\Action\PageAction.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `yge_page` [ RunTime:0.002131s ]
+NOTIC: [8] Undefined index:  jingtai E:\phpnow\vhosts\shebao\Admin\Lib\Action\GlobalAction.class.php 第 26 行.
+SQL: SHOW COLUMNS FROM `yge_module` [ RunTime:0.002466s ]
+SQL: SELECT * FROM `yge_module` WHERE left_menu=1 and status=0 ORDER BY display_order DESC,id ASC  [ RunTime:0.000454s ]
+SQL: SELECT * FROM `yge_page` WHERE id=33 LIMIT 1   [ RunTime:0.000367s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.086395s ]
+INFO: [ view_template ] --END-- [ RunTime:0.006700s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant menunames - assumed 'menunames' E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\7f1f4d85118c945173116ae47d4cfdb3.php 第 117 行.
+NOTIC: [8] Undefined variable: _TPL E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\7f1f4d85118c945173116ae47d4cfdb3.php 第 117 行.
+NOTIC: [8] Undefined variable: value E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\7f1f4d85118c945173116ae47d4cfdb3.php 第 117 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.093871s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066668s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.160572s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.164644s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.168384s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.172084s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015670s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.176362s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004119s ]
+
+[ 2013-10-03T14:45:12+08:00 ] 127.0.0.1 /admin.php/Page/doModify.html
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004409s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004538s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001382s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003966s ]
+NOTIC: [2048] Declaration of AdvModel::_before_insert() should be compatible with that of Model::_before_insert() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+NOTIC: [2048] Declaration of AdvModel::_before_update() should be compatible with that of Model::_before_update() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+NOTIC: [2048] Declaration of AdvModel::_after_select() should be compatible with that of Model::_after_select() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+NOTIC: [2048] Declaration of AdvModel::_after_find() should be compatible with that of Model::_after_find() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `yge_category` [ RunTime:0.002904s ]
+SQL: SELECT * FROM `yge_category` WHERE parent_id=132 ORDER BY display_order DESC,id DESC  [ RunTime:0.000563s ]
+NOTIC: [8] Undefined variable: rr E:\phpnow\vhosts\shebao\Admin\Lib\Action\PageAction.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `yge_page` [ RunTime:0.004831s ]
+NOTIC: [8] Undefined index:  jingtai E:\phpnow\vhosts\shebao\Admin\Lib\Action\GlobalAction.class.php 第 26 行.
+SQL: SHOW COLUMNS FROM `yge_module` [ RunTime:0.002247s ]
+SQL: SELECT * FROM `yge_module` WHERE left_menu=1 and status=0 ORDER BY display_order DESC,id ASC  [ RunTime:0.000405s ]
+NOTIC: [8] Undefined index:  attach_file E:\phpnow\vhosts\shebao\includes\conn.php 第 6 行.
+SQL: UPDATE `yge_page` SET `title`='联系方式',`link_label`='lianxifangshi',`category_id`=133,`content`='<iframe width=\"504\" height=\"642\" frameborder=\"0\" scrolling=\"no\" marginheight=\"0\" marginwidth=\"0\" src=\"http://j.map.baidu.com/1tQmn\"></iframe>',`keyword`='',`template`='',`description`='',`update_time`=1380782712 WHERE ( `id` = 33 ) [ RunTime:0.000416s ]
+SQL: SHOW COLUMNS FROM `yge_admin_log` [ RunTime:0.001981s ]
+SQL: INSERT INTO `yge_admin_log` (`user_id`,`username`,`action`,`ip`,`create_time`) VALUES (1,'lizhongyi','/admin.php/Page/doModify.html (编辑:33)','127.0.0.1',1380782712) [ RunTime:0.000253s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.098108s ]
+INFO: [ view_template ] --END-- [ RunTime:0.006125s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.104788s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033666s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.138498s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.142236s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.146091s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.149912s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015210s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.153823s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004125s ]
+
+[ 2013-10-03T14:45:15+08:00 ] 127.0.0.1 /admin.php/Page
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004635s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004773s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004042s ]
+NOTIC: [2048] Declaration of AdvModel::_before_insert() should be compatible with that of Model::_before_insert() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+NOTIC: [2048] Declaration of AdvModel::_before_update() should be compatible with that of Model::_before_update() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+NOTIC: [2048] Declaration of AdvModel::_after_select() should be compatible with that of Model::_after_select() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+NOTIC: [2048] Declaration of AdvModel::_after_find() should be compatible with that of Model::_after_find() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `yge_category` [ RunTime:0.002153s ]
+SQL: SELECT * FROM `yge_category` WHERE parent_id=132 ORDER BY display_order DESC,id DESC  [ RunTime:0.000534s ]
+NOTIC: [8] Undefined variable: rr E:\phpnow\vhosts\shebao\Admin\Lib\Action\PageAction.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `yge_page` [ RunTime:0.002270s ]
+NOTIC: [8] Undefined index:  jingtai E:\phpnow\vhosts\shebao\Admin\Lib\Action\GlobalAction.class.php 第 26 行.
+SQL: SHOW COLUMNS FROM `yge_module` [ RunTime:0.002147s ]
+SQL: SELECT * FROM `yge_module` WHERE left_menu=1 and status=0 ORDER BY display_order DESC,id ASC  [ RunTime:0.000420s ]
+NOTIC: [8] Undefined index:  title E:\phpnow\vhosts\shebao\Admin\Lib\Action\PageAction.class.php 第 67 行.
+NOTIC: [8] Undefined index:  linkLabel E:\phpnow\vhosts\shebao\Admin\Lib\Action\PageAction.class.php 第 69 行.
+NOTIC: [8] Undefined index:  orderBy E:\phpnow\vhosts\shebao\Admin\Lib\Action\PageAction.class.php 第 71 行.
+NOTIC: [8] Undefined index:  orderType E:\phpnow\vhosts\shebao\Admin\Lib\Action\PageAction.class.php 第 73 行.
+NOTIC: [8] Undefined index:  pageSize E:\phpnow\vhosts\shebao\Admin\Lib\Action\PageAction.class.php 第 77 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `yge_page` LIMIT 1   [ RunTime:0.000340s ]
+SQL: SELECT a.*,b.title as category FROM yge_Page a LEFT JOIN yge_category b on a.category_id=b.id ORDER BY id DESC LIMIT 0,15   [ RunTime:0.000588s ]
+SQL: SHOW COLUMNS FROM `yge_admin_log` [ RunTime:0.002089s ]
+SQL: INSERT INTO `yge_admin_log` (`user_id`,`username`,`action`,`ip`,`create_time`) VALUES (1,'lizhongyi','/admin.php/Page','127.0.0.1',1380782715) [ RunTime:0.000281s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.097685s ]
+INFO: [ view_template ] --END-- [ RunTime:0.006772s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant menunames - assumed 'menunames' E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\739212a7974ab3661672f72aeaac9f81.php 第 115 行.
+NOTIC: [8] Undefined variable: _TPL E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\739212a7974ab3661672f72aeaac9f81.php 第 115 行.
+NOTIC: [8] Undefined variable: value E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\739212a7974ab3661672f72aeaac9f81.php 第 115 行.
+NOTIC: [8] Undefined index:  title E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\739212a7974ab3661672f72aeaac9f81.php 第 195 行.
+NOTIC: [8] Undefined index:  linkLabel E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\739212a7974ab3661672f72aeaac9f81.php 第 197 行.
+NOTIC: [8] Undefined index:  orderType E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\739212a7974ab3661672f72aeaac9f81.php 第 199 行.
+NOTIC: [8] Undefined index:  orderBy E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\739212a7974ab3661672f72aeaac9f81.php 第 201 行.
+NOTIC: [8] Undefined index:  pageSize E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\739212a7974ab3661672f72aeaac9f81.php 第 203 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.105175s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050857s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.156080s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.160024s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.163674s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.167604s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015515s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.171691s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004114s ]
+
+[ 2013-10-03T14:45:17+08:00 ] 127.0.0.1 /admin.php/Page/modify/id/33.html
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004690s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004843s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001589s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004206s ]
+NOTIC: [2048] Declaration of AdvModel::_before_insert() should be compatible with that of Model::_before_insert() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+NOTIC: [2048] Declaration of AdvModel::_before_update() should be compatible with that of Model::_before_update() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+NOTIC: [2048] Declaration of AdvModel::_after_select() should be compatible with that of Model::_after_select() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+NOTIC: [2048] Declaration of AdvModel::_after_find() should be compatible with that of Model::_after_find() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `yge_category` [ RunTime:0.002052s ]
+SQL: SELECT * FROM `yge_category` WHERE parent_id=132 ORDER BY display_order DESC,id DESC  [ RunTime:0.000412s ]
+NOTIC: [8] Undefined variable: rr E:\phpnow\vhosts\shebao\Admin\Lib\Action\PageAction.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `yge_page` [ RunTime:0.002082s ]
+NOTIC: [8] Undefined index:  jingtai E:\phpnow\vhosts\shebao\Admin\Lib\Action\GlobalAction.class.php 第 26 行.
+SQL: SHOW COLUMNS FROM `yge_module` [ RunTime:0.002714s ]
+SQL: SELECT * FROM `yge_module` WHERE left_menu=1 and status=0 ORDER BY display_order DESC,id ASC  [ RunTime:0.000447s ]
+SQL: SELECT * FROM `yge_page` WHERE id=33 LIMIT 1   [ RunTime:0.000349s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.087561s ]
+INFO: [ view_template ] --END-- [ RunTime:0.006545s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant menunames - assumed 'menunames' E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\7f1f4d85118c945173116ae47d4cfdb3.php 第 117 行.
+NOTIC: [8] Undefined variable: _TPL E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\7f1f4d85118c945173116ae47d4cfdb3.php 第 117 行.
+NOTIC: [8] Undefined variable: value E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\7f1f4d85118c945173116ae47d4cfdb3.php 第 117 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.094810s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060342s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.155199s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.159207s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.162890s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.166844s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015564s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.170861s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004137s ]
+
+[ 2013-10-03T14:47:45+08:00 ] 127.0.0.1 /admin.php/Page/doModify.html
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004414s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004523s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003932s ]
+NOTIC: [2048] Declaration of AdvModel::_before_insert() should be compatible with that of Model::_before_insert() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+NOTIC: [2048] Declaration of AdvModel::_before_update() should be compatible with that of Model::_before_update() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+NOTIC: [2048] Declaration of AdvModel::_after_select() should be compatible with that of Model::_after_select() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+NOTIC: [2048] Declaration of AdvModel::_after_find() should be compatible with that of Model::_after_find() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `yge_category` [ RunTime:0.002090s ]
+SQL: SELECT * FROM `yge_category` WHERE parent_id=132 ORDER BY display_order DESC,id DESC  [ RunTime:0.000401s ]
+NOTIC: [8] Undefined variable: rr E:\phpnow\vhosts\shebao\Admin\Lib\Action\PageAction.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `yge_page` [ RunTime:0.002307s ]
+NOTIC: [8] Undefined index:  jingtai E:\phpnow\vhosts\shebao\Admin\Lib\Action\GlobalAction.class.php 第 26 行.
+SQL: SHOW COLUMNS FROM `yge_module` [ RunTime:0.002323s ]
+SQL: SELECT * FROM `yge_module` WHERE left_menu=1 and status=0 ORDER BY display_order DESC,id ASC  [ RunTime:0.000412s ]
+NOTIC: [8] Undefined index:  attach_file E:\phpnow\vhosts\shebao\includes\conn.php 第 6 行.
+SQL: UPDATE `yge_page` SET `title`='联系方式',`link_label`='lianxifangshi',`category_id`=133,`content`='<img src=\"http://api.map.baidu.com/staticimage?center=121.391301%2C31.119011&amp;zoom=19&amp;width=558&amp;height=360&amp;markers=121.391301%2C31.119011&amp;markerStyles=l%2CA\" alt=\"\" />',`keyword`='',`template`='',`description`='',`update_time`=1380782865 WHERE ( `id` = 33 ) [ RunTime:0.000423s ]
+SQL: SHOW COLUMNS FROM `yge_admin_log` [ RunTime:0.001962s ]
+SQL: INSERT INTO `yge_admin_log` (`user_id`,`username`,`action`,`ip`,`create_time`) VALUES (1,'lizhongyi','/admin.php/Page/doModify.html (编辑:33)','127.0.0.1',1380782865) [ RunTime:0.000253s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.094247s ]
+INFO: [ view_template ] --END-- [ RunTime:0.006051s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.100860s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034023s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.134940s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.139022s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.143047s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.146617s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015807s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.150838s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004020s ]
+
+[ 2013-10-03T14:47:49+08:00 ] 127.0.0.1 /admin.php/Page
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004309s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004442s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003842s ]
+NOTIC: [2048] Declaration of AdvModel::_before_insert() should be compatible with that of Model::_before_insert() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+NOTIC: [2048] Declaration of AdvModel::_before_update() should be compatible with that of Model::_before_update() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+NOTIC: [2048] Declaration of AdvModel::_after_select() should be compatible with that of Model::_after_select() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+NOTIC: [2048] Declaration of AdvModel::_after_find() should be compatible with that of Model::_after_find() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `yge_category` [ RunTime:0.002212s ]
+SQL: SELECT * FROM `yge_category` WHERE parent_id=132 ORDER BY display_order DESC,id DESC  [ RunTime:0.000425s ]
+NOTIC: [8] Undefined variable: rr E:\phpnow\vhosts\shebao\Admin\Lib\Action\PageAction.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `yge_page` [ RunTime:0.002150s ]
+NOTIC: [8] Undefined index:  jingtai E:\phpnow\vhosts\shebao\Admin\Lib\Action\GlobalAction.class.php 第 26 行.
+SQL: SHOW COLUMNS FROM `yge_module` [ RunTime:0.002133s ]
+SQL: SELECT * FROM `yge_module` WHERE left_menu=1 and status=0 ORDER BY display_order DESC,id ASC  [ RunTime:0.000504s ]
+NOTIC: [8] Undefined index:  title E:\phpnow\vhosts\shebao\Admin\Lib\Action\PageAction.class.php 第 67 行.
+NOTIC: [8] Undefined index:  linkLabel E:\phpnow\vhosts\shebao\Admin\Lib\Action\PageAction.class.php 第 69 行.
+NOTIC: [8] Undefined index:  orderBy E:\phpnow\vhosts\shebao\Admin\Lib\Action\PageAction.class.php 第 71 行.
+NOTIC: [8] Undefined index:  orderType E:\phpnow\vhosts\shebao\Admin\Lib\Action\PageAction.class.php 第 73 行.
+NOTIC: [8] Undefined index:  pageSize E:\phpnow\vhosts\shebao\Admin\Lib\Action\PageAction.class.php 第 77 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `yge_page` LIMIT 1   [ RunTime:0.000259s ]
+SQL: SELECT a.*,b.title as category FROM yge_Page a LEFT JOIN yge_category b on a.category_id=b.id ORDER BY id DESC LIMIT 0,15   [ RunTime:0.000478s ]
+SQL: SHOW COLUMNS FROM `yge_admin_log` [ RunTime:0.001944s ]
+SQL: INSERT INTO `yge_admin_log` (`user_id`,`username`,`action`,`ip`,`create_time`) VALUES (1,'lizhongyi','/admin.php/Page','127.0.0.1',1380782869) [ RunTime:0.000273s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.093159s ]
+INFO: [ view_template ] --END-- [ RunTime:0.006870s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant menunames - assumed 'menunames' E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\739212a7974ab3661672f72aeaac9f81.php 第 115 行.
+NOTIC: [8] Undefined variable: _TPL E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\739212a7974ab3661672f72aeaac9f81.php 第 115 行.
+NOTIC: [8] Undefined variable: value E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\739212a7974ab3661672f72aeaac9f81.php 第 115 行.
+NOTIC: [8] Undefined index:  title E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\739212a7974ab3661672f72aeaac9f81.php 第 195 行.
+NOTIC: [8] Undefined index:  linkLabel E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\739212a7974ab3661672f72aeaac9f81.php 第 197 行.
+NOTIC: [8] Undefined index:  orderType E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\739212a7974ab3661672f72aeaac9f81.php 第 199 行.
+NOTIC: [8] Undefined index:  orderBy E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\739212a7974ab3661672f72aeaac9f81.php 第 201 行.
+NOTIC: [8] Undefined index:  pageSize E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\739212a7974ab3661672f72aeaac9f81.php 第 203 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.100732s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050039s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.150817s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.154790s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.158435s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.162277s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015498s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.166411s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004082s ]
+
+[ 2013-10-03T14:48:19+08:00 ] 127.0.0.1 /admin.php/Page/modify/id/33.html
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004278s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004405s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004090s ]
+NOTIC: [2048] Declaration of AdvModel::_before_insert() should be compatible with that of Model::_before_insert() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+NOTIC: [2048] Declaration of AdvModel::_before_update() should be compatible with that of Model::_before_update() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+NOTIC: [2048] Declaration of AdvModel::_after_select() should be compatible with that of Model::_after_select() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+NOTIC: [2048] Declaration of AdvModel::_after_find() should be compatible with that of Model::_after_find() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `yge_category` [ RunTime:0.002212s ]
+SQL: SELECT * FROM `yge_category` WHERE parent_id=132 ORDER BY display_order DESC,id DESC  [ RunTime:0.000405s ]
+NOTIC: [8] Undefined variable: rr E:\phpnow\vhosts\shebao\Admin\Lib\Action\PageAction.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `yge_page` [ RunTime:0.003037s ]
+NOTIC: [8] Undefined index:  jingtai E:\phpnow\vhosts\shebao\Admin\Lib\Action\GlobalAction.class.php 第 26 行.
+SQL: SHOW COLUMNS FROM `yge_module` [ RunTime:0.003516s ]
+SQL: SELECT * FROM `yge_module` WHERE left_menu=1 and status=0 ORDER BY display_order DESC,id ASC  [ RunTime:0.000548s ]
+SQL: SELECT * FROM `yge_page` WHERE id=33 LIMIT 1   [ RunTime:0.000360s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.088924s ]
+INFO: [ view_template ] --END-- [ RunTime:0.006780s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant menunames - assumed 'menunames' E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\7f1f4d85118c945173116ae47d4cfdb3.php 第 117 行.
+NOTIC: [8] Undefined variable: _TPL E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\7f1f4d85118c945173116ae47d4cfdb3.php 第 117 行.
+NOTIC: [8] Undefined variable: value E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\7f1f4d85118c945173116ae47d4cfdb3.php 第 117 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.096418s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058634s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.155099s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.158982s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.163069s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.166707s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015449s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.170642s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004143s ]
+
+[ 2013-10-03T14:50:55+08:00 ] 127.0.0.1 /admin.php/Page/doModify.html
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004237s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004345s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001269s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004343s ]
+NOTIC: [2048] Declaration of AdvModel::_before_insert() should be compatible with that of Model::_before_insert() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+NOTIC: [2048] Declaration of AdvModel::_before_update() should be compatible with that of Model::_before_update() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+NOTIC: [2048] Declaration of AdvModel::_after_select() should be compatible with that of Model::_after_select() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+NOTIC: [2048] Declaration of AdvModel::_after_find() should be compatible with that of Model::_after_find() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `yge_category` [ RunTime:0.011924s ]
+SQL: SELECT * FROM `yge_category` WHERE parent_id=132 ORDER BY display_order DESC,id DESC  [ RunTime:0.000590s ]
+NOTIC: [8] Undefined variable: rr E:\phpnow\vhosts\shebao\Admin\Lib\Action\PageAction.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `yge_page` [ RunTime:0.002325s ]
+NOTIC: [8] Undefined index:  jingtai E:\phpnow\vhosts\shebao\Admin\Lib\Action\GlobalAction.class.php 第 26 行.
+SQL: SHOW COLUMNS FROM `yge_module` [ RunTime:0.002263s ]
+SQL: SELECT * FROM `yge_module` WHERE left_menu=1 and status=0 ORDER BY display_order DESC,id ASC  [ RunTime:0.000754s ]
+NOTIC: [8] Undefined index:  attach_file E:\phpnow\vhosts\shebao\includes\conn.php 第 6 行.
+SQL: UPDATE `yge_page` SET `title`='联系方式',`link_label`='lianxifangshi',`category_id`=133,`content`='<p>\r\n	联系电话：021-51602273；021-51088951&nbsp;<br />\r\n<br />\r\n传真：021-51992272&nbsp;<br />\r\n<br />\r\n客服QQ：304869866&nbsp;&nbsp;QQ：2532450507\r\n</p>\r\n<p>\r\n	&nbsp;\r\n</p>\r\n<p>\r\n	紧急联系：15000266097&nbsp;&nbsp;13918340537&nbsp;\r\n</p>\r\n<p>\r\n	&nbsp;\r\n</p>\r\n<p>\r\n	地址：上海市闵行区莘庄碧秀路98弄6号1401<br />\r\n交通路线：地铁一号线莘庄站北出口走路5分钟就到\r\n</p>\r\n<p>\r\n	&nbsp;\r\n</p>',`keyword`='',`template`='',`description`='',`update_time`=1380783055 WHERE ( `id` = 33 ) [ RunTime:0.000599s ]
+SQL: SHOW COLUMNS FROM `yge_admin_log` [ RunTime:0.002029s ]
+SQL: INSERT INTO `yge_admin_log` (`user_id`,`username`,`action`,`ip`,`create_time`) VALUES (1,'lizhongyi','/admin.php/Page/doModify.html (编辑:33)','127.0.0.1',1380783055) [ RunTime:0.000601s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.113072s ]
+INFO: [ view_template ] --END-- [ RunTime:0.006080s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.119716s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032780s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.152545s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.156712s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.160454s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.164520s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.016010s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.168650s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004377s ]
+
+[ 2013-10-03T14:50:59+08:00 ] 127.0.0.1 /admin.php/Page
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004470s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004570s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001753s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004339s ]
+NOTIC: [2048] Declaration of AdvModel::_before_insert() should be compatible with that of Model::_before_insert() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+NOTIC: [2048] Declaration of AdvModel::_before_update() should be compatible with that of Model::_before_update() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+NOTIC: [2048] Declaration of AdvModel::_after_select() should be compatible with that of Model::_after_select() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+NOTIC: [2048] Declaration of AdvModel::_after_find() should be compatible with that of Model::_after_find() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `yge_category` [ RunTime:0.002892s ]
+SQL: SELECT * FROM `yge_category` WHERE parent_id=132 ORDER BY display_order DESC,id DESC  [ RunTime:0.002554s ]
+NOTIC: [8] Undefined variable: rr E:\phpnow\vhosts\shebao\Admin\Lib\Action\PageAction.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `yge_page` [ RunTime:0.018260s ]
+NOTIC: [8] Undefined index:  jingtai E:\phpnow\vhosts\shebao\Admin\Lib\Action\GlobalAction.class.php 第 26 行.
+SQL: SHOW COLUMNS FROM `yge_module` [ RunTime:0.002301s ]
+SQL: SELECT * FROM `yge_module` WHERE left_menu=1 and status=0 ORDER BY display_order DESC,id ASC  [ RunTime:0.001041s ]
+NOTIC: [8] Undefined index:  title E:\phpnow\vhosts\shebao\Admin\Lib\Action\PageAction.class.php 第 67 行.
+NOTIC: [8] Undefined index:  linkLabel E:\phpnow\vhosts\shebao\Admin\Lib\Action\PageAction.class.php 第 69 行.
+NOTIC: [8] Undefined index:  orderBy E:\phpnow\vhosts\shebao\Admin\Lib\Action\PageAction.class.php 第 71 行.
+NOTIC: [8] Undefined index:  orderType E:\phpnow\vhosts\shebao\Admin\Lib\Action\PageAction.class.php 第 73 行.
+NOTIC: [8] Undefined index:  pageSize E:\phpnow\vhosts\shebao\Admin\Lib\Action\PageAction.class.php 第 77 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `yge_page` LIMIT 1   [ RunTime:0.000514s ]
+SQL: SELECT a.*,b.title as category FROM yge_Page a LEFT JOIN yge_category b on a.category_id=b.id ORDER BY id DESC LIMIT 0,15   [ RunTime:0.000513s ]
+SQL: SHOW COLUMNS FROM `yge_admin_log` [ RunTime:0.002198s ]
+SQL: INSERT INTO `yge_admin_log` (`user_id`,`username`,`action`,`ip`,`create_time`) VALUES (1,'lizhongyi','/admin.php/Page','127.0.0.1',1380783059) [ RunTime:0.000272s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.180265s ]
+INFO: [ view_template ] --END-- [ RunTime:0.006866s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant menunames - assumed 'menunames' E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\739212a7974ab3661672f72aeaac9f81.php 第 115 行.
+NOTIC: [8] Undefined variable: _TPL E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\739212a7974ab3661672f72aeaac9f81.php 第 115 行.
+NOTIC: [8] Undefined variable: value E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\739212a7974ab3661672f72aeaac9f81.php 第 115 行.
+NOTIC: [8] Undefined index:  title E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\739212a7974ab3661672f72aeaac9f81.php 第 195 行.
+NOTIC: [8] Undefined index:  linkLabel E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\739212a7974ab3661672f72aeaac9f81.php 第 197 行.
+NOTIC: [8] Undefined index:  orderType E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\739212a7974ab3661672f72aeaac9f81.php 第 199 行.
+NOTIC: [8] Undefined index:  orderBy E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\739212a7974ab3661672f72aeaac9f81.php 第 201 行.
+NOTIC: [8] Undefined index:  pageSize E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\739212a7974ab3661672f72aeaac9f81.php 第 203 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.187882s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052237s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.240171s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.244190s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.248380s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.251946s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015537s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.255802s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003962s ]
+
+[ 2013-10-03T14:59:02+08:00 ] 127.0.0.1 /admin.php/Page/modify/id/33.html
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004591s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004718s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004080s ]
+NOTIC: [2048] Declaration of AdvModel::_before_insert() should be compatible with that of Model::_before_insert() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+NOTIC: [2048] Declaration of AdvModel::_before_update() should be compatible with that of Model::_before_update() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+NOTIC: [2048] Declaration of AdvModel::_after_select() should be compatible with that of Model::_after_select() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+NOTIC: [2048] Declaration of AdvModel::_after_find() should be compatible with that of Model::_after_find() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `yge_category` [ RunTime:0.002129s ]
+SQL: SELECT * FROM `yge_category` WHERE parent_id=132 ORDER BY display_order DESC,id DESC  [ RunTime:0.000408s ]
+NOTIC: [8] Undefined variable: rr E:\phpnow\vhosts\shebao\Admin\Lib\Action\PageAction.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `yge_page` [ RunTime:0.002784s ]
+NOTIC: [8] Undefined index:  jingtai E:\phpnow\vhosts\shebao\Admin\Lib\Action\GlobalAction.class.php 第 26 行.
+SQL: SHOW COLUMNS FROM `yge_module` [ RunTime:0.002334s ]
+SQL: SELECT * FROM `yge_module` WHERE left_menu=1 and status=0 ORDER BY display_order DESC,id ASC  [ RunTime:0.000400s ]
+SQL: SELECT * FROM `yge_page` WHERE id=33 LIMIT 1   [ RunTime:0.000492s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.093619s ]
+INFO: [ view_template ] --END-- [ RunTime:0.006774s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant menunames - assumed 'menunames' E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\7f1f4d85118c945173116ae47d4cfdb3.php 第 117 行.
+NOTIC: [8] Undefined variable: _TPL E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\7f1f4d85118c945173116ae47d4cfdb3.php 第 117 行.
+NOTIC: [8] Undefined variable: value E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\7f1f4d85118c945173116ae47d4cfdb3.php 第 117 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.101105s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.068017s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.169177s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.173148s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.176996s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.180692s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015828s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.185105s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004222s ]
+
+[ 2013-10-03T14:59:18+08:00 ] 127.0.0.1 /admin.php/Page/doModify.html
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004604s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004727s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001299s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004409s ]
+NOTIC: [2048] Declaration of AdvModel::_before_insert() should be compatible with that of Model::_before_insert() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+NOTIC: [2048] Declaration of AdvModel::_before_update() should be compatible with that of Model::_before_update() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+NOTIC: [2048] Declaration of AdvModel::_after_select() should be compatible with that of Model::_after_select() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+NOTIC: [2048] Declaration of AdvModel::_after_find() should be compatible with that of Model::_after_find() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `yge_category` [ RunTime:0.002074s ]
+SQL: SELECT * FROM `yge_category` WHERE parent_id=132 ORDER BY display_order DESC,id DESC  [ RunTime:0.000390s ]
+NOTIC: [8] Undefined variable: rr E:\phpnow\vhosts\shebao\Admin\Lib\Action\PageAction.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `yge_page` [ RunTime:0.002257s ]
+NOTIC: [8] Undefined index:  jingtai E:\phpnow\vhosts\shebao\Admin\Lib\Action\GlobalAction.class.php 第 26 行.
+SQL: SHOW COLUMNS FROM `yge_module` [ RunTime:0.003947s ]
+SQL: SELECT * FROM `yge_module` WHERE left_menu=1 and status=0 ORDER BY display_order DESC,id ASC  [ RunTime:0.000695s ]
+NOTIC: [8] Undefined index:  attach_file E:\phpnow\vhosts\shebao\includes\conn.php 第 6 行.
+SQL: UPDATE `yge_page` SET `title`='联系方式',`link_label`='lianxifangshi',`category_id`=133,`content`='<p>\r\n	联系电话：021-51602273；021-51088951&nbsp;<br />\r\n<br />\r\n传真：021-51992272&nbsp;<br />\r\n<br />\r\n客服QQ：304869866&nbsp;&nbsp;QQ：2532450507\r\n</p>\r\n<p>\r\n	<br />\r\n</p>\r\n<p>\r\n	紧急联系：15000266097&nbsp;&nbsp;13918340537&nbsp;\r\n</p>\r\n<p>\r\n	<br />\r\n</p>\r\n<p>\r\n	地址：上海市闵行区莘庄碧秀路98弄6号1401\r\n</p>\r\n<p>\r\n	<br />\r\n交通路线：地铁一号线莘庄站北出口走路5分钟就到\r\n</p>\r\n<p>\r\n	<br />\r\n</p>\r\n<p>\r\n	<p>\r\n		联系电话：021-51602273；021-51088951&nbsp;<br />\r\n<br />\r\n传真：021-51992272&nbsp;<br />\r\n<br />\r\n客服QQ：304869866&nbsp;&nbsp;QQ：2532450507\r\n	</p>\r\n	<p>\r\n		<br />\r\n	</p>\r\n	<p>\r\n		紧急联系：15000266097&nbsp;&nbsp;13918340537&nbsp;\r\n	</p>\r\n	<p>\r\n		<br />\r\n	</p>\r\n	<p>\r\n		地址：上海市闵行区莘庄碧秀路98弄6号1401<br />\r\n交通路线：地铁一号线莘庄站北出口走路5分钟就到\r\n	</p>\r\n	<p>\r\n		<br />\r\n	</p>\r\n	<p>\r\n		联系电话：021-51602273；021-51088951&nbsp;<br />\r\n<br />\r\n传真：021-51992272&nbsp;<br />\r\n<br />\r\n客服QQ：304869866&nbsp;&nbsp;QQ：2532450507\r\n	</p>\r\n	<p>\r\n		<br />\r\n	</p>\r\n	<p>\r\n		紧急联系：15000266097&nbsp;&nbsp;13918340537&nbsp;\r\n	</p>\r\n	<p>\r\n		<br />\r\n	</p>\r\n	<p>\r\n		地址：上海市闵行区莘庄碧秀路98弄6号1401<br />\r\n交通路线：地铁一号线莘庄站北出口走路5分钟就到\r\n	</p>\r\n	<p>\r\n		联系电话：021-51602273；021-51088951&nbsp;<br />\r\n<br />\r\n传真：021-51992272&nbsp;<br />\r\n<br />\r\n客服QQ：304869866&nbsp;&nbsp;QQ：2532450507\r\n	</p>\r\n	<p>\r\n		<br />\r\n	</p>\r\n	<p>\r\n		紧急联系：15000266097&nbsp;&nbsp;13918340537&nbsp;\r\n	</p>\r\n	<p>\r\n		<br />\r\n	</p>\r\n	<p>\r\n		地址：上海市闵行区莘庄碧秀路98弄6号1401<br />\r\n交通路线：地铁一号线莘庄站北出口走路5分钟就到\r\n	</p>\r\n</p>',`keyword`='',`template`='',`description`='',`update_time`=1380783557 WHERE ( `id` = 33 ) [ RunTime:0.000506s ]
+SQL: SHOW COLUMNS FROM `yge_admin_log` [ RunTime:0.003074s ]
+SQL: INSERT INTO `yge_admin_log` (`user_id`,`username`,`action`,`ip`,`create_time`) VALUES (1,'lizhongyi','/admin.php/Page/doModify.html (编辑:33)','127.0.0.1',1380783557) [ RunTime:0.000429s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.101594s ]
+INFO: [ view_template ] --END-- [ RunTime:0.006519s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.108691s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035467s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.144203s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.147861s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.152021s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.155952s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015547s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.159842s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004232s ]
+
+[ 2013-10-03T14:59:21+08:00 ] 127.0.0.1 /admin.php/Page
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004393s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004527s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004565s ]
+NOTIC: [2048] Declaration of AdvModel::_before_insert() should be compatible with that of Model::_before_insert() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+NOTIC: [2048] Declaration of AdvModel::_before_update() should be compatible with that of Model::_before_update() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+NOTIC: [2048] Declaration of AdvModel::_after_select() should be compatible with that of Model::_after_select() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+NOTIC: [2048] Declaration of AdvModel::_after_find() should be compatible with that of Model::_after_find() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `yge_category` [ RunTime:0.002801s ]
+SQL: SELECT * FROM `yge_category` WHERE parent_id=132 ORDER BY display_order DESC,id DESC  [ RunTime:0.000477s ]
+NOTIC: [8] Undefined variable: rr E:\phpnow\vhosts\shebao\Admin\Lib\Action\PageAction.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `yge_page` [ RunTime:0.002776s ]
+NOTIC: [8] Undefined index:  jingtai E:\phpnow\vhosts\shebao\Admin\Lib\Action\GlobalAction.class.php 第 26 行.
+SQL: SHOW COLUMNS FROM `yge_module` [ RunTime:0.004297s ]
+SQL: SELECT * FROM `yge_module` WHERE left_menu=1 and status=0 ORDER BY display_order DESC,id ASC  [ RunTime:0.000605s ]
+NOTIC: [8] Undefined index:  title E:\phpnow\vhosts\shebao\Admin\Lib\Action\PageAction.class.php 第 67 行.
+NOTIC: [8] Undefined index:  linkLabel E:\phpnow\vhosts\shebao\Admin\Lib\Action\PageAction.class.php 第 69 行.
+NOTIC: [8] Undefined index:  orderBy E:\phpnow\vhosts\shebao\Admin\Lib\Action\PageAction.class.php 第 71 行.
+NOTIC: [8] Undefined index:  orderType E:\phpnow\vhosts\shebao\Admin\Lib\Action\PageAction.class.php 第 73 行.
+NOTIC: [8] Undefined index:  pageSize E:\phpnow\vhosts\shebao\Admin\Lib\Action\PageAction.class.php 第 77 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `yge_page` LIMIT 1   [ RunTime:0.000347s ]
+SQL: SELECT a.*,b.title as category FROM yge_Page a LEFT JOIN yge_category b on a.category_id=b.id ORDER BY id DESC LIMIT 0,15   [ RunTime:0.002323s ]
+SQL: SHOW COLUMNS FROM `yge_admin_log` [ RunTime:0.003847s ]
+SQL: INSERT INTO `yge_admin_log` (`user_id`,`username`,`action`,`ip`,`create_time`) VALUES (1,'lizhongyi','/admin.php/Page','127.0.0.1',1380783561) [ RunTime:0.000404s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.113134s ]
+INFO: [ view_template ] --END-- [ RunTime:0.007427s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant menunames - assumed 'menunames' E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\739212a7974ab3661672f72aeaac9f81.php 第 115 行.
+NOTIC: [8] Undefined variable: _TPL E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\739212a7974ab3661672f72aeaac9f81.php 第 115 行.
+NOTIC: [8] Undefined variable: value E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\739212a7974ab3661672f72aeaac9f81.php 第 115 行.
+NOTIC: [8] Undefined index:  title E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\739212a7974ab3661672f72aeaac9f81.php 第 195 行.
+NOTIC: [8] Undefined index:  linkLabel E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\739212a7974ab3661672f72aeaac9f81.php 第 197 行.
+NOTIC: [8] Undefined index:  orderType E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\739212a7974ab3661672f72aeaac9f81.php 第 199 行.
+NOTIC: [8] Undefined index:  orderBy E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\739212a7974ab3661672f72aeaac9f81.php 第 201 行.
+NOTIC: [8] Undefined index:  pageSize E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\739212a7974ab3661672f72aeaac9f81.php 第 203 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.121410s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054069s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.175528s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.179507s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.183183s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.186866s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015696s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.191384s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004286s ]
+
+[ 2013-10-03T15:53:30+08:00 ] 127.0.0.1 /admin.php/Config/index.html
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004370s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004499s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004127s ]
+NOTIC: [8] Undefined index:  jingtai E:\phpnow\vhosts\shebao\Admin\Lib\Action\GlobalAction.class.php 第 26 行.
+NOTIC: [2048] Declaration of AdvModel::_before_insert() should be compatible with that of Model::_before_insert() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+NOTIC: [2048] Declaration of AdvModel::_before_update() should be compatible with that of Model::_before_update() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+NOTIC: [2048] Declaration of AdvModel::_after_select() should be compatible with that of Model::_after_select() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+NOTIC: [2048] Declaration of AdvModel::_after_find() should be compatible with that of Model::_after_find() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `yge_module` [ RunTime:0.002377s ]
+SQL: SELECT * FROM `yge_module` WHERE left_menu=1 and status=0 ORDER BY display_order DESC,id ASC  [ RunTime:0.000450s ]
+SQL: SHOW COLUMNS FROM `yge_config` [ RunTime:0.057715s ]
+SQL: SHOW COLUMNS FROM `yge_admin_log` [ RunTime:0.007162s ]
+SQL: INSERT INTO `yge_admin_log` (`user_id`,`username`,`action`,`ip`,`create_time`) VALUES (1,'lizhongyi','/admin.php/Config/index.html','127.0.0.1',1380786810) [ RunTime:0.000361s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.184706s ]
+INFO: [ view_template ] --END-- [ RunTime:0.006502s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant menunames - assumed 'menunames' E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\25ffad8b1333df45988848fdab8dbe42.php 第 115 行.
+NOTIC: [8] Undefined variable: _TPL E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\25ffad8b1333df45988848fdab8dbe42.php 第 115 行.
+NOTIC: [8] Undefined variable: value E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\25ffad8b1333df45988848fdab8dbe42.php 第 115 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.191899s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.063105s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.255057s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.259364s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.263670s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.267756s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.016809s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.271968s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004136s ]
+
+[ 2013-10-03T15:53:58+08:00 ] 127.0.0.1 /admin.php/Page/index.html
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004442s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004570s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003859s ]
+NOTIC: [2048] Declaration of AdvModel::_before_insert() should be compatible with that of Model::_before_insert() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+NOTIC: [2048] Declaration of AdvModel::_before_update() should be compatible with that of Model::_before_update() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+NOTIC: [2048] Declaration of AdvModel::_after_select() should be compatible with that of Model::_after_select() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+NOTIC: [2048] Declaration of AdvModel::_after_find() should be compatible with that of Model::_after_find() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `yge_category` [ RunTime:0.002063s ]
+SQL: SELECT * FROM `yge_category` WHERE parent_id=132 ORDER BY display_order DESC,id DESC  [ RunTime:0.000415s ]
+NOTIC: [8] Undefined variable: rr E:\phpnow\vhosts\shebao\Admin\Lib\Action\PageAction.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `yge_page` [ RunTime:0.002429s ]
+NOTIC: [8] Undefined index:  jingtai E:\phpnow\vhosts\shebao\Admin\Lib\Action\GlobalAction.class.php 第 26 行.
+SQL: SHOW COLUMNS FROM `yge_module` [ RunTime:0.002766s ]
+SQL: SELECT * FROM `yge_module` WHERE left_menu=1 and status=0 ORDER BY display_order DESC,id ASC  [ RunTime:0.000397s ]
+NOTIC: [8] Undefined index:  title E:\phpnow\vhosts\shebao\Admin\Lib\Action\PageAction.class.php 第 67 行.
+NOTIC: [8] Undefined index:  linkLabel E:\phpnow\vhosts\shebao\Admin\Lib\Action\PageAction.class.php 第 69 行.
+NOTIC: [8] Undefined index:  orderBy E:\phpnow\vhosts\shebao\Admin\Lib\Action\PageAction.class.php 第 71 行.
+NOTIC: [8] Undefined index:  orderType E:\phpnow\vhosts\shebao\Admin\Lib\Action\PageAction.class.php 第 73 行.
+NOTIC: [8] Undefined index:  pageSize E:\phpnow\vhosts\shebao\Admin\Lib\Action\PageAction.class.php 第 77 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `yge_page` LIMIT 1   [ RunTime:0.000197s ]
+SQL: SELECT a.*,b.title as category FROM yge_Page a LEFT JOIN yge_category b on a.category_id=b.id ORDER BY id DESC LIMIT 0,15   [ RunTime:0.000413s ]
+SQL: SHOW COLUMNS FROM `yge_admin_log` [ RunTime:0.001965s ]
+SQL: INSERT INTO `yge_admin_log` (`user_id`,`username`,`action`,`ip`,`create_time`) VALUES (1,'lizhongyi','/admin.php/Page/index.html','127.0.0.1',1380786838) [ RunTime:0.000457s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.095418s ]
+INFO: [ view_template ] --END-- [ RunTime:0.007188s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant menunames - assumed 'menunames' E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\739212a7974ab3661672f72aeaac9f81.php 第 115 行.
+NOTIC: [8] Undefined variable: _TPL E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\739212a7974ab3661672f72aeaac9f81.php 第 115 行.
+NOTIC: [8] Undefined variable: value E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\739212a7974ab3661672f72aeaac9f81.php 第 115 行.
+NOTIC: [8] Undefined index:  title E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\739212a7974ab3661672f72aeaac9f81.php 第 195 行.
+NOTIC: [8] Undefined index:  linkLabel E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\739212a7974ab3661672f72aeaac9f81.php 第 197 行.
+NOTIC: [8] Undefined index:  orderType E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\739212a7974ab3661672f72aeaac9f81.php 第 199 行.
+NOTIC: [8] Undefined index:  orderBy E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\739212a7974ab3661672f72aeaac9f81.php 第 201 行.
+NOTIC: [8] Undefined index:  pageSize E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\739212a7974ab3661672f72aeaac9f81.php 第 203 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.103279s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050349s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.153673s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.157473s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.161230s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.165089s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015403s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.169176s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004141s ]
+
+[ 2013-10-03T15:54:26+08:00 ] 127.0.0.1 /admin.php/Config/index.html
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004280s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004414s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004363s ]
+NOTIC: [8] Undefined index:  jingtai E:\phpnow\vhosts\shebao\Admin\Lib\Action\GlobalAction.class.php 第 26 行.
+NOTIC: [2048] Declaration of AdvModel::_before_insert() should be compatible with that of Model::_before_insert() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+NOTIC: [2048] Declaration of AdvModel::_before_update() should be compatible with that of Model::_before_update() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+NOTIC: [2048] Declaration of AdvModel::_after_select() should be compatible with that of Model::_after_select() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+NOTIC: [2048] Declaration of AdvModel::_after_find() should be compatible with that of Model::_after_find() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `yge_module` [ RunTime:0.002009s ]
+SQL: SELECT * FROM `yge_module` WHERE left_menu=1 and status=0 ORDER BY display_order DESC,id ASC  [ RunTime:0.000432s ]
+SQL: SHOW COLUMNS FROM `yge_config` [ RunTime:0.002951s ]
+SQL: SHOW COLUMNS FROM `yge_admin_log` [ RunTime:0.002697s ]
+SQL: INSERT INTO `yge_admin_log` (`user_id`,`username`,`action`,`ip`,`create_time`) VALUES (1,'lizhongyi','/admin.php/Config/index.html','127.0.0.1',1380786866) [ RunTime:0.000293s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.089962s ]
+INFO: [ view_template ] --END-- [ RunTime:0.007634s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant menunames - assumed 'menunames' E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\25ffad8b1333df45988848fdab8dbe42.php 第 115 行.
+NOTIC: [8] Undefined variable: _TPL E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\25ffad8b1333df45988848fdab8dbe42.php 第 115 行.
+NOTIC: [8] Undefined variable: value E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\25ffad8b1333df45988848fdab8dbe42.php 第 115 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.098333s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058660s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.157041s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.162186s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.168181s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.173081s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.024596s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.181755s ]
+INFO: [ view_end ] --END-- [ RunTime:0.006265s ]
+
+[ 2013-10-03T15:54:54+08:00 ] 127.0.0.1 /admin.php/Config/doModify.html
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004272s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004375s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001290s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004044s ]
+NOTIC: [8] Undefined index:  jingtai E:\phpnow\vhosts\shebao\Admin\Lib\Action\GlobalAction.class.php 第 26 行.
+NOTIC: [2048] Declaration of AdvModel::_before_insert() should be compatible with that of Model::_before_insert() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+NOTIC: [2048] Declaration of AdvModel::_before_update() should be compatible with that of Model::_before_update() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+NOTIC: [2048] Declaration of AdvModel::_after_select() should be compatible with that of Model::_after_select() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+NOTIC: [2048] Declaration of AdvModel::_after_find() should be compatible with that of Model::_after_find() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `yge_module` [ RunTime:0.002035s ]
+SQL: SELECT * FROM `yge_module` WHERE left_menu=1 and status=0 ORDER BY display_order DESC,id ASC  [ RunTime:0.000407s ]
+SQL: SHOW COLUMNS FROM `yge_config` [ RunTime:0.003102s ]
+NOTIC: [2] Missing argument 1 for dHtml() E:\phpnow\vhosts\shebao\includes\conn.php 第 130 行.
+NOTIC: [8] Undefined variable: string E:\phpnow\vhosts\shebao\includes\conn.php 第 132 行.
+NOTIC: [8] Undefined variable: string E:\phpnow\vhosts\shebao\includes\conn.php 第 140 行.
+SQL: UPDATE `yge_config` SET `site_name`='上海代收社保网',`site_url`='shebao.com',`email`='',`contact_name`='',`company_name`='上海代收社保网',`address`='北京市海淀区',`telephone`='',`fax`='',`mobile_telephone`='',`qq`='',`msn`='',`icp`='',`web_status`=0,`status_description`='',`header_content`='',`footer_content`='地址：上海市闵行区莘庄碧秀路98弄6号1401\r\n交通路线：地铁一号线莘庄站北出口走路5分钟就到\r\n电话：021-51602273；021-51088951\r\n传真：021-51992272\r\n客服QQ：304869866 QQ：2532450507\r\n紧急联系：15000266097 13918340537',`sys_log`=1,`sys_log_ext`='index,delete,modify,insert,update,login',`run_system`='window,linux',`watermark_status`=0,`watermark_size`='500',`global_attach_size`=3000000,`global_attach_suffix`='jpg,gif,bmp,png,doc,docx,rar,7z,zip,png,swf,xls,pdf,',`global_thumb_status`=1,`global_thumb_size`='500,220',`seo_title`='这是我们的关键字',`seo_keyword`='上海代缴社保  上海代缴公积金  上海代交个税上海代办居住证上海补交公积金上海补交社保',`seo_description`='上海社保代缴公司提供：上海代缴社保  上海代缴公积金  上海代交个税上海代办居住证上海补交公积金上海补交社保 公司等服务。',`smtpserver`='smtp.qq.com',`smtpport`=25,`smtpyz`=1,`smtpmail`='165256676@qq.com',`smtpuser`='165256676',`smtppass`='jjj' WHERE ( `id` = 1 ) [ RunTime:0.032376s ]
+NOTIC: [8] Undefined variable: configFooter E:\phpnow\vhosts\shebao\Admin\Lib\Action\ConfigAction.class.php 第 127 行.
+NOTIC: [8] Undefined variable: configBody E:\phpnow\vhosts\shebao\Admin\Lib\Action\ConfigAction.class.php 第 145 行.
+SQL: SHOW COLUMNS FROM `yge_admin_log` [ RunTime:0.002049s ]
+SQL: INSERT INTO `yge_admin_log` (`user_id`,`username`,`action`,`ip`,`create_time`) VALUES (1,'lizhongyi','/admin.php/Config/doModify.html (编辑系统配置)','127.0.0.1',1380786894) [ RunTime:0.000344s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.166287s ]
+INFO: [ view_template ] --END-- [ RunTime:0.006182s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.173042s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032136s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.205234s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.209445s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.213149s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.217023s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.016945s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.222277s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004224s ]
+
+[ 2013-10-03T15:54:58+08:00 ] 127.0.0.1 /admin.php/Config
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004180s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004307s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.001377s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004412s ]
+NOTIC: [8] Undefined index:  jingtai E:\phpnow\vhosts\shebao\Admin\Lib\Action\GlobalAction.class.php 第 26 行.
+NOTIC: [2048] Declaration of AdvModel::_before_insert() should be compatible with that of Model::_before_insert() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+NOTIC: [2048] Declaration of AdvModel::_before_update() should be compatible with that of Model::_before_update() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+NOTIC: [2048] Declaration of AdvModel::_after_select() should be compatible with that of Model::_after_select() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+NOTIC: [2048] Declaration of AdvModel::_after_find() should be compatible with that of Model::_after_find() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `yge_module` [ RunTime:0.001991s ]
+SQL: SELECT * FROM `yge_module` WHERE left_menu=1 and status=0 ORDER BY display_order DESC,id ASC  [ RunTime:0.000439s ]
+SQL: SHOW COLUMNS FROM `yge_config` [ RunTime:0.002916s ]
+SQL: SHOW COLUMNS FROM `yge_admin_log` [ RunTime:0.001966s ]
+SQL: INSERT INTO `yge_admin_log` (`user_id`,`username`,`action`,`ip`,`create_time`) VALUES (1,'lizhongyi','/admin.php/Config','127.0.0.1',1380786898) [ RunTime:0.000256s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.087459s ]
+INFO: [ view_template ] --END-- [ RunTime:0.006780s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant menunames - assumed 'menunames' E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\25ffad8b1333df45988848fdab8dbe42.php 第 115 行.
+NOTIC: [8] Undefined variable: _TPL E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\25ffad8b1333df45988848fdab8dbe42.php 第 115 行.
+NOTIC: [8] Undefined variable: value E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\25ffad8b1333df45988848fdab8dbe42.php 第 115 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.094942s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053313s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.148307s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.152400s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.156718s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.160802s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.016506s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.164910s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004140s ]
+
+[ 2013-10-03T15:59:48+08:00 ] 127.0.0.1 /admin.php/Config
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.006093s ]
+INFO: [ route_check ] --END-- [ RunTime:0.006874s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.002273s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010453s ]
+NOTIC: [8] Undefined index:  jingtai E:\phpnow\vhosts\shebao\Admin\Lib\Action\GlobalAction.class.php 第 26 行.
+NOTIC: [2048] Declaration of AdvModel::_before_insert() should be compatible with that of Model::_before_insert() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+NOTIC: [2048] Declaration of AdvModel::_before_update() should be compatible with that of Model::_before_update() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+NOTIC: [2048] Declaration of AdvModel::_after_select() should be compatible with that of Model::_after_select() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+NOTIC: [2048] Declaration of AdvModel::_after_find() should be compatible with that of Model::_after_find() E:\phpnow\vhosts\shebao\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `yge_module` [ RunTime:0.002116s ]
+SQL: SELECT * FROM `yge_module` WHERE left_menu=1 and status=0 ORDER BY display_order DESC,id ASC  [ RunTime:0.000417s ]
+SQL: SHOW COLUMNS FROM `yge_config` [ RunTime:0.004390s ]
+SQL: SHOW COLUMNS FROM `yge_admin_log` [ RunTime:0.003223s ]
+SQL: INSERT INTO `yge_admin_log` (`user_id`,`username`,`action`,`ip`,`create_time`) VALUES (1,'lizhongyi','/admin.php/Config','127.0.0.1',1380787188) [ RunTime:0.000338s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.130055s ]
+INFO: [ view_template ] --END-- [ RunTime:0.006630s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant menunames - assumed 'menunames' E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\25ffad8b1333df45988848fdab8dbe42.php 第 115 行.
+NOTIC: [8] Undefined variable: _TPL E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\25ffad8b1333df45988848fdab8dbe42.php 第 115 行.
+NOTIC: [8] Undefined variable: value E:\phpnow\vhosts\shebao\Admin\Runtime\Cache\25ffad8b1333df45988848fdab8dbe42.php 第 115 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.137380s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050768s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.188196s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.192259s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.196833s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.200496s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.016653s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.204949s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004053s ]
+

@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>{$moduleTitle}</title>
+<base href="http://xili.com"/>
+<link  type="text/css"  rel="stylesheet" href="__PUBLIC__/css/css.css"/>
+<include file="Public:header" />
+<!--单页-->
+<div class="bannar">
+    <img src="Public/img/b1.jpg" width="980" height="298" alt="b1" /></div>
+    <div class="main">
+  <div class="left_list">
+  <h3>新闻中心</h3>
+  <ul class="yiji">
+  <volist name ="catelist" id="voc">
+  <li><a href="{:U('Article/index', array('category' =>$voc['id']))}">{$voc['title']}</a></li>
+ </volist>
+      
+     
+  </ul>
+   
+  </div>
+  <div class="right_box">
+  <div class="weizhi">当前位置
+  &gt;&gt; <a href="{:U('Article/index')}">新闻中心</a> &gt;&gt; <span class="title"><a href="{:U('Article/index',array('category'=>$contentDetail['category_id']))}">{$contentDetail.categoryName}</a><em> </em></span></div>
+  
+  <div class="news_box">
+  <div class="news_list">
+   <h1>{$contentDetail.title|msubstr=0,30}</h1>
+   <div class="laiyuan">
+   内容来源：{$contentDetail.copy_from|default='本站'} {$contentDetail.copy_from|default='本站'}　发布时间：[{$contentDetail.create_time|date="Y-m-d",###}]　查看次数：{$contentDetail.view_count}
+   </div>
+   <div class="cont_box">
+   {$contentDetail.content}
+   </div>
+<div class="cl"></div>
+</dl>
+
+
+
+  </div>
+  </div>
+  
+  <div class="page"></div>
+  </div>
+  </div>
+<include file="Public:footer"/>
+</div>
+</body>
+</html>
+

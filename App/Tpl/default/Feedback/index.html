@@ -1,0 +1,76 @@
+<include file="Public:header" />
+     <style>
+div.con { color:#666; padding:20px;}
+div.con input{ height:18px; border:1px solid #ccc; margin:8px auto;}
+</style>
+<script type="text/javascript">
+    function checkForm() {
+        var title = $("#title").val();
+        var username = $("#username").val();
+        var sex = $("#sex").val();
+        var content = $("#content").val();
+        var verifyCode = $("#verifyCode").val();
+
+        if (title == '') {
+            
+        } else if (content == '') {
+            alert('内容必须填写');
+            return false;
+        } else if (verifyCode == '') {
+            alert('验证码必须填写');
+            return false;
+        } else {
+            return true;
+        }
+    }
+</script><!--单页-->
+
+<div class="main">
+<div class="xiaoxi" style="margin:10px; padding:10px; line-height:24px; background:#f4f4f4">
+
+亲啊，有什么想法和意见就在这里说一下吧，我做做调查，看看大家都喜欢玩什么样的，然后小弟好好的调整一下。
+
+</div>
+    <div class="brunch">
+      <div class="con" style="margin-top:-20px;">
+        <div id="fbTable">
+          <volist name="dataContentList" id="fRow">
+          <div class="fbRow clear" style="margin-top:10px;"> <span class="mingzi" style="font-size:14PX;"><strong>{$fRow.username}</strong>　<span style="color:#999999">{$fRow.create_time|date="Y-m-d  H:i:s",###}</span></span> </div>
+          <div class="fbCon">
+            <div style="font-size:12px; margin-top:10px; border: 1px dashed #ccc; padding:10px; line-height:22px;"> {$fRow.content|nl2br}
+              <neq name="fRow['reply_content']" value=""> <span style="clear:both; display:block; border:1px solid #ddd; padding:8px; background:#F1F1F1;">管理回复:<br />
+                {$fRow.reply_content|strip_tags|nl2br}</span></neq>
+            </div>
+          </div>
+       
+        </volist>
+      </div>
+      <div class="pages" style="margin:15px; font-size:14px; margin-top:10px;">
+        <div class="plist">{$pageContentBar}</div>
+      </div>
+ 
+      <div class="con">
+        <form action="{:U('Feedback/doInsert')}" method="post" onsubmit="return checkForm()">
+          <label>姓名：
+            <input type="text" name="username" id="username" />
+          </label>
+          <br />
+          <label> 邮箱：
+<input type="text" name="email" id="email" /></label>
+          <label> 亲啊最好留一个真实的邮箱，到时候有好消息通知您呢 O(∩_∩)O<br />
+            <br />
+            <textarea name="content" cols="50" rows="7" id="content" style="width:600px; margin-top:10px; border:1px solid #CCC"></textarea>
+          </label>
+          <br />
+          验证码：
+          <input name="verifyCode" type="text" class="t_input" id="verifyCode" style="margin-right:5px;width:55px;" value="" maxlength="4" />
+          <img src="{:U('Index/verify')}" align="absmiddle" class="checkcode" title="如果您无法识别验证码，请点图片更换" id="verifyImage"/>
+          <input type="submit" name="button" id="button" value="提交留言" />
+        </form>
+      </div>
+
+</div>
+</div>
+</div>
+<!--底部--> 
+<include file="Public:footer" />

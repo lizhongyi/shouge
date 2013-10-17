@@ -1,0 +1,174 @@
+[ 2012-09-11T16:35:33+08:00 ] /admin.php?a=login&m=Public&jumpUri=L2FkbWluLnBocD9hPWluZGV4Jm09UHJvZHVjdCZjYXRlZ29yeT0xMDM | INFO: Tag[ app_begin ] --START--
+[ 2012-09-11T16:35:33+08:00 ] /admin.php?a=login&m=Public&jumpUri=L2FkbWluLnBocD9hPWluZGV4Jm09UHJvZHVjdCZjYXRlZ29yeT0xMDM | INFO: Run ReadHtmlCache Behavior [ RunTime:0.008069s ]
+[ 2012-09-11T16:35:33+08:00 ] /admin.php?a=login&m=Public&jumpUri=L2FkbWluLnBocD9hPWluZGV4Jm09UHJvZHVjdCZjYXRlZ29yeT0xMDM | INFO: Tag[ app_begin ] --END-- [ RunTime:0.008449s ]
+[ 2012-09-11T16:35:33+08:00 ] /admin.php?a=login&m=Public&jumpUri=L2FkbWluLnBocD9hPWluZGV4Jm09UHJvZHVjdCZjYXRlZ29yeT0xMDM | INFO: Tag[ view_template ] --START--
+[ 2012-09-11T16:35:33+08:00 ] /admin.php?a=login&m=Public&jumpUri=L2FkbWluLnBocD9hPWluZGV4Jm09UHJvZHVjdCZjYXRlZ29yeT0xMDM | INFO: Run LocationTemplate Behavior [ RunTime:0.011780s ]
+[ 2012-09-11T16:35:33+08:00 ] /admin.php?a=login&m=Public&jumpUri=L2FkbWluLnBocD9hPWluZGV4Jm09UHJvZHVjdCZjYXRlZ29yeT0xMDM | INFO: Tag[ view_template ] --END-- [ RunTime:0.011937s ]
+[ 2012-09-11T16:35:33+08:00 ] /admin.php?a=login&m=Public&jumpUri=L2FkbWluLnBocD9hPWluZGV4Jm09UHJvZHVjdCZjYXRlZ29yeT0xMDM | INFO: Tag[ view_parse ] --START--
+[ 2012-09-11T16:35:33+08:00 ] /admin.php?a=login&m=Public&jumpUri=L2FkbWluLnBocD9hPWluZGV4Jm09UHJvZHVjdCZjYXRlZ29yeT0xMDM | INFO: Run ParseTemplate Behavior [ RunTime:0.135166s ]
+[ 2012-09-11T16:35:33+08:00 ] /admin.php?a=login&m=Public&jumpUri=L2FkbWluLnBocD9hPWluZGV4Jm09UHJvZHVjdCZjYXRlZ29yeT0xMDM | INFO: Tag[ view_parse ] --END-- [ RunTime:0.135331s ]
+[ 2012-09-11T16:35:33+08:00 ] /admin.php?a=login&m=Public&jumpUri=L2FkbWluLnBocD9hPWluZGV4Jm09UHJvZHVjdCZjYXRlZ29yeT0xMDM | INFO: Tag[ view_filter ] --START--
+[ 2012-09-11T16:35:33+08:00 ] /admin.php?a=login&m=Public&jumpUri=L2FkbWluLnBocD9hPWluZGV4Jm09UHJvZHVjdCZjYXRlZ29yeT0xMDM | INFO: Run ContentReplace Behavior [ RunTime:0.011026s ]
+[ 2012-09-11T16:35:33+08:00 ] /admin.php?a=login&m=Public&jumpUri=L2FkbWluLnBocD9hPWluZGV4Jm09UHJvZHVjdCZjYXRlZ29yeT0xMDM | INFO: Run TokenBuild Behavior [ RunTime:0.017158s ]
+[ 2012-09-11T16:35:33+08:00 ] /admin.php?a=login&m=Public&jumpUri=L2FkbWluLnBocD9hPWluZGV4Jm09UHJvZHVjdCZjYXRlZ29yeT0xMDM | INFO: Run WriteHtmlCache Behavior [ RunTime:0.012753s ]
+[ 2012-09-11T16:35:33+08:00 ] /admin.php?a=login&m=Public&jumpUri=L2FkbWluLnBocD9hPWluZGV4Jm09UHJvZHVjdCZjYXRlZ29yeT0xMDM | INFO: Run ShowRuntime Behavior [ RunTime:0.008350s ]
+[ 2012-09-11T16:35:33+08:00 ] /admin.php?a=login&m=Public&jumpUri=L2FkbWluLnBocD9hPWluZGV4Jm09UHJvZHVjdCZjYXRlZ29yeT0xMDM | INFO: Tag[ view_filter ] --END-- [ RunTime:0.051243s ]
+[ 2012-09-11T16:35:33+08:00 ] /admin.php?a=login&m=Public&jumpUri=L2FkbWluLnBocD9hPWluZGV4Jm09UHJvZHVjdCZjYXRlZ29yeT0xMDM | INFO: Tag[ view_end ] --START--
+[ 2012-09-11T16:35:33+08:00 ] /admin.php?a=login&m=Public&jumpUri=L2FkbWluLnBocD9hPWluZGV4Jm09UHJvZHVjdCZjYXRlZ29yeT0xMDM | INFO: Run ShowPageTrace Behavior [ RunTime:0.026260s ]
+[ 2012-09-11T16:35:33+08:00 ] /admin.php?a=login&m=Public&jumpUri=L2FkbWluLnBocD9hPWluZGV4Jm09UHJvZHVjdCZjYXRlZ29yeT0xMDM | INFO: Tag[ view_end ] --END-- [ RunTime:0.026418s ]
+[ 2012-09-11T16:35:39+08:00 ] /admin.php?a=index&m=Product&category=103 | INFO: Tag[ app_begin ] --START--
+[ 2012-09-11T16:35:39+08:00 ] /admin.php?a=index&m=Product&category=103 | INFO: Run ReadHtmlCache Behavior [ RunTime:0.007336s ]
+[ 2012-09-11T16:35:39+08:00 ] /admin.php?a=index&m=Product&category=103 | INFO: Tag[ app_begin ] --END-- [ RunTime:0.007539s ]
+[ 2012-09-11T16:35:39+08:00 ] /admin.php?a=index&m=Product&category=103 | NOTIC: [2048] Declaration of AdvModel::_before_insert() should be compatible with that of Model::_before_insert() AdvModel.class.php 第 18 行.
+[ 2012-09-11T16:35:39+08:00 ] /admin.php?a=index&m=Product&category=103 | NOTIC: [2048] Declaration of AdvModel::_before_update() should be compatible with that of Model::_before_update() AdvModel.class.php 第 18 行.
+[ 2012-09-11T16:35:39+08:00 ] /admin.php?a=index&m=Product&category=103 | NOTIC: [2048] Declaration of AdvModel::_after_select() should be compatible with that of Model::_after_select() AdvModel.class.php 第 18 行.
+[ 2012-09-11T16:35:39+08:00 ] /admin.php?a=index&m=Product&category=103 | NOTIC: [2048] Declaration of AdvModel::_after_find() should be compatible with that of Model::_after_find() AdvModel.class.php 第 18 行.
+[ 2012-09-11T16:35:39+08:00 ] /admin.php?a=index&m=Product&category=103 | SQL: SHOW COLUMNS FROM `yge_module` [ RunTime:0.046346s ]
+[ 2012-09-11T16:35:39+08:00 ] /admin.php?a=index&m=Product&category=103 | SQL: SELECT * FROM `yge_module` WHERE left_menu=1 and status=0 ORDER BY display_order DESC,id ASC  [ RunTime:0.007650s ]
+[ 2012-09-11T16:35:39+08:00 ] /admin.php?a=index&m=Product&category=103 | SQL: SHOW COLUMNS FROM `yge_category` [ RunTime:0.003693s ]
+[ 2012-09-11T16:35:39+08:00 ] /admin.php?a=index&m=Product&category=103 | SQL: SELECT * FROM `yge_category` ORDER BY display_order DESC,id DESC  [ RunTime:0.000905s ]
+[ 2012-09-11T16:35:39+08:00 ] /admin.php?a=index&m=Product&category=103 | SQL: SHOW COLUMNS FROM `yge_product` [ RunTime:0.004353s ]
+[ 2012-09-11T16:35:39+08:00 ] /admin.php?a=index&m=Product&category=103 | NOTIC: [8] Undefined index:  title ProductAction.class.php 第 55 行.
+[ 2012-09-11T16:35:39+08:00 ] /admin.php?a=index&m=Product&category=103 | NOTIC: [8] Undefined index:  orderBy ProductAction.class.php 第 56 行.
+[ 2012-09-11T16:35:39+08:00 ] /admin.php?a=index&m=Product&category=103 | NOTIC: [8] Undefined index:  orderType ProductAction.class.php 第 57 行.
+[ 2012-09-11T16:35:39+08:00 ] /admin.php?a=index&m=Product&category=103 | NOTIC: [8] Undefined index:  recommend ProductAction.class.php 第 58 行.
+[ 2012-09-11T16:35:39+08:00 ] /admin.php?a=index&m=Product&category=103 | NOTIC: [8] Undefined index:  categoryId ProductAction.class.php 第 59 行.
+[ 2012-09-11T16:35:39+08:00 ] /admin.php?a=index&m=Product&category=103 | NOTIC: [8] Undefined index:  status ProductAction.class.php 第 60 行.
+[ 2012-09-11T16:35:39+08:00 ] /admin.php?a=index&m=Product&category=103 | NOTIC: [8] Undefined index:  istop ProductAction.class.php 第 61 行.
+[ 2012-09-11T16:35:39+08:00 ] /admin.php?a=index&m=Product&category=103 | NOTIC: [8] Undefined index:  createTime ProductAction.class.php 第 62 行.
+[ 2012-09-11T16:35:39+08:00 ] /admin.php?a=index&m=Product&category=103 | NOTIC: [8] Undefined index:  createTime1 ProductAction.class.php 第 63 行.
+[ 2012-09-11T16:35:39+08:00 ] /admin.php?a=index&m=Product&category=103 | NOTIC: [8] Undefined index:  viewCount ProductAction.class.php 第 64 行.
+[ 2012-09-11T16:35:39+08:00 ] /admin.php?a=index&m=Product&category=103 | NOTIC: [8] Undefined index:  viewCount1 ProductAction.class.php 第 65 行.
+[ 2012-09-11T16:35:39+08:00 ] /admin.php?a=index&m=Product&category=103 | NOTIC: [8] Undefined index:  pageSize ProductAction.class.php 第 69 行.
+[ 2012-09-11T16:35:39+08:00 ] /admin.php?a=index&m=Product&category=103 | SQL: SELECT COUNT(*) AS tp_count FROM `yge_product` LIMIT 1   [ RunTime:0.000263s ]
+[ 2012-09-11T16:35:39+08:00 ] /admin.php?a=index&m=Product&category=103 | SQL: SELECT a.*,b.title as category FROM yge_product a LEFT JOIN yge_category b on a.category_id=b.id ORDER BY a.id DESC LIMIT 0,15   [ RunTime:0.001281s ]
+[ 2012-09-11T16:35:39+08:00 ] /admin.php?a=index&m=Product&category=103 | SQL: SHOW COLUMNS FROM `yge_admin_log` [ RunTime:0.042272s ]
+[ 2012-09-11T16:35:39+08:00 ] /admin.php?a=index&m=Product&category=103 | SQL: INSERT INTO `yge_admin_log` (`user_id`,`username`,`action`,`ip`,`create_time`) VALUES (1,'lizhongyi','/admin.php?a=index&m=Product&category=103','127.0.0.1',1347352539) [ RunTime:0.061317s ]
+[ 2012-09-11T16:35:39+08:00 ] /admin.php?a=index&m=Product&category=103 | INFO: Tag[ view_template ] --START--
+[ 2012-09-11T16:35:39+08:00 ] /admin.php?a=index&m=Product&category=103 | INFO: Run LocationTemplate Behavior [ RunTime:0.012129s ]
+[ 2012-09-11T16:35:39+08:00 ] /admin.php?a=index&m=Product&category=103 | INFO: Tag[ view_template ] --END-- [ RunTime:0.012289s ]
+[ 2012-09-11T16:35:39+08:00 ] /admin.php?a=index&m=Product&category=103 | INFO: Tag[ view_parse ] --START--
+[ 2012-09-11T16:35:39+08:00 ] /admin.php?a=index&m=Product&category=103 | NOTIC: [8] Use of undefined constant menunames - assumed 'menunames' d2e35c8ee995f5ea8bcdd111a7689f7f.php 第 58 行.
+[ 2012-09-11T16:35:39+08:00 ] /admin.php?a=index&m=Product&category=103 | NOTIC: [8] Undefined variable: _TPL d2e35c8ee995f5ea8bcdd111a7689f7f.php 第 58 行.
+[ 2012-09-11T16:35:39+08:00 ] /admin.php?a=index&m=Product&category=103 | NOTIC: [8] Undefined variable: value d2e35c8ee995f5ea8bcdd111a7689f7f.php 第 58 行.
+[ 2012-09-11T16:35:39+08:00 ] /admin.php?a=index&m=Product&category=103 | NOTIC: [8] Undefined index:  title d2e35c8ee995f5ea8bcdd111a7689f7f.php 第 134 行.
+[ 2012-09-11T16:35:39+08:00 ] /admin.php?a=index&m=Product&category=103 | NOTIC: [8] Undefined index:  categoryId d2e35c8ee995f5ea8bcdd111a7689f7f.php 第 135 行.
+[ 2012-09-11T16:35:39+08:00 ] /admin.php?a=index&m=Product&category=103 | NOTIC: [8] Undefined index:  userId d2e35c8ee995f5ea8bcdd111a7689f7f.php 第 136 行.
+[ 2012-09-11T16:35:39+08:00 ] /admin.php?a=index&m=Product&category=103 | NOTIC: [8] Undefined index:  createTime d2e35c8ee995f5ea8bcdd111a7689f7f.php 第 137 行.
+[ 2012-09-11T16:35:39+08:00 ] /admin.php?a=index&m=Product&category=103 | NOTIC: [8] Undefined index:  createTime1 d2e35c8ee995f5ea8bcdd111a7689f7f.php 第 138 行.
+[ 2012-09-11T16:35:39+08:00 ] /admin.php?a=index&m=Product&category=103 | NOTIC: [8] Undefined index:  recommend d2e35c8ee995f5ea8bcdd111a7689f7f.php 第 139 行.
+[ 2012-09-11T16:35:39+08:00 ] /admin.php?a=index&m=Product&category=103 | NOTIC: [8] Undefined index:  status d2e35c8ee995f5ea8bcdd111a7689f7f.php 第 140 行.
+[ 2012-09-11T16:35:39+08:00 ] /admin.php?a=index&m=Product&category=103 | NOTIC: [8] Undefined index:  istop d2e35c8ee995f5ea8bcdd111a7689f7f.php 第 141 行.
+[ 2012-09-11T16:35:39+08:00 ] /admin.php?a=index&m=Product&category=103 | NOTIC: [8] Undefined index:  viewCount d2e35c8ee995f5ea8bcdd111a7689f7f.php 第 142 行.
+[ 2012-09-11T16:35:39+08:00 ] /admin.php?a=index&m=Product&category=103 | NOTIC: [8] Undefined index:  viewCount1 d2e35c8ee995f5ea8bcdd111a7689f7f.php 第 143 行.
+[ 2012-09-11T16:35:39+08:00 ] /admin.php?a=index&m=Product&category=103 | NOTIC: [8] Undefined index:  orderType d2e35c8ee995f5ea8bcdd111a7689f7f.php 第 144 行.
+[ 2012-09-11T16:35:39+08:00 ] /admin.php?a=index&m=Product&category=103 | NOTIC: [8] Undefined index:  orderBy d2e35c8ee995f5ea8bcdd111a7689f7f.php 第 145 行.
+[ 2012-09-11T16:35:39+08:00 ] /admin.php?a=index&m=Product&category=103 | NOTIC: [8] Undefined index:  pageSize d2e35c8ee995f5ea8bcdd111a7689f7f.php 第 146 行.
+[ 2012-09-11T16:35:39+08:00 ] /admin.php?a=index&m=Product&category=103 | NOTIC: [8] Undefined variable: pageBar d2e35c8ee995f5ea8bcdd111a7689f7f.php 第 202 行.
+[ 2012-09-11T16:35:39+08:00 ] /admin.php?a=index&m=Product&category=103 | INFO: Run ParseTemplate Behavior [ RunTime:0.120610s ]
+[ 2012-09-11T16:35:39+08:00 ] /admin.php?a=index&m=Product&category=103 | INFO: Tag[ view_parse ] --END-- [ RunTime:0.120772s ]
+[ 2012-09-11T16:35:39+08:00 ] /admin.php?a=index&m=Product&category=103 | INFO: Tag[ view_filter ] --START--
+[ 2012-09-11T16:35:39+08:00 ] /admin.php?a=index&m=Product&category=103 | INFO: Run ContentReplace Behavior [ RunTime:0.008602s ]
+[ 2012-09-11T16:35:39+08:00 ] /admin.php?a=index&m=Product&category=103 | INFO: Run TokenBuild Behavior [ RunTime:0.006871s ]
+[ 2012-09-11T16:35:39+08:00 ] /admin.php?a=index&m=Product&category=103 | INFO: Run WriteHtmlCache Behavior [ RunTime:0.008168s ]
+[ 2012-09-11T16:35:39+08:00 ] /admin.php?a=index&m=Product&category=103 | INFO: Run ShowRuntime Behavior [ RunTime:0.007222s ]
+[ 2012-09-11T16:35:39+08:00 ] /admin.php?a=index&m=Product&category=103 | INFO: Tag[ view_filter ] --END-- [ RunTime:0.031261s ]
+[ 2012-09-11T16:35:39+08:00 ] /admin.php?a=index&m=Product&category=103 | INFO: Tag[ view_end ] --START--
+[ 2012-09-11T16:35:39+08:00 ] /admin.php?a=index&m=Product&category=103 | INFO: Run ShowPageTrace Behavior [ RunTime:0.016651s ]
+[ 2012-09-11T16:35:39+08:00 ] /admin.php?a=index&m=Product&category=103 | INFO: Tag[ view_end ] --END-- [ RunTime:0.016837s ]
+[ 2012-09-11T16:36:12+08:00 ] /admin.php?a=delete&m=Product&id=104 | INFO: Tag[ app_begin ] --START--
+[ 2012-09-11T16:36:12+08:00 ] /admin.php?a=delete&m=Product&id=104 | INFO: Run ReadHtmlCache Behavior [ RunTime:0.007158s ]
+[ 2012-09-11T16:36:12+08:00 ] /admin.php?a=delete&m=Product&id=104 | INFO: Tag[ app_begin ] --END-- [ RunTime:0.007358s ]
+[ 2012-09-11T16:36:13+08:00 ] /admin.php?a=delete&m=Product&id=104 | NOTIC: [2048] Declaration of AdvModel::_before_insert() should be compatible with that of Model::_before_insert() AdvModel.class.php 第 18 行.
+[ 2012-09-11T16:36:13+08:00 ] /admin.php?a=delete&m=Product&id=104 | NOTIC: [2048] Declaration of AdvModel::_before_update() should be compatible with that of Model::_before_update() AdvModel.class.php 第 18 行.
+[ 2012-09-11T16:36:13+08:00 ] /admin.php?a=delete&m=Product&id=104 | NOTIC: [2048] Declaration of AdvModel::_after_select() should be compatible with that of Model::_after_select() AdvModel.class.php 第 18 行.
+[ 2012-09-11T16:36:13+08:00 ] /admin.php?a=delete&m=Product&id=104 | NOTIC: [2048] Declaration of AdvModel::_after_find() should be compatible with that of Model::_after_find() AdvModel.class.php 第 18 行.
+[ 2012-09-11T16:36:13+08:00 ] /admin.php?a=delete&m=Product&id=104 | SQL: SHOW COLUMNS FROM `yge_module` [ RunTime:0.004409s ]
+[ 2012-09-11T16:36:13+08:00 ] /admin.php?a=delete&m=Product&id=104 | SQL: SELECT * FROM `yge_module` WHERE left_menu=1 and status=0 ORDER BY display_order DESC,id ASC  [ RunTime:0.002326s ]
+[ 2012-09-11T16:36:13+08:00 ] /admin.php?a=delete&m=Product&id=104 | SQL: SHOW COLUMNS FROM `yge_category` [ RunTime:0.022736s ]
+[ 2012-09-11T16:36:13+08:00 ] /admin.php?a=delete&m=Product&id=104 | SQL: SELECT * FROM `yge_category` ORDER BY display_order DESC,id DESC  [ RunTime:0.005718s ]
+[ 2012-09-11T16:36:13+08:00 ] /admin.php?a=delete&m=Product&id=104 | SQL: SHOW COLUMNS FROM `yge_product` [ RunTime:0.005197s ]
+[ 2012-09-11T16:36:13+08:00 ] /admin.php?a=delete&m=Product&id=104 | NOTIC: [8] Undefined offset:  1 Action.class.php 第 233 行.
+[ 2012-09-11T16:36:13+08:00 ] /admin.php?a=delete&m=Product&id=104 | SQL: SELECT * FROM `yge_product` WHERE id = 104 LIMIT 1   [ RunTime:0.002356s ]
+[ 2012-09-11T16:36:13+08:00 ] /admin.php?a=delete&m=Product&id=104 | SQL: DELETE FROM `yge_product` WHERE id = 104 [ RunTime:0.157992s ]
+[ 2012-09-11T16:36:13+08:00 ] /admin.php?a=delete&m=Product&id=104 | NOTIC: [2] unlink() [<a href='function.unlink'>function.unlink</a>]: open_basedir restriction in effect. File(/html/Product/shexiang/201209/104.html) is not within the allowed path(s): (E:\phpnow\vhosts\xili;C:\Windows\Temp;) ProductAction.class.php 第 384 行.
+[ 2012-09-11T16:36:13+08:00 ] /admin.php?a=delete&m=Product&id=104 | NOTIC: [8] Undefined variable: items ProductAction.class.php 第 391 行.
+[ 2012-09-11T16:36:13+08:00 ] /admin.php?a=delete&m=Product&id=104 | NOTIC: [8] Undefined variable: jumpUri ProductAction.class.php 第 391 行.
+[ 2012-09-11T16:36:13+08:00 ] /admin.php?a=delete&m=Product&id=104 | INFO: Tag[ view_template ] --START--
+[ 2012-09-11T16:36:13+08:00 ] /admin.php?a=delete&m=Product&id=104 | INFO: Run LocationTemplate Behavior [ RunTime:0.012140s ]
+[ 2012-09-11T16:36:13+08:00 ] /admin.php?a=delete&m=Product&id=104 | INFO: Tag[ view_template ] --END-- [ RunTime:0.012295s ]
+[ 2012-09-11T16:36:13+08:00 ] /admin.php?a=delete&m=Product&id=104 | INFO: Tag[ view_parse ] --START--
+[ 2012-09-11T16:36:13+08:00 ] /admin.php?a=delete&m=Product&id=104 | INFO: Run ParseTemplate Behavior [ RunTime:0.067531s ]
+[ 2012-09-11T16:36:13+08:00 ] /admin.php?a=delete&m=Product&id=104 | INFO: Tag[ view_parse ] --END-- [ RunTime:0.067695s ]
+[ 2012-09-11T16:36:13+08:00 ] /admin.php?a=delete&m=Product&id=104 | INFO: Tag[ view_filter ] --START--
+[ 2012-09-11T16:36:13+08:00 ] /admin.php?a=delete&m=Product&id=104 | INFO: Run ContentReplace Behavior [ RunTime:0.007395s ]
+[ 2012-09-11T16:36:13+08:00 ] /admin.php?a=delete&m=Product&id=104 | INFO: Run TokenBuild Behavior [ RunTime:0.007421s ]
+[ 2012-09-11T16:36:13+08:00 ] /admin.php?a=delete&m=Product&id=104 | INFO: Run WriteHtmlCache Behavior [ RunTime:0.008367s ]
+[ 2012-09-11T16:36:13+08:00 ] /admin.php?a=delete&m=Product&id=104 | INFO: Run ShowRuntime Behavior [ RunTime:0.007597s ]
+[ 2012-09-11T16:36:13+08:00 ] /admin.php?a=delete&m=Product&id=104 | INFO: Tag[ view_filter ] --END-- [ RunTime:0.031165s ]
+[ 2012-09-11T16:36:13+08:00 ] /admin.php?a=delete&m=Product&id=104 | INFO: Tag[ view_end ] --START--
+[ 2012-09-11T16:36:13+08:00 ] /admin.php?a=delete&m=Product&id=104 | INFO: Run ShowPageTrace Behavior [ RunTime:0.008374s ]
+[ 2012-09-11T16:36:13+08:00 ] /admin.php?a=delete&m=Product&id=104 | INFO: Tag[ view_end ] --END-- [ RunTime:0.008511s ]
+[ 2012-09-11T16:36:15+08:00 ] /admin.php/Product | INFO: Tag[ route_check ] --START--
+[ 2012-09-11T16:36:15+08:00 ] /admin.php/Product | INFO: Run CheckRoute Behavior [ RunTime:0.008070s ]
+[ 2012-09-11T16:36:15+08:00 ] /admin.php/Product | INFO: Tag[ route_check ] --END-- [ RunTime:0.008304s ]
+[ 2012-09-11T16:36:15+08:00 ] /admin.php/Product | INFO: Tag[ app_begin ] --START--
+[ 2012-09-11T16:36:15+08:00 ] /admin.php/Product | INFO: Run ReadHtmlCache Behavior [ RunTime:0.008524s ]
+[ 2012-09-11T16:36:15+08:00 ] /admin.php/Product | INFO: Tag[ app_begin ] --END-- [ RunTime:0.008667s ]
+[ 2012-09-11T16:36:15+08:00 ] /admin.php/Product | NOTIC: [2048] Declaration of AdvModel::_before_insert() should be compatible with that of Model::_before_insert() AdvModel.class.php 第 18 行.
+[ 2012-09-11T16:36:15+08:00 ] /admin.php/Product | NOTIC: [2048] Declaration of AdvModel::_before_update() should be compatible with that of Model::_before_update() AdvModel.class.php 第 18 行.
+[ 2012-09-11T16:36:15+08:00 ] /admin.php/Product | NOTIC: [2048] Declaration of AdvModel::_after_select() should be compatible with that of Model::_after_select() AdvModel.class.php 第 18 行.
+[ 2012-09-11T16:36:15+08:00 ] /admin.php/Product | NOTIC: [2048] Declaration of AdvModel::_after_find() should be compatible with that of Model::_after_find() AdvModel.class.php 第 18 行.
+[ 2012-09-11T16:36:15+08:00 ] /admin.php/Product | SQL: SHOW COLUMNS FROM `yge_module` [ RunTime:0.005964s ]
+[ 2012-09-11T16:36:15+08:00 ] /admin.php/Product | SQL: SELECT * FROM `yge_module` WHERE left_menu=1 and status=0 ORDER BY display_order DESC,id ASC  [ RunTime:0.001551s ]
+[ 2012-09-11T16:36:15+08:00 ] /admin.php/Product | SQL: SHOW COLUMNS FROM `yge_category` [ RunTime:0.003937s ]
+[ 2012-09-11T16:36:15+08:00 ] /admin.php/Product | SQL: SELECT * FROM `yge_category` ORDER BY display_order DESC,id DESC  [ RunTime:0.000834s ]
+[ 2012-09-11T16:36:15+08:00 ] /admin.php/Product | SQL: SHOW COLUMNS FROM `yge_product` [ RunTime:0.004421s ]
+[ 2012-09-11T16:36:15+08:00 ] /admin.php/Product | NOTIC: [8] Undefined index:  title ProductAction.class.php 第 55 行.
+[ 2012-09-11T16:36:15+08:00 ] /admin.php/Product | NOTIC: [8] Undefined index:  orderBy ProductAction.class.php 第 56 行.
+[ 2012-09-11T16:36:15+08:00 ] /admin.php/Product | NOTIC: [8] Undefined index:  orderType ProductAction.class.php 第 57 行.
+[ 2012-09-11T16:36:15+08:00 ] /admin.php/Product | NOTIC: [8] Undefined index:  recommend ProductAction.class.php 第 58 行.
+[ 2012-09-11T16:36:15+08:00 ] /admin.php/Product | NOTIC: [8] Undefined index:  categoryId ProductAction.class.php 第 59 行.
+[ 2012-09-11T16:36:15+08:00 ] /admin.php/Product | NOTIC: [8] Undefined index:  status ProductAction.class.php 第 60 行.
+[ 2012-09-11T16:36:15+08:00 ] /admin.php/Product | NOTIC: [8] Undefined index:  istop ProductAction.class.php 第 61 行.
+[ 2012-09-11T16:36:15+08:00 ] /admin.php/Product | NOTIC: [8] Undefined index:  createTime ProductAction.class.php 第 62 行.
+[ 2012-09-11T16:36:15+08:00 ] /admin.php/Product | NOTIC: [8] Undefined index:  createTime1 ProductAction.class.php 第 63 行.
+[ 2012-09-11T16:36:15+08:00 ] /admin.php/Product | NOTIC: [8] Undefined index:  viewCount ProductAction.class.php 第 64 行.
+[ 2012-09-11T16:36:15+08:00 ] /admin.php/Product | NOTIC: [8] Undefined index:  viewCount1 ProductAction.class.php 第 65 行.
+[ 2012-09-11T16:36:15+08:00 ] /admin.php/Product | NOTIC: [8] Undefined index:  pageSize ProductAction.class.php 第 69 行.
+[ 2012-09-11T16:36:15+08:00 ] /admin.php/Product | SQL: SELECT COUNT(*) AS tp_count FROM `yge_product` LIMIT 1   [ RunTime:0.001290s ]
+[ 2012-09-11T16:36:15+08:00 ] /admin.php/Product | SQL: SELECT a.*,b.title as category FROM yge_product a LEFT JOIN yge_category b on a.category_id=b.id ORDER BY a.id DESC LIMIT 0,15   [ RunTime:0.001191s ]
+[ 2012-09-11T16:36:15+08:00 ] /admin.php/Product | SQL: SHOW COLUMNS FROM `yge_admin_log` [ RunTime:0.003692s ]
+[ 2012-09-11T16:36:15+08:00 ] /admin.php/Product | SQL: INSERT INTO `yge_admin_log` (`user_id`,`username`,`action`,`ip`,`create_time`) VALUES (1,'lizhongyi','/admin.php/Product','127.0.0.1',1347352575) [ RunTime:0.000327s ]
+[ 2012-09-11T16:36:15+08:00 ] /admin.php/Product | INFO: Tag[ view_template ] --START--
+[ 2012-09-11T16:36:15+08:00 ] /admin.php/Product | INFO: Run LocationTemplate Behavior [ RunTime:0.013197s ]
+[ 2012-09-11T16:36:15+08:00 ] /admin.php/Product | INFO: Tag[ view_template ] --END-- [ RunTime:0.013353s ]
+[ 2012-09-11T16:36:15+08:00 ] /admin.php/Product | INFO: Tag[ view_parse ] --START--
+[ 2012-09-11T16:36:15+08:00 ] /admin.php/Product | NOTIC: [8] Use of undefined constant menunames - assumed 'menunames' d2e35c8ee995f5ea8bcdd111a7689f7f.php 第 58 行.
+[ 2012-09-11T16:36:15+08:00 ] /admin.php/Product | NOTIC: [8] Undefined variable: _TPL d2e35c8ee995f5ea8bcdd111a7689f7f.php 第 58 行.
+[ 2012-09-11T16:36:15+08:00 ] /admin.php/Product | NOTIC: [8] Undefined variable: value d2e35c8ee995f5ea8bcdd111a7689f7f.php 第 58 行.
+[ 2012-09-11T16:36:15+08:00 ] /admin.php/Product | NOTIC: [8] Undefined index:  title d2e35c8ee995f5ea8bcdd111a7689f7f.php 第 134 行.
+[ 2012-09-11T16:36:15+08:00 ] /admin.php/Product | NOTIC: [8] Undefined index:  categoryId d2e35c8ee995f5ea8bcdd111a7689f7f.php 第 135 行.
+[ 2012-09-11T16:36:15+08:00 ] /admin.php/Product | NOTIC: [8] Undefined index:  userId d2e35c8ee995f5ea8bcdd111a7689f7f.php 第 136 行.
+[ 2012-09-11T16:36:15+08:00 ] /admin.php/Product | NOTIC: [8] Undefined index:  createTime d2e35c8ee995f5ea8bcdd111a7689f7f.php 第 137 行.
+[ 2012-09-11T16:36:15+08:00 ] /admin.php/Product | NOTIC: [8] Undefined index:  createTime1 d2e35c8ee995f5ea8bcdd111a7689f7f.php 第 138 行.
+[ 2012-09-11T16:36:15+08:00 ] /admin.php/Product | NOTIC: [8] Undefined index:  recommend d2e35c8ee995f5ea8bcdd111a7689f7f.php 第 139 行.
+[ 2012-09-11T16:36:15+08:00 ] /admin.php/Product | NOTIC: [8] Undefined index:  status d2e35c8ee995f5ea8bcdd111a7689f7f.php 第 140 行.
+[ 2012-09-11T16:36:15+08:00 ] /admin.php/Product | NOTIC: [8] Undefined index:  istop d2e35c8ee995f5ea8bcdd111a7689f7f.php 第 141 行.
+[ 2012-09-11T16:36:15+08:00 ] /admin.php/Product | NOTIC: [8] Undefined index:  viewCount d2e35c8ee995f5ea8bcdd111a7689f7f.php 第 142 行.
+[ 2012-09-11T16:36:15+08:00 ] /admin.php/Product | NOTIC: [8] Undefined index:  viewCount1 d2e35c8ee995f5ea8bcdd111a7689f7f.php 第 143 行.
+[ 2012-09-11T16:36:15+08:00 ] /admin.php/Product | NOTIC: [8] Undefined index:  orderType d2e35c8ee995f5ea8bcdd111a7689f7f.php 第 144 行.
+[ 2012-09-11T16:36:15+08:00 ] /admin.php/Product | NOTIC: [8] Undefined index:  orderBy d2e35c8ee995f5ea8bcdd111a7689f7f.php 第 145 行.
+[ 2012-09-11T16:36:15+08:00 ] /admin.php/Product | NOTIC: [8] Undefined index:  pageSize d2e35c8ee995f5ea8bcdd111a7689f7f.php 第 146 行.
+[ 2012-09-11T16:36:15+08:00 ] /admin.php/Product | NOTIC: [8] Undefined variable: pageBar d2e35c8ee995f5ea8bcdd111a7689f7f.php 第 202 行.
+[ 2012-09-11T16:36:15+08:00 ] /admin.php/Product | INFO: Run ParseTemplate Behavior [ RunTime:0.106084s ]
+[ 2012-09-11T16:36:15+08:00 ] /admin.php/Product | INFO: Tag[ view_parse ] --END-- [ RunTime:0.106240s ]
+[ 2012-09-11T16:36:15+08:00 ] /admin.php/Product | INFO: Tag[ view_filter ] --START--
+[ 2012-09-11T16:36:15+08:00 ] /admin.php/Product | INFO: Run ContentReplace Behavior [ RunTime:0.008115s ]
+[ 2012-09-11T16:36:15+08:00 ] /admin.php/Product | INFO: Run TokenBuild Behavior [ RunTime:0.008222s ]
+[ 2012-09-11T16:36:15+08:00 ] /admin.php/Product | INFO: Run WriteHtmlCache Behavior [ RunTime:0.006668s ]
+[ 2012-09-11T16:36:15+08:00 ] /admin.php/Product | INFO: Run ShowRuntime Behavior [ RunTime:0.022124s ]
+[ 2012-09-11T16:36:15+08:00 ] /admin.php/Product | INFO: Tag[ view_filter ] --END-- [ RunTime:0.045537s ]
+[ 2012-09-11T16:36:15+08:00 ] /admin.php/Product | INFO: Tag[ view_end ] --START--
+[ 2012-09-11T16:36:15+08:00 ] /admin.php/Product | INFO: Run ShowPageTrace Behavior [ RunTime:0.055901s ]
+[ 2012-09-11T16:36:15+08:00 ] /admin.php/Product | INFO: Tag[ view_end ] --END-- [ RunTime:0.098446s ]

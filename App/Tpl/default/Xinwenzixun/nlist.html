@@ -1,0 +1,46 @@
+<include file="Public:header" />
+<!--单页-->
+<div class="wp">
+<div class="bannar1"><img src="/Public/img/bannar1.jpg" width="980" height="148" /></div>
+<div class="weizhi"><a href="/">首页</a> > <a href="{$murl}">新闻中心</a>  {~get_parent_cat($catelist,$cat_id,$jingtai,$moduleName)}</div>
+  <div class="left_box">
+  <h3 style="background-position: -200px 0;">新闻中心</h3>
+  <ul class="yiji">
+  <volist name ="catelist" id="voc">
+  <li>{$voc.str_repeat}<a href="{$voc['url']}">{$voc['title']}</a></li>
+ </volist>
+      
+     
+  </ul>
+   <h4></h4>
+  <div class="lianxi"><br />
+
+
+</div>
+</div>
+  <div class="right_box">
+    <div class="news_box">
+      <div class="rr"></div>
+  <div class="news_list">
+<ul>
+<li>{$xinxi}</li>
+<volist name="dataContentList" id="row">
+<li><span class="dd">{$row.create_time|date="Y-m-d",###}</span>[<a href="{:U('Article/index', array('category' => $row['category_id']))}">{$row['categoryName']}</a>]<a href="{$row['url']}">{$row['title']|msubstr=0,30}</a></li>
+</volist>
+</ul>
+<div class="cl"></div>
+</dl>
+
+
+
+  </div>
+</div>
+  <div class="pages">
+      <div class="page_list"> {$pageContentBar} </div>
+    </div>
+  <div class="page"></div>
+  </div>
+  </div>
+<include file="Public:footer"/>
+
+

@@ -1,0 +1,115 @@
+<include file="homeheader"/>
+<script type="text/javascript" src="/Public/Js/pinyin.js">
+
+</script>
+<script src="/Public/Js/user.js?af={$jsrand}"></script>
+<script>
+$(document).ready(function(e) {
+      
+       sms();   
+	   
+	  $(".deldh").click(function(e) {
+         
+		 deldh($(this));
+		
+    }); 
+	  
+	 function deldh(obj){
+		   
+		    $(".delbox h3").html("你确定删除与"+obj.attr("uname")+"的全部回话么？");
+			$(".tanchuang").show();
+		 
+		 }  
+	   
+});
+
+
+
+
+</script>
+<div class="home_box mid">
+
+<div class="u_left_box">
+<ul>
+<li><a href="#">个人主页</a></li>
+<li>收藏</li>
+<li>分享</li>
+<li>我发布的文章</li>
+</ul>
+<h3>标签</h3>
+<ul>
+<li>吃货</li>
+<li>美食</li>
+<li>讲究</li>
+</ul>
+<h3>用户群</h3>
+<ul class="nuser">
+<volist name="newuser" id="vo">
+<li><a href="{:U('User/home',array('uid'=>$vo['id']))}" title="<if condition="$vo['realname'] neq '' ">{$vo['realname']}<else/>{$vo['username']}</if>">
+<img src="<if condition="$vo['face'] neq ''">{$vo['face']}<else/>
+/Public/img/face.jpg
+</if>" />
+</a></li>
+</volist>
+</ul>
+</div>
+<div class="u_right_box">
+<div class="like_box">
+<div class="hziliao">
+
+<div>
+ <div class="liuyan">
+  <span id="msg"></span><button class="sixin">写私信</button><div id="rr"></div>
+</div>
+<div class="cl"></div>
+<div id="liu_f" style="margin-top:16px;">
+<span id="msg"></span>
+<div class="huifu_box" style="display:block; padding:18px;display:none; margin-top:8px; clear:both;">
+<input  type="text" name="suser" id="suser" class="suser"  placeholder="搜索用户" toid='' />
+<div class="close"><div id="hfname"></div><div class="ajax_user">
+<div id="uli">
+</div>
+
+</div></div>
+
+<form action="" method="post" name="huifu_frm">
+
+<textarea name="content" id="content" class="txtbox"  toid='' style="width:520px !important;"></textarea><span class="tishi"></span><div class="tjdiv"><button type="submit" class="sms_bt" sendUrl="{:U('User/sms',array('act'=>'send_sms'))}" >发送</button></div><div class="cl"></div></form>
+</div>
+
+</div>
+</div>
+<div class="cl"></div>
+</div>
+<div class="list">
+<h3>我的私信</h3>
+</div>
+<div class="list_box" >
+<ul>
+<volist name="silist" id="vo">
+
+
+<li>
+<div class="book_item">
+<div  class="sm_face"><a href="{:U('User/home',array('uid'=>$vo['tid']))}" ><img src="{$vo['uface']}" width="40" height="40" /></a></div><p>{$vo['sixin'][0]['st']}<a href="{:U('User/home',array('uid'=>$vo['tid']))}" >{$vo['tid']|getuname}</a> : {$vo['sixin'][0]['content']}</p>
+<div class="si_cz" align="right"><a href="{:U('User/smsbox',array('toid'=>$vo['tid']))}">{$vo['tixing']}共{$vo['nums']}对话</a>|<a href="javascript:;" hfid="{$vo['tid']}" hfname="{$vo['tid']|getuname}" class="hfs">回复</a>|<a href="javascript:;" uname="{$vo['tid']|getuname}" uid="{$vo['tid']}" class="deldh" >删除</a>{$vo['sz']}</div>
+</p>
+</li>
+
+</volist>
+</ul>
+</div>
+<div class="cl"></div>
+</div>
+<!--留言区域-->
+
+</div>
+</div>
+<div class="tanchuang" style="position:absolute; width:300px; display:none; margin-left:-150px; left:50%; top:100px; border:2px solid #ddd; background:#FFF;">
+<div class="delbox">
+<h3>你确定要删与除所有回话么？</h3>
+<button type="button">取消</button><button type="button">确定</button>
+</div>
+</div>
+<include file="Public:footer"/>
+

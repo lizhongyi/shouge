@@ -1,0 +1,360 @@
+<include file="homeheader"/>
+<script type="text/javascript">
+
+$(document).ready(function(e) {
+	
+	/* 读取资料字段*/
+
+     $("#jiaxiang").html($(".city option:selected").text()+$(".town option:selected").text()+$(".area option:selected").text());	
+	 $("#xianjv").html( $("#xianjv").next().find(".city option:selected").text()+$("#xianjv").next().find(".town option:selected").text()+ $("#xianjv").next().find(".area option:selected").text());
+	/*相应回车操作*/
+	
+	       $('textarea').live("keydown",function(e) {
+  
+       if (e.ctrlKey && e.which ==13){
+		   
+          $(this).next().find("button").click();
+            }
+         })
+       
+	 //发私信   
+	$('.hfs').click(function(e) {
+		
+		$(".huifu_box").toggle();
+		
+		
+	});
+	//提交私信
+	
+	 $('.sms_bt').click(function(e) {
+            
+		
+			if($('#content1').val()=='' || $('#suser').val() == ""){
+                    $("#msg").html('内容不能为空')
+				    return false;
+				}
+				
+				var content = guolv($('#content1').val());
+				var suser = $('#suser').val();
+				$.ajax({
+					type:"POST",
+					url:"{:U('User/sms',array('act'=>'send_sms'))}",
+					data:{toid:suser,content:content},
+					beforeSend: function(){
+						 $('#msg1').html("发送中");
+						},
+						success: function(data){
+							
+							   if(data=="ok")
+							    $('#msg1').html("");{
+									//刷新当前页面
+									
+									window.location.reload();
+									
+									}
+								
+								
+							
+							}
+					
+					
+            });
+			
+			return false;
+		    
+    });
+	
+	
+	
+	
+	
+	
+		
+		
+		//发布留言
+		     $('.ly').live("click",function(){
+			     
+				    
+				    var regS = new RegExp(/(\'|\"|\\)/g);
+                    var ge='\$1';
+                    var regR = /\r/g;
+                    var regN = /\n/g; 
+					var content = guolv($('#content').val());
+					var toid    = $('#content').attr('toid');
+					//alert(content);
+					 
+			    $.ajax({
+					  type:"POST",
+					  url:"{:U('User/message',array('act'=>'sendmsg'))}",
+					  data:{'content':content,toid:toid},
+					  beforeSend: function(){
+						  
+						       $('#msg').html("正在发送").show();     
+						  
+						      } ,
+					       success: function(data){
+						  
+ if(data=='ok'){
+								 $('#msg').html("留言成功").fadeOut(2000); 
+								 $("#msg_list").load("{:U('User/message',array('act'=>'msglist','toid'=>$urr['id'],'suiji'=>'"+Math.round(Math.random()*0)+3000+"'))}");
+								 
+								}
+								else{
+							
+									  $('#msg').html(data); 
+									}
+						  
+						  }
+					
+					
+					});
+					
+					return false;
+					
+			});
+			
+			//取得留言列表
+			$("#msg_list").load("{:U('User/message',array('act'=>'msglist','toid'=>$urr['id']))}");
+		 
+		    //加载留言分页
+			$(".page_list a").live("click",function(){
+				  
+				 
+				  
+				 if($(this).parent().attr('id')=='liuyan_page'){
+					
+					 $("#msg_list1").load("{:U('User/message',array('act'=>'msglist','toid'=>$yid,'p'=>'"+$(this).attr("page")+"'))}");
+					  }
+					  
+				
+				  if($(this).parent().attr('id')=='huifu_page'){
+					//alert($(this).parent().parent().attr('class'));
+					$(this).parent().parent().load("{:U('User/message',array('act'=>'hflist','hfid'=>'"+$(this).parent().attr("hfid")+"','p'=>'"+$(this).attr("page")+"'))}");
+					  }	  
+				
+					  
+				 
+				 });
+		 
+		 
+		 
+         //回复表单
+         $('.hf_bt').live("click",function(e) {
+			 
+		  /*限制表单字数*/
+		
+		 var zishu=$('#huifu').text().length;
+         var fm='<div class="close"><span>×</span></div><form action="" method="post" name="huifu_frm"><textarea name="huifu" id="huifu_'+$(this).attr("lid")+'" toid='+$(this).attr("lid")+'></textarea><div class="tjdiv"><span class="zishu">200</span><button type="submit" class="ly_hf" tid="'+$(this).attr("lid")+'" itemid="'+$(this).attr("itemid")+'">回复</button></div><div class="cl"></div></form>';
+		 
+		 
+	      $(this).parent().find(".huifu_box").html(fm).show();
+          $(this).parent().find(".hflist_box").load("{:U('User/message',array('act'=>'hflist','hfid'=>'"+$(this).attr("itemid")+"'))}").show();
+		  if($(this).val() != ""){
+			  
+			  $(this).hide();
+			  $(this).parent().find(".huifu_box textarea").focus();
+			   
+			  }
+			  else{
+				  $(this).next().hide();
+				   $(this).parent().find(".huifu_box textarea").focus();
+				  }
+		 
+  });
+		/*显示输入字数*/
+ $('textarea').live("keyup",function(){
+			
+			var zishu = $(this).next().find("span.zishu");
+			zishu.html(parseInt(200-calcByteCount($(this).val()) / 2 ));
+		         
+				 
+				 
+				if(zishu.text() < 0){
+	                  zishu.css('color',"#F60");
+					}
+				    else{
+						 zishu.css('color',"#333");
+					}
+            
+        });
+});
+            //关闭表单
+			$('.close span').live("click",function(){
+				 
+				 $(this).parent().parent().hide(0).html("");
+				
+				})
+			/*at@*/	
+			 $('a.at').live("click",function(){
+				
+				 $(this).parent().parent().parent().prev().find('textarea').val($(this).attr('hid'));
+				 });
+				
+		   //回复提交
+		     $('.ly_hf').live("click",function(){
+				 
+				
+				var bian =$(this).parent().parent().parent().next();
+				var url="{:U('User/message',array('act'=>'hflist','hfid'=>'"+$(this).attr("itemid")+"','suiji'=>'"+Math.round(Math.random()*0)+3000+"'))}";
+			    $.ajax({
+					  type:"POST",
+					  url:"{:U('User/message',array('act'=>'send_hf'))}",
+					  data:{content:$("#huifu_"+$(this).attr('tid')).val(),hfid:$(this).attr('itemid')},
+					  beforeSend: function(){
+						  // $("#tt").html('nihao');
+} ,
+					  success: function(data){
+						    
+							
+							if(data=='ok'){
+                           // $("#tt").html('chenggong');
+								
+							bian.load(url);
+							}else{
+								
+								alert("出错了");
+								
+								}
+						  
+						  }
+					
+					
+					});
+					
+				return  false;	
+				
+				
+				
+				
+				
+	 
+
+	
+					
+	
+});
+
+
+
+</script>
+<div class="home_box mid">
+<div class="u_left_box">
+<ul>
+<li><a href="#">个人主页</a></li>
+<li>收藏</li>
+<li>分享</li>
+<li>我发布的文章</li>
+</ul>
+<h3>标签</h3>
+<ul>
+<li>吃货</li>
+<li>美食</li>
+<li>讲究</li>
+</ul>
+<include file="user.inc" />
+</div>
+<div class="u_right_box">
+
+<div class="like_box">
+<div class="hziliao">
+<div class="face">
+<img src="<if condition="$urr['face'] neq ''">{$urr['face']}<else/>
+/Public/img/face.jpg
+</if>" width="140" height="140"/>
+
+</div>
+<div class="mitght">
+<div class="uname">
+  <if condition="$urr['realname'] neq '' ">{$urr['realname']}
+    <else/>{$urr['username']}</if><br />
+<span class="qm">{$urr['motto']}</span></div>
+<div class="liuyan">
+<button class="sixin hfs" uid="{$urr['id']}">私信</button><button class="liu" onClick="window.location='#liuyan'">留言</button>
+
+</div>
+
+</div>
+<div class="cl"></div>
+<div class="huifu_box" style="display:block; padding:18px;display:none; clear:both; margin-top:10px; overflow:hidden;">
+
+<div class="close"><div class="ftitle"><div id="hfname" style="display:block;">发给：<if condition=" $urr['realname'] neq
+'' ">{$urr['realname']}<else/> {$urr['username']} </if></div><input  type="hidden" name="suser" id="suser"   placeholder="搜索用户" value="{$urr['id']}" /></div></div>
+
+<form action="" method="post" name="huifu_frm">
+
+<textarea name="content" id="content1" class="txtbox"  toid='{$urr["id"]}' style="width:520px!important;"></textarea><div class="tjdiv"><span class="zishu"></span><button type="submit" class="sms_bt" >发送</button></div><div class="cl"></div></form>
+</div>
+
+</div>
+<div class="list_box">
+<h3>关于我</h3>
+<h1></h1>
+<div class="pfile_box">
+h1!我是<strong>{$urr['realname']}</strong><br>
+我是一位<strong>{$urr['worker']}</strong><br>
+我毕业于<strong>{$urr['edu']}</strong><br>
+我的家乡在美丽的:<span style="display:none"><p class="lebal_content">
+
+<span id="hometown"></span>
+<script>earth("hometown","{$urr['hometown']}")</script>
+</p></span>
+<span id="jiaxiang"></span><br>
+
+现在身在
+<span id="xianjv">asasd</span>
+<span id="city" style="display:none"></span>
+<script>earth("city","{$urr['city']}")</script><br>
+
+
+我的座右铭是:<strong>{$urr['motto']}</strong><br>
+下面是我的介绍：{$urr['about']}
+
+</div>
+<h3>TA喜欢的</h3>
+<ul>
+<li><a href="3">功能供您自定义中心标记、自发生彩条、拍摄</a></li>
+<li><a  href="#">能供分别是中心标记、自发生彩条、拍摄</a></li>
+<li><a href="#">功您自分别是中心标记、自发生彩条、拍摄</a></li>
+</ul>
+</div>
+<div class="list_box">
+<h3>TA的收藏</h3>
+<ul>
+<li><a href="3">功能供您自定心标记、自发生彩条、拍摄</a></li>
+<li><a  href="#">能供您自定义，分标记、自发生彩条、拍摄</a></li>
+<li><a href="#">功您自定义分别是中心标、自发生彩条、拍摄</a></li>
+</ul>
+</div>
+<div class="cl"></div>
+</div>
+<!--留言区域-->
+<div class="feedbox">
+<h3><a name="liuyan">留言</a></h3>
+<div id="tt"></div>
+<div class="liu_f">
+<div class="huifu_box" style="display:block; padding:18px;">
+<span id="msg"></span>
+<form action="" method="post" name="huifu_frm"><textarea name="content" id="content"  toid='{$urr["id"]}'></textarea><div class="tjdiv"><span class="zishu">200</span><button type="submit" class="ly" >发送</button></div><div class="cl"></div></form>
+</div>
+
+</div>
+
+<div id="msg_list">
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+</div>
+
+<include file="Public:footer"/>

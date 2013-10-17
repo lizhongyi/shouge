@@ -1,0 +1,319 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+<title>北京网站建设|高端网站建设|网站制作|网站设计|博越广维公司-资深网站建设服务商</title>
+<meta name="description" content="北京博越广维有限公司提供高端网站建设，网站制作，网站设计，网站改版，网站策划，网页设计等服务，为您打造个性化的高端定制网站。北京博越广维网站建设公司电话：010-51282966" />
+<meta name="keywords" content="北京网站建设，高端网站建设，高端网站制作，北京网站设计，网站改版" />
+	<link rel="stylesheet" href="smarty/style/reset.css"/>
+	<link rel="stylesheet" href="smarty/style/layout.css"/>
+	<script src="smarty/javascript/jquery-1.10.1.min.js"></script>
+	<script src="smarty/javascript/slide.js"></script>
+	
+	<script>
+		$(function(){
+			//服务
+			$('.one_fourth_box').each(function(){
+				$(this).hover(function(){
+					$(this).children('.ofb-img').stop(true).animate({top:'-135px'})
+					$(this).children('.ofb-img-bottom').stop(true).animate({top:'25px'})
+					$(this).children('.ofb-text').stop(true).animate({top:'160px'})
+					$(this).children('.ofb-text-top').stop(true).animate({top:'25px'})
+					$(this).children('.ofb-bg').stop(true,true).fadeIn();
+				},function(){
+					$(this).children('.ofb-img').stop(true).animate({top:'25px'})
+					$(this).children('.ofb-img-bottom').stop(true).animate({top:'160px'})
+					$(this).children('.ofb-text').stop(true).animate({top:'25px'})
+					$(this).children('.ofb-text-top').stop(true).animate({top:'-110px'})
+					$(this).children('.ofb-bg').stop(true,true).fadeOut();
+				})
+			})
+			// 案例
+			$('.g_items').each(function(){
+				$(this).hover(function(){
+						$(this).children('.g_items_border').stop(true,true).fadeIn('slow')
+				},function(){
+					$(this).children('.g_items_border').stop(true,true).hide()
+				})
+			})
+		})
+	</script>
+	
+</head>
+<body>
+	<div class="top_tools grid1k mt10 clearfix"><a href="/case.html" class="tools_case fr">案例展示</a><a href="/contact.html" class="tools_contact fr">联系我们</a>
+	</div>
+	<div class="header grid1k">
+		<a href="/" class="h_logo fl">博越广维</a>
+ 		<ul class="h_nav fl">
+			<li><a href="/" class="active">首页</a></li>
+			<li><a href="/about.html">关于</a></li>
+			<li><a href="/case.html">案例</a></li>
+            <li><a href="/service.html">服务</a></li>
+			<li><a href="/news.html">新闻</a></li>
+			<li><a href="/view.html">视点</a></li>
+		</ul>
+		<div class="clear"></div>
+	</div>
+	<div class="banner-slide">
+		<ul class="banner-btn">
+			<li>1</li>
+			<li>2</li>
+			<li class="last">3</li>
+		</ul>
+		<div class="slide-con" id="slide-1"></div>
+		<div class="slide-con" id="slide-2"></div>
+		<div class="slide-con" id="slide-3"></div>
+	</div>
+	<div class="g_r_1st grid1k clearfix mt30">
+		<a href="/service.html" class="one_fourth_box fl">
+			<div class="ofb-bg"></div>
+			<div class="ofb-img mypng"><img src="images/1of4-1.png" alt=""></div>
+			<div class="ofb-img-bottom mypng"><img src="images/1of4-1-h.png" alt=""></div>
+			<div class="ofb-text">
+				<h5 class="color_333">网站建设</h5>
+				<p class="color_666">定制化网站建设服务商，企业网络品牌树立全程服务。您的网站需要专业的团队去建设，我们给您带来不只是付出更收获回报</p>
+			</div>
+			<div class="ofb-text-top">
+				<h5 class="color_orange">网站建设</h5>
+				<p class="color_999">定制化网站建设服务商，企业网络品牌树立全程服务。您的网站需要专业的团队去建设，我们给您带来不只是付出更收获回报</p>
+			</div>
+		</a>
+		<a href="/service/mobile.html" class="one_fourth_box ofb-r fl">
+			<div class="ofb-bg"></div>
+			<div class="ofb-img mypng"><img src="images/1of4-3.png" alt=""></div>
+			<div class="ofb-img-bottom mypng"><img src="images/1of4-3-h.png" alt=""></div>
+			<div class="ofb-text">
+				<h5 class="color_333">移动互联网</h5>
+				<p class="color_666">移动互联网：手机网站建设、APP客户端开发，Android、IOS、Winphone 多平台支持</p>
+			</div>
+			<div class="ofb-text-top">
+				<h5 class="color_orange">移动互联网</h5>
+				<p class="color_999">移动互联网：手机网站建设、APP客户端开发，Android、IOS、Winphone 多平台支持</p>
+			</div>
+		</a>
+		<a href="/service/maintain.html" class="one_fourth_box fl">
+			<div class="ofb-bg"></div>
+			<div class="ofb-img mypng"><img src="images/1of4-2.png" alt=""></div>
+			<div class="ofb-img-bottom mypng"><img src="images/1of4-2-h.png" alt=""></div>
+			<div class="ofb-text">
+				<h5 class="color_333">网站运维</h5>
+				<p class="color_666">您多长时间更新一次网站？每天、每周还是半年...<br>网站运行的怎么样？给您带来收益了吗？<br>网站的运营与维护将决定网站的生命质量。</p>
+			</div>
+			<div class="ofb-text-top">
+				<h5 class="color_orange">网站运维</h5>
+				<p class="color_999">您多长时间更新一次网站？每天、每周还是半年...网站运行的怎么样？给您带来收益了吗？网站的运营与维护将决定网站的生命质量。</p>
+			</div>
+		</a>
+		<a href="/service/prdouct.html" class="one_fourth_box ofb-r fl">
+			<div class="ofb-bg"></div>
+			<div class="ofb-img mypng"><img src="images/1of4-4.png" alt=""></div>
+			<div class="ofb-img-bottom mypng"><img src="images/1of4-4-h.png" alt=""></div>
+			<div class="ofb-text">
+				<h5 class="color_333">产品开发</h5>
+				<p class="color_666">互联网功能性平台建设，定制化网站产品开发服务。成熟的功能性网站产品销售。</p>
+			</div>
+			<div class="ofb-text-top">
+				<h5 class="color_orange">产品开发</h5>
+				<p class="color_999">互联网功能性平台建设，定制化网站产品开发服务。成熟的功能性网站产品销售。</p>
+			</div>
+		</a>
+	</div>
+	<div class="g_r_2rd grid1k mt10 clearfix">
+		<h2 class="heading_case"><p class="fl">案例<span>CASES</span></p><a href="/case.html" class="more fr">MORE+</a></h2>
+	</div>
+	<div class="line"></div>
+	<div class="gallery grid1k clearfix">
+    		<div class="g_items">
+			<a class="g_i_pic_wrap" href="/info/2013/07/case_352.html" title="中国之队" target="_blank"><img class="g_items_bg" src="smarty/upload/info/img/201307/1375070488951.jpg" alt="中国之队"/></a>
+			<a href="/info/2013/07/case_352.html" title="中国之队" target="_blank" class="g_items_border"><img src="images/case-border.png" alt="中国之队"></a>
+		</div>
+    		<div class="g_items">
+			<a class="g_i_pic_wrap" href="/info/2013/07/case_356.html" title="兴业银行" target="_blank"><img class="g_items_bg" src="smarty/upload/info/img/201307/1375070718399.jpg" alt="兴业银行"/></a>
+			<a href="/info/2013/07/case_356.html" title="兴业银行" target="_blank" class="g_items_border"><img src="images/case-border.png" alt="兴业银行"></a>
+		</div>
+    		<div class="g_items">
+			<a class="g_i_pic_wrap" href="/info/2013/07/case_159.html" title="方正宽带" target="_blank"><img class="g_items_bg" src="smarty/upload/info/img/201307/1375077805537.jpg" alt="方正宽带"/></a>
+			<a href="/info/2013/07/case_159.html" title="方正宽带" target="_blank" class="g_items_border"><img src="images/case-border.png" alt="方正宽带"></a>
+		</div>
+    		<div class="g_items">
+			<a class="g_i_pic_wrap" href="/info/2013/07/case_157.html" title="雷诺汽车" target="_blank"><img class="g_items_bg" src="smarty/upload/info/img/201307/1375077950726.jpg" alt="雷诺汽车"/></a>
+			<a href="/info/2013/07/case_157.html" title="雷诺汽车" target="_blank" class="g_items_border"><img src="images/case-border.png" alt="雷诺汽车"></a>
+		</div>
+    		<div class="g_items">
+			<a class="g_i_pic_wrap" href="/info/2013/07/case_154.html" title="HYET Sweet" target="_blank"><img class="g_items_bg" src="smarty/upload/info/img/201307/1375078052549.jpg" alt="HYET Sweet"/></a>
+			<a href="/info/2013/07/case_154.html" title="HYET Sweet" target="_blank" class="g_items_border"><img src="images/case-border.png" alt="HYET Sweet"></a>
+		</div>
+    		<div class="g_items">
+			<a class="g_i_pic_wrap" href="/info/2013/07/case_158.html" title="达芙荻丽" target="_blank"><img class="g_items_bg" src="smarty/upload/info/img/201307/1375078085525.jpg" alt="达芙荻丽"/></a>
+			<a href="/info/2013/07/case_158.html" title="达芙荻丽" target="_blank" class="g_items_border"><img src="images/case-border.png" alt="达芙荻丽"></a>
+		</div>
+    		<div class="g_items">
+			<a class="g_i_pic_wrap" href="/info/2013/07/case_357.html" title="棒师傅" target="_blank"><img class="g_items_bg" src="smarty/upload/info/img/201307/1375078970911.jpg" alt="棒师傅"/></a>
+			<a href="/info/2013/07/case_357.html" title="棒师傅" target="_blank" class="g_items_border"><img src="images/case-border.png" alt="棒师傅"></a>
+		</div>
+    		<div class="g_items">
+			<a class="g_i_pic_wrap" href="/info/2013/07/case_156.html" title="爱国者" target="_blank"><img class="g_items_bg" src="smarty/upload/info/img/201209/1347611633213.jpg" alt="爱国者"/></a>
+			<a href="/info/2013/07/case_156.html" title="爱国者" target="_blank" class="g_items_border"><img src="images/case-border.png" alt="爱国者"></a>
+		</div>
+    	</div>
+	<div class="g_r_3nd grid_full border_line mt20">
+		<div class="grid1k clearfix">
+			<div class="one_third_box fl dotted_line">
+				<h3>解决方案<span>SOLUTIONS</span></h3>
+				<p class="solution_des box_position">博越广维致力于高端网站建设，高端网站制作，高端网站设计，网站改版，满足你个性化需求。我们始终坚信为客户创造最大价值是我们存在的目标！</p>
+				<ul class="list_tiny">
+<li><a href="/program/34.html">企业官网</a></li>
+<li><a href="/program/35.html">SNS互动平台</a></li>
+<li><a href="/program/36.html">集团网站</a></li>
+<li><a href="/program/37.html">手机应用网站</a></li>
+<li><a href="/program/38.html">政府网站群</a></li>
+<li><a href="/program/39.html">教育信息网络平台</a></li>
+<li><a href="/program/40.html">电子商务平台系统</a></li>
+				</ul>
+				<div class="clear"></div>
+			</div>
+			<div class="one_third_box fl dotted_line ">
+				<h3><p class="fl">新闻<span>NEWS</span></p><a href="/news.html" class="more fr">MORE+</a></h3>
+				<div class="clear"></div>
+				<ul class="list_normal box_position">
+<li><a href="/info/2012/09/news_150.html" target="_blank" title="恭贺博越广维成功牵手爱国者">恭贺博越广维成功牵手爱国者</a></li>
+<li><a href="/info/2012/09/news_19.html" target="_blank" title="庆贺教育平台成功上线">庆贺教育平台成功上线</a></li>
+<li><a href="/info/2012/09/news_20.html" target="_blank" title="博越广维成功签约盐城捷康官网项目">博越广维成功签约盐城捷康官网项目</a></li>
+<li><a href="/info/2012/09/news_21.html" target="_blank" title="博越广维为果园老农提供网络建设服务">博越广维为果园老农提供网络建设服务</a></li>
+<li><a href="/info/2012/09/news_22.html" target="_blank" title="祝贺博越广维与方正宽带再度合作">祝贺博越广维与方正宽带再度合作</a></li>
+<li><a href="/info/2012/09/news_23.html" target="_blank" title="瑞士哈弗莱公司中文官网建设完成上线">瑞士哈弗莱公司中文官网建设完成上线</a></li>
+<li><a href="/info/2012/09/news_24.html" target="_blank" title="博越广维与“黑番茄”资讯分享平台建立长期合作关系">博越广维与“黑番茄”资讯分享平台建立长期合作...</a></li>
+<li><a href="/info/2012/09/news_25.html" target="_blank" title="贺博越广维与留学生网签订长期合作意向">贺博越广维与留学生网签订长期合作意向</a></li>
+				</ul>
+				<div class="clear"></div>
+			</div>
+			<div class="one_third_box fl">
+				<h3><p class="fl">视点<span>VIEWPOINT</span></p><a href="/view.html" class="more fr">MORE+</a></h3>
+				<div class="clear"></div>
+				<ul class="list_normal box_position">
+<li><a href="/info/2013/01/view_349.html" target="_blank" title="网站seo优化过程中应该监测哪些数据">网站seo优化过程中应该监测哪些数据</a></li>
+<li><a href="/info/2013/01/view_348.html" target="_blank" title="新手写作软文的5个步骤">新手写作软文的5个步骤</a></li>
+<li><a href="/info/2012/12/view_347.html" target="_blank" title="活动推广营销的方法及具体操作方法">活动推广营销的方法及具体操作方法</a></li>
+<li><a href="/info/2012/12/view_346.html" target="_blank" title="怎么进行软文推广以及具体的操作方法">怎么进行软文推广以及具体的操作方法</a></li>
+<li><a href="/info/2012/12/view_344.html" target="_blank" title="怎么有效的做QQ群推广营销以及具体操作方法">怎么有效的做QQ群推广营销以及具体操作方法</a></li>
+<li><a href="/info/2012/11/view_337.html" target="_blank" title="中小企业怎么样系统的做网络营销（五）方案制定篇">中小企业怎么样系统的做网络营销（五）方案制定...</a></li>
+<li><a href="/info/2012/11/view_336.html" target="_blank" title="中小企业怎么样系统的做网络营销（四）用户分析篇">中小企业怎么样系统的做网络营销（四）用户分析...</a></li>
+<li><a href="/info/2012/11/view_334.html" target="_blank" title="中小企业怎么样系统的做网络营销（三）内容篇">中小企业怎么样系统的做网络营销（三）内容篇</a></li>
+				</ul>
+				<div class="clear"></div>
+			</div>
+		</div>
+	</div>
+	<div class="g_r_4th grid1k mt10">
+		<h2 class="heading_case"><p class="fl">我们的客户<span>OUR CUSTOMERS</span></p><a href="/about/client.html" class="more fr">MORE+</a></h2>
+		<div class="clear"></div>
+		<div class="mt10">
+			<ul class="customer_list clearfix">
+<li><!-- <a href="" target="_blank" title="国家信息中心"> --><img src="smarty/upload/info/img/201307/thumb/1375082411335.jpg" alt="国家信息中心"><!-- </a> --></li>
+<li><!-- <a href="" target="_blank" title="通州商务园"> --><img src="smarty/upload/info/img/201307/thumb/1375082490813.jpg" alt="通州商务园"><!-- </a> --></li>
+<li><!-- <a href="" target="_blank" title="兴业银行"> --><img src="smarty/upload/info/img/201307/thumb/1375082642164.jpg" alt="兴业银行"><!-- </a> --></li>
+<li><!-- <a href="" target="_blank" title="联想"> --><img src="smarty/upload/info/img/201307/thumb/1375082658659.jpg" alt="联想"><!-- </a> --></li>
+<li><!-- <a href="" target="_blank" title="果园老农"> --><img src="smarty/upload/info/img/201307/thumb/1375082683259.jpg" alt="果园老农"><!-- </a> --></li>
+<li><!-- <a href="" target="_blank" title="方正宽带"> --><img src="smarty/upload/info/img/201307/thumb/1375082704437.jpg" alt="方正宽带"><!-- </a> --></li>
+<li><!-- <a href="" target="_blank" title="爱国者"> --><img src="smarty/upload/info/img/201307/thumb/1375082739420.jpg" alt="爱国者"><!-- </a> --></li>
+<li><!-- <a href="" target="_blank" title="中粮"> --><img src="smarty/upload/info/img/201307/thumb/1375082756464.jpg" alt="中粮"><!-- </a> --></li>
+<li><!-- <a href="" target="_blank" title="HYET Sweet"> --><img src="smarty/upload/info/img/201307/thumb/1375082772567.jpg" alt="HYET Sweet"><!-- </a> --></li>
+<li><!-- <a href="" target="_blank" title="盐城捷康"> --><img src="smarty/upload/info/img/201307/thumb/1375082789701.jpg" alt="盐城捷康"><!-- </a> --></li>
+<li><!-- <a href="" target="_blank" title="棒师傅"> --><img src="smarty/upload/info/img/201307/thumb/1375082810062.jpg" alt="棒师傅"><!-- </a> --></li>
+<li><!-- <a href="" target="_blank" title="英国金属"> --><img src="smarty/upload/info/img/201307/thumb/1375082827537.jpg" alt="英国金属"><!-- </a> --></li>
+				
+
+			</ul>
+		</div>
+	</div>
+	<div class="line mt20"></div>
+	<div class="footer grid1k">
+  <div class="clearfix mt20">
+    <dl class="footer_item">
+      <dt class="color_333">关于</dt>
+      <dd><a href="http://bygw.net/about.html" title="">介绍</a></dd>
+      <dd><a href="http://bygw.net/about/idea.html" title="">理念</a></dd>
+      <dd><a href="http://bygw.net/about/team.html" title="">团队</a></dd>
+      <dd><a href="http://bygw.net/about/client.html" title="">客户</a></dd>
+    </dl>
+    <dl class="footer_item">
+      <dt class="color_333">服务</dt>
+      <dd><a href="http://bygw.net/service.html" title="">网站建设</a></dd>
+      <dd><a href="http://bygw.net/service/maintain.html" title="">网站维护</a></dd>
+      <dd><a href="http://bygw.net/service/prdouct.html" title="">博越产品</a></dd>
+      <dd><a href="http://bygw.net/service/mobile.html" title="">移动互联网</a></dd>
+    </dl>
+    <dl class="footer_item">
+      <dt class="color_333">其他</dt>
+      <dd><a href="http://bygw.net/case.html" title="">案例</a></dd>
+      <dd><a href="http://bygw.net/news.html" title="">新闻</a></dd>
+      <dd><a href="http://bygw.net/view.html" title="">视点</a></dd>
+      <dd><a href="http://bygw.net/job.html">招聘</a></dd>
+      <dd><a href="http://bygw.net/contact.html">联系</a></dd>
+    </dl>
+    <dl class="footer_item">
+      <dt class="color_333">常用链接</dt>
+      <dd><a href="http://bygw.net/service/prdouct.html" title="">BYSNS产品演示</a></dd>
+    </dl>
+    <ul class="contact_list fr color_666">
+      <li><a href="http://www.bygw.net/" title="" class="min_logo"><img src="images/mini_logo_03.jpg" alt=""></a></li>
+      <li>地址：北京市朝阳区东四环中路39号华业国际B座305</li>
+      <li>电话：<span class="color_blue">010-65202685/51282966</span></li>
+      <li><a href="mailto:sale@bygw.net" class="color_blue"><img src="images/mail_icon_03.jpg" alt="" class="mail_icon"/>sale@bygw.net</a></li>
+      <li><a href="http://www.bygw.net/" class="color_blue">www.bygw.net</a></li>
+    </ul>
+  </div>
+  <p class="footer_info f11 En-letter center mt10">Copyright 2013 <a class="color_orange" href="http://www.bygw.net/" title="">www.bygw.net</a>  All Rights Reserved</p>
+  <p class="footer_info color_999 center">京ICP备11010099 </p>
+</div>	<div class="link_area">
+		<p class="link_title">友情链接</p>
+		<div class="line link_line"></div>
+		<div class="link_list_box clearfix">
+<ul class="link_list"><li><a href="http://www.pagework.cn" target="_blank">上海网站设计公司</a></li>
+<li><a href="http://www.ing8.net" target="_blank">济南做网站</a></li>
+<li><a href="http://wz.68design.net" target="_blank">设计名站</a></li>
+<li><a href="http://www.vlongbiz.cn" target="_blank">山东网站建设</a></li>
+<li><a href="http://www.hainanweb.net" target="_blank">海南网站建设</a></li>
+</ul><ul class="link_list"><li><a href="http://www.fireinter.com" target="_blank">火网互联</a></li>
+<li><a href="http://www.seolover.com/" target="_blank">北京网站建设</a></li>
+<li><a href="http://www.netpai.com/" target="_blank">深圳网站建设</a></li>
+<li><a href="http://www.bluehostbbs.com/" target="_blank">bluehost</a></li>
+<li><a href="http://www.nyjishu.com/" target="_blank">农业技术</a></li>
+</ul><ul class="link_list"><li><a href="http://www.lingdi.net" target="_blank">免费个人空间</a></li>
+<li><a href="http://www.wangzhan360.com" target="_blank">北京建站公司</a></li>
+<li><a href="http://www.cheeme.cn/" target="_blank">沈阳网站优化</a></li>
+<li><a href="http://www.xinguan.net/" target="_blank">网络营销外包</a></li>
+<li><a href="http://gz.58.com/wangzhan/" target="_blank">广州网站建设</a></li>
+</ul><ul class="link_list"><li><a href="http://tj.58.com/wangzhan/" target="_blank">天津网站建设</a></li>
+<li><a href="http://sh.58.com/wangzhan/" target="_blank">上海网站建设</a></li>
+<li><a href="http://www.nmxcz.com/" target="_blank">北京网站建设</a></li>
+<li><a href="http://dali.focus.cn/" target="_blank">大理房产网</a></li>
+<li><a href="http://www.hntarena.com/" target="_blank">达内</a></li>
+</ul><ul class="link_list"><li><a href="http://beijing.liebiao.com/jianzhan/" target="_blank">北京网站建设</a></li>
+<li><a href="http://www.szciya.com/" target="_blank">深圳网站建设</a></li>
+<li><a href="http://www.hi0312.com/" target="_blank">保定网站建设</a></li>
+<li><a href="http://www.webchao.com/" target="_blank">石家庄做网站</a></li>
+<li><a href="http://www.chxqd.com/" target="_blank">做网站</a></li>
+</ul><ul class="link_list"><li><a href="http://www.sjznet.net/" target="_blank">石家庄网站建设</a></li>
+<li><a href="http://www.szciya.com/" target="_blank">深圳网站建设</a></li>
+<li><a href="http://www.qxpow.com/" target="_blank">广州网站建设</a></li>
+<li><a href="http://www.haoboweb.com/" target="_blank">长沙网站制作</a></li>
+<li><a href="http://www.646000.com/" target="_blank">泸州网页制作</a></li>
+</ul>        
+		</div>
+	</div>
+<!-- Baidu Button BEGIN -->
+<script type="text/javascript" id="bdshare_js" data="type=slide&img=6&pos=left&uid=119923" ></script>
+<script type="text/javascript" id="bdshell_js"></script>
+<script type="text/javascript">
+		varbds_config = {"bdTop":147};
+		document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + new Date().getHours();
+</script>
+<!-- Baidu Button END -->
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fbcdf3538a25c468300e3b8a192ee5f12' type='text/javascript'%3E%3C/script%3E"));
+</script>
+</body>
+</html>

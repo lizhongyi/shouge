@@ -1,0 +1,461 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>登陆</title>
+<style>
+/**=====登录部分========**/
+
+body {
+	background: #f8f8f8;
+}
+div.logo_u {
+	height: 40px;
+	margin-top: 100px;
+	text-align: left;
+	padding-left: 20px;
+}
+div.login_box {
+	width: 300px;
+	margin: 0 auto;
+	overflow: hidden;
+	position: relative
+}
+div.hezi {
+	width: 600px;
+}
+div.lbox1, div.lbox2 {
+	float: left;
+	display: inline;
+}
+div.login_form {
+	width: 300px;
+	height: 280px;
+	border: 0px solid #DDD;
+	border-bottom: 1px solid #DDD;
+}
+div.login_form input#username,div.login_form input#password,div.login_form input#username1,div.login_form input#password1 {
+	display: block;
+	clear: both;
+	border-bottom: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+	border-left: 1px solid #999;
+	border-top: 1px solid #999;
+	width: 240px;
+	height: 36px;
+	line-height: 36px;
+	margin-top: 16px;
+	color: #999;
+	background: #FDFDFD;
+	padding-left: 10px;
+	
+}
+
+div.login_form h2 {
+	font-family: "微软雅黑";
+	font-size: 25px;
+	line-height: 40px;
+	font-weight: 100;
+	color: #999;
+	padding-left: 20px;
+	margin-top: 10px;
+}
+div.login_form form {
+	margin: 10px 24px;
+}
+
+div.login_form form .lbt {
+	height: 36px;
+	line-height: 36px;
+    cursor:pointer;
+	width:250px;
+	
+	border:0px; color:#666;
+	padding-left:20px;
+	text-align:left;
+	font-size:16px;
+	 background: -webkit-gradient(linear, 0 0, 0 100%, from(#FFFFFF), to(#F3F3F3));
+background: -moz-linear-gradient(top, #FFFFFF, #F3F3F3);
+border:1px solid #666;
+	border-top:1px  solid #ddd;
+	border-left:1px  solid #ddd;
+}
+div.login_form form .lbt:hover{ border:1px solid #666;
+	border-bottom:1px  solid #ddd;
+	border-right:1px  solid #ddd;}
+.buts{height: 36px;
+	line-height: 36px;
+	
+	color:#FFF;
+	
+	display: block; margin-top:16px;
+	position:relative;
+	 font-size:12px; color:#666;
+	 
+	}
+.jizhu input{
+	position: absolute;
+	left: 1px;
+	top: 7px;
+}
+.jizhu input:hover{ border:1px solid #000}
+.jizhu{
+	position: absolute;
+	left: 138px;
+	top: 2px;
+	line-height: 14px;
+	width: 40px;
+	text-align: left;
+	padding-left: 24px;
+	height: 35px;
+	line-height: 35px;
+}
+div.re{ line-height:36px; height:36px; text-align:left; }
+div.re a{ display:block; float:left; font-size:12px;width:100px; text-decoration:none; font-size:14px; color:#999; text-shadow:#FFF 1 2;}
+div.re a:hover{ text-decoration: underline; color:#666}
+div.login_form form input.regbt {
+	width: 100px;
+	height: 36px;
+	background: #666;
+	color: #FFF;
+	font-size: 14px;
+	border: 0px;
+	cursor: pointer
+}
+div.login_form form a.reg, div.login_form form a.denglu {
+	
+	font-size: 12px;
+}
+.l_footer {
+	line-height: 20px;
+	padding-left: 10px;
+	color: #B0B0B0;
+	font-size: 12px;
+}
+#msg {
+	color: #F00;
+	font-size: 12px;
+	height: 22px;
+}
+div.login_form form input.regbt{width:100px; height:36px;background:#666; color:#FFF; font-size:14px; border:0px; cursor:pointer}
+</style>
+<script language="javascript" type="text/javascript" src="/Public/Js/Jquery/jquery.js"></script>
+<script language="javascript" type="text/javascript" src="/Public/Jquery/jquery.validate.js"></script>
+<script type="text/javascript">
+//alert(window.history.length);
+function fanhui(){
+    if(window.history.length != 1)
+	{  
+	if(document.referrer !=""){
+	window.location=document.referrer;
+	}else
+	{
+	window.location='/';	
+	}
+	}
+	else{
+		window.close();
+		}
+	}
+
+</script>
+<script type="text/javascript">
+
+$(document).ready(function(){
+
+ 
+
+	$(".reg").click(function(){
+
+		
+
+		 $(".lbox1").animate({marginLeft:-300+"px"},300);
+
+
+		
+
+		});
+
+	/*	
+if(!+[1,]){
+          	
+		$('.login_form input').focus(function(e) {
+            if($(this).val()=="用户名")
+			{
+				$(this).val("");
+			}
+        });
+
+
+          $('.login_form input#pass').focus(function(e) {
+            $(this).hide(0);
+			$(this).next().show(0);
+			$(this).next().focus();
+			
+        });
+		
+		$('.login_form input#pass1').focus(function(e) {
+            $(this).hide(0);
+			$(this).next().show(0);
+			$(this).next().focus();
+			
+        });
+
+  
+
+		$('.login_form input').blur(function(e) {
+            if($(this).val()=="" && $(this).attr('id')=='username' || $(this).val()=="" && $(this).attr('id')=='username1'  )
+			{    
+				$(this).val("用户名");
+			}
+			 
+        });
+		
+		
+		
+		 $('.login_form input#password').blur(function(e) {
+           
+			 if($(this).val()=="" && $(this).attr('id')=='password')
+			{    
+				$(this).hide(0);
+				$(this).prev().show(0);
+			}
+			
+        });
+		
+		
+		 $('.login_form input#password1').blur(function(e) {
+           
+			 if($(this).val()=="" && $(this).attr('id')=='password1')
+			{    
+				$(this).hide(0);
+				$(this).prev().show(0);
+			}
+			
+        });
+
+
+}
+else{
+	
+	
+	$('.login_form input#username').val("");
+	$('.login_form input#password1').val("");
+	
+	
+	}
+
+
+*/
+
+		
+
+	$(".denglu").click(function(){
+
+		
+		 $(".lbox1").animate({marginLeft:0+"px"},300);
+
+
+		});	
+		
+	
+
+	});
+
+
+
+$(function(){   
+    $("#loginbt").click(function(){
+	var jumpUri = $("#jumpUri").val();
+    var username=$('#username').val();
+	var password= $('#password').val();
+	if($('#jizhu').attr('checked')==true){
+	var jizhu= $('#jizhu').val();
+	}
+	   
+	   
+	   if(username =="" || password ==""){
+		   
+		   $("#msg").html('<span style="color:#FF0000">用户名密码必须填写</span>'); 
+		   return false;
+		   }
+	
+	
+	var msg=$('#msg');
+       $.ajax({   
+		  type:"POST",   
+			  url:"{:U('User/doLogin')}",
+			  data:{
+				  username: username, password: password,jizhu:jizhu
+				  },   
+			  beforeSend:function(){
+				  	$("#msg").html('<span style="color:#FF0000"><img src="__PUBLIC__/Admin/loading.gif" align="absmiddle">正在提交登录...</span>'); 
+				  },                
+			  success:function(data){
+				  
+				switch(data)
+				{   
+				
+				
+				     case 'emptyInfo':
+						$("#msg").html('<span style="color:#FF0000">用户名密码必须填写</span>'); 
+						break
+						
+						case 'usernameFalse':
+						$("#msg").html('<span style="color:#FF0000">用户信息不存在，登录失败</span>'); 
+						
+						break
+					case 'passwordFalse':
+						$("#msg").html('<span style="color:#FF0000">密码错误</span>'); 
+						resetVerifyCode();
+						break
+					case 'roleFalse':
+						$("#msg").html('<span style="color:#FF0000">当前用户被限制登录，请联系管理员</span>');
+						resetVerifyCode();
+						break
+				
+					case 'loginSuccess':
+						$("#msg").html('<span style="color:#FF0000">登录成功</span>');
+						
+						if(jumpUri==""){
+						
+						window.location = '/';
+						}
+						else
+						{
+					    window.location=jumpUri;
+						}
+						return true;
+						break
+					default:
+						$("#msg").html('<span style="color:#FF0000">'+data+'</span>');
+						alert ('未知错误，请联系管理员');
+				}
+				return false;			
+			}               
+         });   
+		return false;
+    });  
+	
+}); 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+$(function(){   
+    $("#regbt").click(function(){
+	var jumpUri = $("#jumpUri").val();
+	var username=$('#username1').val();
+	var password= $('#password1').val();
+	var msg=$('#msg');
+	
+	
+	if(username=="" ||username=='用户名'  || password=='密码' || password==''){
+		
+		$('#msg').html('请填写用户名和密码');
+		return false;
+		}
+		
+		
+		if(password.length < 6){
+		
+		msg.html('密码不能小于6位');
+		return false;
+		}
+		
+		
+         $.ajax({   
+		  type:"POST",   
+			  url:"{:U('User/doreg')}",
+			  data:{
+				  username:  username, password: password
+				  },   
+			  beforeSend:function(){
+				  	msg.html('<span style="color:#FF0000"><img src="__PUBLIC__/Admin/loading.gif" align="absmiddle">正在提交...</span>'); 
+				  },                
+			  success:function(data){
+				  
+				  if(data=='ok'){
+					    
+						msg.html('注册成功，正在进入用户中心');
+						window.location="{:U('User/index')}";
+					  
+					  }
+					  else if(data=='isen')
+					  {
+						msg.html("用户名不能为中文");  
+					  }
+					  else if(data=='usered')
+					  {
+						msg.html("用户名已存在");  
+						username.focus();
+						username1.addClass('err');
+					  }
+				
+			}               
+         });   
+		return false;
+    });  
+	
+}); 
+</script>
+</head>
+
+<body>
+<div class="login_box">
+ <div style="height: 37px; position: absolute; left: 24px; line-height: 30px; top: 388px; width: 247px;" id="msg" ></div>
+  <div class="hezi">
+    <div class="lbox1">
+      <div class="logo_u"></div>
+      <div class="login_form">
+        <h2 align="left">经常登录就会更犀利</h2>
+        <form>
+          
+      
+          <input  value="" type="text"   placeholder="用户名"  name="usern" id="username" />
+          <input  value="" placeholder="密码" type="password" name="password"  id="password" />
+          
+        
+         <div class="buts"><div class="jizhu"><input type="checkbox"  value="1" name="jizhu" id="jizhu"/> <input name="jumpUri" type="hidden" id="jumpUri" value="{$jumpUri}" />
+          记住我</div> <button type="submit" value="登陆" id="loginbt" class="lbt">立即登录</button></div>
+          <div class="re">
+          <a href="javascript:;" class="reg">还没有账号?</a><a href="/User/repass">忘记密码？</a></div>
+        </form>
+        
+      </div>
+    </div>
+    <div class="lbox2">
+      <div class="logo_u"></div>
+      <div class="login_form">
+        <h2 align="left">我知道你是很犀利的</h2>
+        <form>
+       
+          <input  value="" type="text"   placeholder="用户名"  name="usern1" id="username1" />
+          <input  value="" placeholder="密码" type="password" name="password1"  id="password1" />
+          <div  style="height:20px; clear:both"></div>
+         
+          <input type="button" value="注册" id="regbt" class="regbt" />
+          <a href="javascript:;" class="denglu">已经有账号了</a>
+        </form>
+      </div>
+    </div>
+    <div class="cl"></div>
+  </div>
+  <div class="l_footer" style="margin:0 10px">copyright ©xiker.net  京ICP备100100</div>
+</div>
+ 
+</body>
+</html>

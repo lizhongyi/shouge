@@ -1,0 +1,20 @@
+<IfModule mod_rewrite.c>
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*)$ index.php/$1
+
+RewriteRule ^index.php/Guanyuwomen/(.*)$ index.php/?s=Guanyuwomen&lei=$1
+RewriteRule ^index.php/Fuwuxiangmu/(.*)$ index.php/?s=Fuwuxiangmu&lei=$1
+
+RewriteRule ^index.php/Xinwenzixun/(.*)/$ index.php/?s=Xinwenzixun&a=index&biaozhi=$1
+
+RewriteRule ^index.php/Xinwenzixun/(.*)/id/(.*)$ index.php/?s=Xinwenzixun&a=detail&id=$2
+
+RewriteRule ^index.php/Xinwenzixun/(.*)$ index.php/?s=Xinwenzixun&a=index&biaozhi=$1
+
+RewriteRule ^index.php/Zhengcefagui/(.*)/$ index.php/?s=Zhengcefagui&a=index&biaozhi=$1
+
+RewriteRule ^index.php/Zhengcefagui/(.*)/id/(.*)$ index.php/?s=Zhengcefagui&a=detail&id=$2
+
+RewriteRule ^index.php/Zhengcefagui/(.*)$ index.php/?s=Zhengcefagui&a=index&biaozhi=$1

@@ -1,0 +1,97 @@
+<?php
+if($_GET['act']=='hflist'){
+?>
+
+
+<volist name="msglist" id="vo">
+
+
+  <div class="book_item">
+<div  class="sm_face">
+<img src="<if condition="$vo['face'] neq ''">{$vo['face']}<else/>
+/Public/img/face.jpg
+</if>" width="35" height="35"/>
+</div>
+<div class="xiaoxi_box" style="width:450px !important">
+<a href="javascript:void(0)" style="float:right" class="at" hid="@{$vo['uid']|getuname}:">@回复</a>
+<p><a href="/" style="color:#069">{$vo['uid']|getuname}</a>
+{$vo['content']}</p>
+<span class="data">{$vo['create_time']|date="m-d h:i:s",###}</span>
+</div>
+
+
+<div class="cl"></div>
+</div>
+
+
+</volist>
+
+<div class="page_list" id="huifu_page" hfid="<?php echo $_GET['hfid']?>">
+{$pageContentBar}
+<div class="cl"></div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<?php
+}
+else
+{
+?>
+
+
+
+
+<volist name="msglist" id="vo">
+
+<div class="book_l">
+
+  <div class="book_item">
+<div  class="sm_face">
+<img src="<if condition="$vo['face'] neq ''">{$vo['face']}<else/>
+/Public/img/face.jpg
+</if>" width="60" height="60"/>
+</div>
+<div class="xiaoxi_box" style="width:450px;">
+<p>
+{$vo['content']}</p>
+
+</div><div class="c_uname"><a href="/">{$vo['uanme']}</a><span class="data">{$vo['create_time']|date="m-d h:i:s",###}</span> 
+<a href="javascript:void(0)" class="hf_bt" lid="{$vo['uid']}"  itemid="{$vo['id']}" >回复({$vo['hf_cont']})</a>
+<input class="hf_bt" lid="{$vo['uid']}"   itemid="{$vo['id']}" value="我也说一句"/>
+
+
+<div class="huifu_box">
+
+
+</div>
+
+<div class="hflist_box"></div>
+
+</div>
+<div class="cl"></div>
+</div>
+
+
+
+</div>
+
+</volist>
+
+<div class="page_list" id="liuyan_page">
+{$pageContentBar}
+<div class="cl"></div>
+</div>
+<?php
+}
+?>

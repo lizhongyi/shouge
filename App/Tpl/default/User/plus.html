@@ -1,0 +1,147 @@
+<script type = "text/javascript"> 
+$(document).ready(function(e) {
+
+    $("#showly").click(function(e) {
+        //加载留言列表
+        $("#msg_list").load("{:U('User/message',array('act'=>'msglist','toid'=>$yid))}");
+        $('html,body').animate({
+            scrollTop: 600
+        },
+        800);
+
+    });
+
+    //加载留言分页
+
+$(".page_list a").live("click", 
+    function() {
+
+
+
+        if ($(this).parent().attr('id') == 'liuyan_page') {
+
+            $("#msg_list1").load("{:U('User/message',array('act'=>'msglist','toid'=>$yid,'p'=>'" + $(this).attr("page") + "'))}");
+
+        }
+
+
+        if ($(this).parent().attr('id') == 'huifu_page') {
+            //alert($(this).parent().parent().attr('class'));
+            $(this).parent().parent().load("{:U('User/message',array('act'=>'hflist','hfid'=>'" + $(this).parent().attr("hfid") + "','p'=>'" + $(this).attr("page") + "'))}");
+
+        }
+
+
+
+
+    });
+
+    //回复表单
+    $('.hf_bt').live("click", 
+    function(e) {
+
+        /*限制表单字数*/
+
+var zishu = $('#huifu').text().length;
+        var fm = '<div class="close"><span>×</span></div><form action="" method="post" name="huifu_frm"><textarea name="huifu" id="huifu_' + $(this).attr("lid") + '" toid=' + $(this).attr("lid") + '></textarea><div class="tjdiv"><span class="zishu">200</span><button type="submit" class="ly_hf" tid="' + $(this).attr("lid") + '" itemid="' + $(this).attr("itemid") + '">回复</button></div><div class="cl"></div></form>';
+
+        $(this).parent().find(".huifu_box").html(fm).show();
+        $(this).parent().find(".hflist_box").load("{:U('User/message',array('act'=>'hflist','hfid'=>'" + $(this).attr("itemid") + "'))}").show();
+        if ($(this).val() != "") {
+
+            $(this).hide();
+            $(this).parent().find(".huifu_box textarea").focus();
+
+
+        }
+        else {
+            $(this).next().hide();
+            $(this).parent().find(".huifu_box textarea").focus();
+
+        }
+
+
+
+
+    });
+    //显示输入字数
+    $('textarea').live("keyup", 
+    function() {
+
+        $('.zishu').html(parseInt(200 - calcByteCount($(this).val()) / 2));
+
+        if ($('.zishu').text() < 0) {
+            $('.zishu').css('color', "#F60");
+
+        }
+        else {
+            $('.zishu').css('color', "#333");
+
+        }
+
+
+    });
+
+});
+//关闭表单
+$('.close span').live("click", 
+function() {
+
+    $(this).parent().parent().hide(0);
+    $(this).parent().parent().next().hide();
+
+
+})
+//@人
+ $('a.at').live("click", 
+function() {
+
+    $(this).parent().parent().parent().prev().find('textarea').val($(this).attr('hid'));
+
+});
+
+//回复提交
+$('.ly_hf').live("click", 
+function() {
+    //alert($(this).attr('tid'));
+    $.ajax({
+        type: "POST",
+        url: "{:U('User/message',array('act'=>'send_hf'))}",
+        data: {
+            content: $("#huifu_" + $(this).attr('tid')).val(),
+            hfid: $(this).attr('itemid')
+        },
+        beforeSend: function() {
+            $("#tt").html('nihao');
+
+
+        },
+        success: function(data) {
+
+            $("#tt").html('');
+            $('.huifu_box').html("回复成功").fadeOut(1000);
+            $("#msg_list").load("{:U('User/message',array('act'=>'msglist','toid'=>$yid,'local'=>'center'))}");
+
+
+        }
+
+
+
+    });
+
+    return false;
+
+
+
+
+
+
+
+
+});
+
+
+
+
+
+ </script>

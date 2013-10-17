@@ -1,0 +1,37 @@
+<include file="Public:header" />
+<!--单页-->
+<div class="main">
+<div class="bannar_1">
+    <img src="__PUBLIC__/img/banr1.png"/></div>
+
+ 
+<div class="right">
+      <div class="brunch_content"><b style=" font-size:16px; color:#2a7bba;"></b>
+        <div class="brunch_content_font">
+          <div style="height:30px;"></div>
+         <h3 class="title" style="color:#666;"><neq name="Think.get.category" value="">{$Think.get.category|selectCategory}<else/>搜索中心</neq> <em>Search</em></h3>
+
+<ul class="list" id="txt">
+<volist name="dataContentList" id="row">
+<li style="line-height:29px"><if condition="$row['link_url'] neq ''"><a href="{$row.link_url}" target="_blank" style="{$row.title_style}"><?php
+echo gaoliang($row['title'],$_GET['keyword'])
+?></a><else/><a href="{:U("$module/detail",array('item'=>$row['id']))}" target="_blank" style="{$row.title_style}"><?php
+echo $row['title'];
+?></a></if> <span class="time">[{$row.create_time|date="Y-m-d",###}]</span></li>
+
+<?php
+if ($key % 5 == 0 && $key > 1)
+{
+echo "<br/><br/>";
+}
+?>
+</volist>
+</ul>
+          <div class="manu" style="border-top:1px dashed #069; padding-top:10px;">{$pageContentBar}</div>
+        </div>
+      </div>
+    </div>
+</div>
+<div style="height:25px;"></div>
+<!--底部-->
+<include file="Public:footer" />

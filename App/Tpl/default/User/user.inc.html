@@ -1,0 +1,10 @@
+<h3>用户群</h3>
+<ul class="nuser">
+<volist name="newuser" id="vo">
+<li><a href="{:U('User/home',array('uid'=>$vo['id']))}" title="<if condition="$vo['realname'] neq '' ">{$vo['realname']}<else/>{$vo['username']}</if>">
+<img src="<if condition="$vo['face'] neq ''">{$vo['face']}<else/>
+/Public/img/face.jpg
+</if>" />
+</a></li>
+</volist>
+</ul>

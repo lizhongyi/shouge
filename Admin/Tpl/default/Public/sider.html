@@ -1,0 +1,80 @@
+	<div class="block style1">
+
+		<h2><div class="set">常规设置</div></h2>
+
+		<ul class="folder">
+
+        <li class="Index"> <a href="{:U('Index/index')}">后台首页</a></li>
+
+		<li class="Config"><a href="{:U("Config/index")}">系统配置</a></li>
+
+       
+
+        <li class="Theme"><a href="{:U("Theme/index")}">风格模板</a></li>
+
+        <li class="Admin"><a href="{:U("Admin/index")}">管理员管理</a></li>
+
+        <li class="AdminRole"><a href="{:U("AdminRole/index")}">角色管理</a></li>
+
+		</ul>
+
+	</div>
+
+
+
+	<div class="block style1">
+
+		<h2><div class="mod">模块管理</div></h2>
+
+		<ul class="folder">
+
+          <volist name="leftBar" id="lb">
+
+				<li class="{$lb['module_name']}"><a href='{:U($lb['module_name']."/index")}'>{$lb.module_title}</a>
+
+                
+
+                </li>
+
+			</volist>
+
+		</ul>
+
+	</div>
+
+	
+
+
+
+	<div class="block style1">
+
+		<h2><div class="gaoji">高级应用</div></h2>
+
+		<ul class="folder">
+
+        <li class="Tools"><a href="{:U("Tools/index")}">工具箱</a></li>
+
+        <li class="Label"><a href="{:U("Label/index")}">数据调用</a></li>
+
+        
+
+   <?php if($jingtai==1){ ?>
+
+        <li class="Html"><a href="{:U("Html/index")}">生成静态</a></li>
+
+        
+
+        <?php } ?>
+
+     
+
+		<li class="Database"><a href="{:U("Database/index")}">数据库管理</a></li>
+
+		<li class="AdminLog"><a href="{:U("AdminLog/index")}">操作日志</a></li>
+
+        <li><a href="http://www.YIGECMS.cn/manual.php" target="_blank">帮助中心</a></li>
+
+		</ul>
+
+	</div>
+

@@ -1,0 +1,58 @@
+[ 2012-09-15T20:59:59+08:00 ] 127.0.0.1 /admin.php?m=Html&a=dohtml&page=1&mod=Product
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.004437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004594s ]
+NOTIC: [2048] Declaration of AdvModel::_before_insert() should be compatible with that of Model::_before_insert() E:\phpnow\vhosts\xili\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+NOTIC: [2048] Declaration of AdvModel::_before_update() should be compatible with that of Model::_before_update() E:\phpnow\vhosts\xili\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+NOTIC: [2048] Declaration of AdvModel::_after_select() should be compatible with that of Model::_after_select() E:\phpnow\vhosts\xili\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+NOTIC: [2048] Declaration of AdvModel::_after_find() should be compatible with that of Model::_after_find() E:\phpnow\vhosts\xili\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `yge_module` [ RunTime:0.002109s ]
+SQL: SELECT * FROM `yge_module` WHERE left_menu=1 and status=0 ORDER BY display_order DESC,id ASC  [ RunTime:0.000508s ]
+NOTIC: [8] Undefined variable: where E:\phpnow\vhosts\xili\includes\conn.php 第 606 行.
+NOTIC: [8] Undefined variable: where E:\phpnow\vhosts\xili\includes\conn.php 第 606 行.
+SQL: SHOW COLUMNS FROM `yge_product` [ RunTime:0.002934s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yge_product` LIMIT 1   [ RunTime:0.000243s ]
+SQL: SELECT `id`,`title`,`category_id`,`html_url`,`create_time` FROM `yge_product` LIMIT 0,10   [ RunTime:0.012299s ]
+NOTIC: [2] file_exists() [<a href='function.file-exists'>function.file-exists</a>]: open_basedir restriction in effect. File(/html/Product/shexiang/201209/) is not within the allowed path(s): (E:\phpnow\vhosts\xili;C:\Windows\Temp;) E:\phpnow\vhosts\xili\Admin\Lib\Action\HtmlAction.class.php 第 205 行.
+NOTIC: [2] mkdir() [<a href='function.mkdir'>function.mkdir</a>]: open_basedir restriction in effect. File(\html) is not within the allowed path(s): (E:\phpnow\vhosts\xili;C:\Windows\Temp;) E:\phpnow\vhosts\xili\Admin\Lib\Action\HtmlAction.class.php 第 206 行.
+NOTIC: [2] file_put_contents() [<a href='function.file-put-contents'>function.file-put-contents</a>]: open_basedir restriction in effect. File(/html/Product/shexiang/201209/101.html) is not within the allowed path(s): (E:\phpnow\vhosts\xili;C:\Windows\Temp;) E:\phpnow\vhosts\xili\Admin\Lib\Action\HtmlAction.class.php 第 240 行.
+NOTIC: [2] file_put_contents(/html/Product/shexiang/201209/101.html) [<a href='function.file-put-contents'>function.file-put-contents</a>]: failed to open stream: Operation not permitted E:\phpnow\vhosts\xili\Admin\Lib\Action\HtmlAction.class.php 第 240 行.
+NOTIC: [2] file_exists() [<a href='function.file-exists'>function.file-exists</a>]: open_basedir restriction in effect. File(/html/Product/shexiang/201209/) is not within the allowed path(s): (E:\phpnow\vhosts\xili;C:\Windows\Temp;) E:\phpnow\vhosts\xili\Admin\Lib\Action\HtmlAction.class.php 第 205 行.
+NOTIC: [2] mkdir() [<a href='function.mkdir'>function.mkdir</a>]: open_basedir restriction in effect. File(\html) is not within the allowed path(s): (E:\phpnow\vhosts\xili;C:\Windows\Temp;) E:\phpnow\vhosts\xili\Admin\Lib\Action\HtmlAction.class.php 第 206 行.
+NOTIC: [2] file_put_contents() [<a href='function.file-put-contents'>function.file-put-contents</a>]: open_basedir restriction in effect. File(/html/Product/shexiang/201209/102.html) is not within the allowed path(s): (E:\phpnow\vhosts\xili;C:\Windows\Temp;) E:\phpnow\vhosts\xili\Admin\Lib\Action\HtmlAction.class.php 第 240 行.
+NOTIC: [2] file_put_contents(/html/Product/shexiang/201209/102.html) [<a href='function.file-put-contents'>function.file-put-contents</a>]: failed to open stream: Operation not permitted E:\phpnow\vhosts\xili\Admin\Lib\Action\HtmlAction.class.php 第 240 行.
+NOTIC: [2] file_exists() [<a href='function.file-exists'>function.file-exists</a>]: open_basedir restriction in effect. File(/html/Product/shexiang/201209/) is not within the allowed path(s): (E:\phpnow\vhosts\xili;C:\Windows\Temp;) E:\phpnow\vhosts\xili\Admin\Lib\Action\HtmlAction.class.php 第 205 行.
+NOTIC: [2] mkdir() [<a href='function.mkdir'>function.mkdir</a>]: open_basedir restriction in effect. File(\html) is not within the allowed path(s): (E:\phpnow\vhosts\xili;C:\Windows\Temp;) E:\phpnow\vhosts\xili\Admin\Lib\Action\HtmlAction.class.php 第 206 行.
+NOTIC: [2] file_put_contents() [<a href='function.file-put-contents'>function.file-put-contents</a>]: open_basedir restriction in effect. File(/html/Product/shexiang/201209/103.html) is not within the allowed path(s): (E:\phpnow\vhosts\xili;C:\Windows\Temp;) E:\phpnow\vhosts\xili\Admin\Lib\Action\HtmlAction.class.php 第 240 行.
+NOTIC: [2] file_put_contents(/html/Product/shexiang/201209/103.html) [<a href='function.file-put-contents'>function.file-put-contents</a>]: failed to open stream: Operation not permitted E:\phpnow\vhosts\xili\Admin\Lib\Action\HtmlAction.class.php 第 240 行.
+SQL: UPDATE `yge_product` SET `html_url`='html/Product/shexiang/201209/105.html' WHERE ( `id` = 105 ) [ RunTime:0.000485s ]
+
+[ 2012-09-15T21:00:08+08:00 ] 127.0.0.1 /admin.php?m=Html&a=dohtml&page=1&mod=Product
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.005263s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005406s ]
+NOTIC: [2048] Declaration of AdvModel::_before_insert() should be compatible with that of Model::_before_insert() E:\phpnow\vhosts\xili\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+NOTIC: [2048] Declaration of AdvModel::_before_update() should be compatible with that of Model::_before_update() E:\phpnow\vhosts\xili\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+NOTIC: [2048] Declaration of AdvModel::_after_select() should be compatible with that of Model::_after_select() E:\phpnow\vhosts\xili\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+NOTIC: [2048] Declaration of AdvModel::_after_find() should be compatible with that of Model::_after_find() E:\phpnow\vhosts\xili\ThinkPHP\Extend\Model\AdvModel.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `yge_module` [ RunTime:0.003530s ]
+SQL: SELECT * FROM `yge_module` WHERE left_menu=1 and status=0 ORDER BY display_order DESC,id ASC  [ RunTime:0.001237s ]
+NOTIC: [8] Undefined variable: where E:\phpnow\vhosts\xili\includes\conn.php 第 606 行.
+NOTIC: [8] Undefined variable: where E:\phpnow\vhosts\xili\includes\conn.php 第 606 行.
+SQL: SHOW COLUMNS FROM `yge_product` [ RunTime:0.006117s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yge_product` LIMIT 1   [ RunTime:0.001029s ]
+SQL: SELECT `id`,`title`,`category_id`,`html_url`,`create_time` FROM `yge_product` LIMIT 0,10   [ RunTime:0.000285s ]
+NOTIC: [2] file_exists() [<a href='function.file-exists'>function.file-exists</a>]: open_basedir restriction in effect. File(/html/Product/shexiang/201209/) is not within the allowed path(s): (E:\phpnow\vhosts\xili;C:\Windows\Temp;) E:\phpnow\vhosts\xili\Admin\Lib\Action\HtmlAction.class.php 第 205 行.
+NOTIC: [2] mkdir() [<a href='function.mkdir'>function.mkdir</a>]: open_basedir restriction in effect. File(\html) is not within the allowed path(s): (E:\phpnow\vhosts\xili;C:\Windows\Temp;) E:\phpnow\vhosts\xili\Admin\Lib\Action\HtmlAction.class.php 第 206 行.
+NOTIC: [2] file_put_contents() [<a href='function.file-put-contents'>function.file-put-contents</a>]: open_basedir restriction in effect. File(/html/Product/shexiang/201209/101.html) is not within the allowed path(s): (E:\phpnow\vhosts\xili;C:\Windows\Temp;) E:\phpnow\vhosts\xili\Admin\Lib\Action\HtmlAction.class.php 第 240 行.
+NOTIC: [2] file_put_contents(/html/Product/shexiang/201209/101.html) [<a href='function.file-put-contents'>function.file-put-contents</a>]: failed to open stream: Operation not permitted E:\phpnow\vhosts\xili\Admin\Lib\Action\HtmlAction.class.php 第 240 行.
+NOTIC: [2] file_exists() [<a href='function.file-exists'>function.file-exists</a>]: open_basedir restriction in effect. File(/html/Product/shexiang/201209/) is not within the allowed path(s): (E:\phpnow\vhosts\xili;C:\Windows\Temp;) E:\phpnow\vhosts\xili\Admin\Lib\Action\HtmlAction.class.php 第 205 行.
+NOTIC: [2] mkdir() [<a href='function.mkdir'>function.mkdir</a>]: open_basedir restriction in effect. File(\html) is not within the allowed path(s): (E:\phpnow\vhosts\xili;C:\Windows\Temp;) E:\phpnow\vhosts\xili\Admin\Lib\Action\HtmlAction.class.php 第 206 行.
+NOTIC: [2] file_put_contents() [<a href='function.file-put-contents'>function.file-put-contents</a>]: open_basedir restriction in effect. File(/html/Product/shexiang/201209/102.html) is not within the allowed path(s): (E:\phpnow\vhosts\xili;C:\Windows\Temp;) E:\phpnow\vhosts\xili\Admin\Lib\Action\HtmlAction.class.php 第 240 行.
+NOTIC: [2] file_put_contents(/html/Product/shexiang/201209/102.html) [<a href='function.file-put-contents'>function.file-put-contents</a>]: failed to open stream: Operation not permitted E:\phpnow\vhosts\xili\Admin\Lib\Action\HtmlAction.class.php 第 240 行.
+NOTIC: [2] file_exists() [<a href='function.file-exists'>function.file-exists</a>]: open_basedir restriction in effect. File(/html/Product/shexiang/201209/) is not within the allowed path(s): (E:\phpnow\vhosts\xili;C:\Windows\Temp;) E:\phpnow\vhosts\xili\Admin\Lib\Action\HtmlAction.class.php 第 205 行.
+NOTIC: [2] mkdir() [<a href='function.mkdir'>function.mkdir</a>]: open_basedir restriction in effect. File(\html) is not within the allowed path(s): (E:\phpnow\vhosts\xili;C:\Windows\Temp;) E:\phpnow\vhosts\xili\Admin\Lib\Action\HtmlAction.class.php 第 206 行.
+NOTIC: [2] file_put_contents() [<a href='function.file-put-contents'>function.file-put-contents</a>]: open_basedir restriction in effect. File(/html/Product/shexiang/201209/103.html) is not within the allowed path(s): (E:\phpnow\vhosts\xili;C:\Windows\Temp;) E:\phpnow\vhosts\xili\Admin\Lib\Action\HtmlAction.class.php 第 240 行.
+NOTIC: [2] file_put_contents(/html/Product/shexiang/201209/103.html) [<a href='function.file-put-contents'>function.file-put-contents</a>]: failed to open stream: Operation not permitted E:\phpnow\vhosts\xili\Admin\Lib\Action\HtmlAction.class.php 第 240 行.
+SQL: UPDATE `yge_product` SET `html_url`='html/Product/shexiang/201209/105.html' WHERE ( `id` = 105 ) [ RunTime:0.000327s ]
+

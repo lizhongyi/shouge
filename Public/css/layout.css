@@ -1,0 +1,467 @@
+body {
+	font: 12px/1.5em "微软雅黑", arial, sans-serif;
+}
+ul,li {
+	list-style: outside none;
+}
+a:hover {
+	...color: #283890!important;
+}
+/* 通用 */
+.grid1k {
+	width: 1000px;
+	margin: 0 auto;
+}
+.grid_full {
+	width: 100%;
+}
+.fr {
+	float: right;
+}
+.fl {
+	float: left;
+}
+.r5{ border-radius:5px;}
+.mt30 {
+	margin-top: 30px!important;
+}
+.mt20 {
+	margin-top: 20px!important;
+}
+.mt10 {
+	margin-top: 10px!important;
+}
+.mr10 {
+	margin-right: 10px;
+}
+.color_blue {
+	color: #29388c;
+}
+.color_333 {
+	color: #333;
+}
+.color_666 {
+	color: #666;
+}
+.color_999 {
+	color: #999;
+}
+.color_orange {
+	color: #e88d27;
+}
+.center {
+	text-align: center;
+}
+.En-letter {
+	font-family: arial,sans-serif;
+}
+.f11 {
+	font-size: 11px;
+}
+.border_line {
+	border-top: 1px solid #e7e7e7;
+	border-bottom: 1px solid #e7e7e7;
+}
+.line {
+	width: 100%;
+	height: 1px; 
+	border-bottom: 1px solid #ccc; 
+	overflow: hidden;
+}
+.tools_job,.tools_contact,.tools_case {
+	display: inline;
+	width: 57px;
+	height: 16px;
+	margin-right: 9px;
+	
+}
+.tools_case {
+	background: #333; color:#FFF; text-align:center;
+}
+.tools_job {
+	background: url(../img/tools_job.jpg) no-repeat;
+}
+.tools_contact { text-align:center; background: #333; color:#FFF;
+}
+
+/* 头部 */
+.header {
+	max-width: 1920px;
+	margin: 0 auto;
+	min-height: 81px;
+	_height: 81px;
+}
+.h_logo {
+	display: inline-block;
+	width: 135px;
+	height: 55px;
+	margin: 0 90px 0 10px;
+	background: url(../img/logo.jpg) no-repeat;
+	overflow: hidden;
+	font-size: 0;
+	line-height: 0;
+}
+.h_nav {
+	margin-top: 25px;
+}
+.h_nav li {
+	float: left;
+	margin-right: 45px;
+	margin-bottom: 10px;
+}
+.h_nav li a {
+	display: block;
+	width: 62px;
+	height: 24px;
+	line-height: 24px;
+	text-align: center;
+	color: #000;
+}
+.h_nav a.active {
+	background:rgb(51,65,136) no-repeat;
+	color: #fff;
+}
+.h_nav a:hover{ background:#C00; color:#FFF}
+.h_nav a.active:hover {
+	color: #fff!important;
+}
+.banner {
+	height: 255px;
+	background: url(../img/banner_bg.jpg) top repeat-x;
+	box-shadow: 0 2px 5px #000 inset;
+	-moz-box-shadow: 0 2px 5px #000 inset;
+	-webkit-box-shadow: 0 2px 5px #000 inset; 
+}
+.banner-slide {
+	height: 546px;
+	position: relative;
+	overflow: hidden;
+}
+.banner-btn {
+	position: absolute;
+	bottom: 20px;
+	left: 50%;
+	height: 13px;
+	z-index: 100;
+}
+.banner-btn li {
+	float: left;
+	width: 13px;
+	height: 13px;
+	overflow: hidden;
+	margin-right: 30px;
+	background-image: url(../img/slide-btn.png);
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	text-indent: -999em;
+	cursor: pointer;
+}
+.banner-btn li.last {
+	margin: 0;
+}
+.banner-btn li.on {
+	background-position: -33px 0;
+}
+.slide-con {
+	width: 100%;
+	margin: 0 auto;
+	height: 546px;
+	display: none;
+}
+#slide-3 {
+	background: url(../img/slide-3.jpg) center top no-repeat;
+}
+#slide-2 {
+	background: url(../img/slide-2.jpg) center top no-repeat;
+}
+#slide-1 {
+	background: url(../img/slide-1.jpg) center top no-repeat;
+}
+/* 1 2 3 4 */
+.one_fourth_box {
+	display: block;
+	position: relative;
+	width: 499px;
+	height: 135px;
+	margin: 0 2px 2px 0;
+	background: #f6f6f6;
+	overflow: hidden;
+}
+.ofb-r {
+	margin-right: 0!important;
+}
+.ofb-bg {
+	display: none;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: 2;
+	background: #333;
+}
+.ofb-img {
+	position: absolute;
+	top: 25px;
+	left: 55px;
+	z-index: 10;
+}
+.ofb-img-bottom {
+	position: absolute;
+	top: 160px;
+	left: 55px;
+	z-index: 10;
+}
+.ofb-text {
+	position: absolute;
+	top: 25px;
+	left: 195px;
+	width: 295px;
+	z-index: 10;
+}
+.ofb-text-top {
+	position: absolute;
+	top: -110px;
+	left: 195px;
+	width: 295px;
+	z-index: 10;
+}
+.ofb-text h5,.ofb-text-top h5 {
+	font-size: 18px;
+}
+.ofb-text p,.ofb-text-top p {
+	margin-top: 15px;
+}
+.ofb-r .ofb-img,.ofb-r .ofb-img-bottom {
+	left: 65px;
+}
+.ofb-r .ofb-text,.ofb-r .ofb-text-top {
+	left: 235px;
+	width: 265px;
+}
+/* 案例 */
+.heading_case {
+	height: 56px;
+	line-height: 56px;
+	font-size: 38px;
+	color: #5e5e5e;
+	text-indent: 11px;
+}
+.heading_case span {
+	margin-left: 5px;
+	font-size: 32px;
+	font-family: arial,sans-serif;
+	color: #b5b5b5;
+}
+.heading_case .more {
+	margin-right: 50px;
+	display: inline;
+	color: #787878;
+	font-size: 12px;
+}
+/* 案例图片 4*2 */
+.gallery {
+	margin: 28px auto;
+}
+.g_items {
+	position: relative;
+	width: 248px;
+	height: 166px;
+	float: left;
+	margin: 0 1px 1px 0;
+	overflow: hidden;
+}
+.g_i_pic_wrap {
+	display: block;
+	width: 248px;
+	height: 166px;
+	overflow: hidden;
+}
+.g_i_pic_wrap img {
+	display: block;
+	width: 248px;
+	height: 166px;
+}
+.g_items_border {
+	display: none;
+	width: 248px;
+	height: 166px;
+	position: absolute;
+	z-index: 10;
+	top: 0;
+	left: 0;
+}
+.g_items_border img {
+	display: block;
+	width: 248px;
+	height: 166px;
+}
+.g_items .g_items_bg {
+	position: absolute;
+	z-index: -1;
+	display: block;
+}
+.popup_layout {
+	position: absolute;
+	z-index: 99;
+	width: 248px;
+	height: 166px;
+	top: -166px;
+	background: url(../img/layout_bg.png) no-repeat;
+	color: #fff;
+}
+.popup_layout h4 {
+	font-size: 22px;
+	height: 26px;
+	line-height: 26px;
+	margin: 30px 0 10px 11px;
+}
+.popup_layout p {
+	margin-left: 11px;
+	width: 231px;
+}
+.website_btn {
+	height: 15px;
+	width: 60px;
+	display: block;
+	margin: 18px 0 0 11px;
+}
+/* 方案列表 1 2 3 */
+.g_r_3nd {
+	background: #f2f2f2 url(../img/line_24.png) no-repeat center 50px;
+}
+.one_third_box {
+	width: 333px;
+	height: 300px;
+}
+.one_third_box h3 {
+	margin-top: 20px;
+	font-size: 18px;
+	text-indent: 18px;
+	color: #5e5e5e;
+}
+.one_third_box h3 span {
+	margin-left: 3px;
+	font-size: 14px;
+	font-family: arial,sans-serif;
+	color: #9c9c9c;
+}
+.one_third_box .more {
+	font-size: 12px;
+	color: #757575;
+	margin-right: 15px;
+	display: inline;
+	font-family: arial,sans-serif;
+}
+.box_position {
+	margin: 32px 0 0 16px;
+}
+.solution_des {
+	width: 290px;
+	color: #2b2a2a;
+}
+.list_tiny {
+	float: left;
+	margin: 35px 0 0 16px;
+	display: inline;
+	width: 315px;
+}
+.list_tiny li {
+	float: left;
+	margin-bottom: 5px;
+	padding-left: 15px;
+	background: url(../img/list_style.png) no-repeat left 3px;
+	width: 135px;
+}
+.list_tiny li a,.list_normal li a {
+	color: #4a4a4a;
+}
+.list_normal li {
+	width: 280px;
+	padding-left: 15px;
+	margin-bottom: 5px;
+	background: url(../img/list_style.png) no-repeat left 3px;
+}
+.dotted_line {
+	background: url(../img/dotted_line.png) no-repeat right 70px;
+}
+
+/* 客户展示 6*2 */
+.customer_list li {
+	float: left;
+	width: 153px;
+	height: 70px;
+	border: 1px solid #dfdfdf;
+	margin: 0 10px 10px 0;
+	box-shadow: 3px 3px 5px #eee;
+	-moz-box-shadow: 3px 3px 5px #eee;
+	-webkit-box-shadow: 3px 3px 5px #eee;
+}
+
+/* 页脚 */
+.footer {
+	max-width: 1000px;
+	margin: 0 auto;
+}
+.footer_item {
+	width: 165px;
+	float: left;
+	color: #333;
+	padding-left: 10px;
+}
+.footer_item dt {
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+.footer_item dd {
+	margin-bottom: 12px;
+}
+.footer_item dd a {
+	color: #666;
+}
+.contact_list {
+	text-align: right;
+}
+.mail_icon {
+	vertical-align: middle;
+	margin-right: 3px;
+}
+
+.link_area {
+	width: 968px;
+	position: relative;
+	margin: 44px auto 50px;
+	border-bottom: 1px solid #e5e5e5;
+	padding: 15px 0;
+}
+.link_title {
+	width: 70px;
+	margin: 0 auto;
+	background: #fff;
+	text-align: center;
+}
+.link_line {
+	position: absolute;
+	top: 23px;
+	z-index: -1;
+}
+.link_list_box {
+	width: 936px;
+	overflow: hidden;
+	margin: 0 auto;
+	padding-top: 10px;
+}
+.link_list {
+	float: left;
+	margin-left: 24px;
+	display: inline;
+}
+.link_list li {
+	width: 120px;
+	padding-left: 12px;
+}
+.link_list li a {
+	color: #666;
+}
+/* ie6 */
+.mypng img {
+azimuth: expression( this.pngSet?this.pngSet=true:(this.nodeName == "IMG" && this.src.toLowerCase().indexOf('.png')>-1?(this.runtimeStyle.backgroundImage = "none", this.runtimeStyle.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + this.src + "', sizingMethod='image')", this.src = "transparent.gif"):(this.origBg = this.origBg? this.origBg :this.currentStyle.backgroundImage.toString().replace('url("', '').replace('")', ''), this.runtimeStyle.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + this.origBg + "', sizingMethod='crop')", this.runtimeStyle.backgroundImage = "none")), this.pngSet=true);
+}

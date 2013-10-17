@@ -1,0 +1,122 @@
+
+<include file="Public:header" />
+
+
+
+<div id='content' style='width:1258px; min-width:580px;_height:340px;background:transparent;margin:0px auto'>
+
+<div id="content" style="width: 1258px; height: 580px; background-image: url(/Public/img/cbg.png); background-color: rgb(255, 255, 255); margin: 0px auto; background-position: initial initial; background-repeat: initial initial;">
+
+
+<!-- 网页内容详情 -->
+<div>
+<div>
+<div style="padding:0px; position:relative; width:1000px; left:230px; padding-left:20px; padding-bottom:30px;top:60px;">
+
+<h2 align="center">{$contentDetail['title']} </h2>
+<div class="laiyuan" align="center" style="background:#F4F4F4; line-height:30px;">
+
+   内容来源：{$contentDetail.copy_from|default='本站'}　发布时间：[{$contentDetail.create_time|date="Y-m-d",###}]　查看次数：{$contentDetail.view_count}
+
+   </div>
+<div id="pagecontent" class="page_content"> 
+
+{$contentDetail['content']}
+<br>
+<br>
+
+
+</div>
+<div style="clear:both"></div>
+<script>
+
+$(window).load(function(){
+	$("#pagecontent").find("img").hide();
+	var w=$("#pagecontent")[0].offsetWidth;
+	$("#pagecontent").find("img").each(function(){
+		$(this).show();
+		if(this.offsetWidth>w){
+			this.style.width=w + "px";
+		}
+	});
+		
+});
+
+</script>
+
+</div>
+</div>
+
+</div>
+</div>
+
+<!-- 当前位置提示条 -->
+
+<div id="pdv_13961" class="pdv_class" title="" style="width:1037px;height:43px;top:0px;left:221px; z-index:6">
+<div id="spdv_13961" class="pdv_content" style="overflow:hidden;width:100%;height:100%">
+<div class="pdv_border" style="border: 0px; height: 43px; padding: 0px; margin: 0px; background-image: url(/Public/img/title3.png); background-position: 0px 0px; background-repeat: no-repeat no-repeat;">
+	
+	
+
+<div id="nav">
+您现在的位置：<a href="/">上海代缴社保网</a> &gt; <a href="/Zhengcefagui.html">政策法规</a> &gt; {$contentDetail.title}
+
+</div>
+
+</div>
+
+</div>
+</div>
+
+<!-- 网页标题菜单20 -->
+
+<div id="pdv_15387" class="pdv_class" title="栏目导航" style="width:220px;height:234px;top:0px;left:0px; z-index:8">
+<div id="spdv_15387" class="pdv_content" style="overflow:hidden;width:100%;height:100%">
+<div class="pdv_border" style="border: 0px; height: 234px; padding: 0px; margin: 0px; background-image: url(/Public/img/title2.png); background-position: 0px 0px; background-repeat: no-repeat no-repeat;">
+<div style="height:38px;border:0px;padding:0;margin:0;">
+    <div style="float:left;color:#e0e0e0;font:14px/36px 'microsoft yahei',simsun;padding-left:33px">新闻类别</div>
+	
+</div>
+<div style="margin:0px;padding:0px">
+
+
+<div class="pagemenu20">
+
+<volist name="fagui" id="vo">
+<a href="/Zhengcefagui/{$vo['biaozhi']}">{$vo['title']}</a>
+</volist>
+ 
+</div>
+
+
+</div>
+
+<!-- 自定义文本(全站) -->
+
+<div id="pdv_15439" class="pdv_class" title="联系我们" style="width:220px;top:241px;left:0px; z-index:10">
+<div id="spdv_15439" class="pdv_content" style="overflow:hidden;width:100%;height:100%">
+<div class="pdv_border" style="border: 0px;   padding: 0px; margin: 0px; background-image: url(/Public/img/title2.png); background-position: 0px 0px; background-repeat: no-repeat no-repeat;">
+<div style="height:38px;border:0px;padding:0;margin:0;">
+    <div style="float:left;color:#e0e0e0;font:14px/36px 'microsoft yahei',simsun;padding-left:33px">联系我们</div>
+	
+</div>
+
+<include file='Public:lianxi'/>
+
+</div>
+</div>
+
+
+
+</div>
+</div>
+
+</div>
+</div>
+
+
+
+<include file="Public:footer"/>
+
+
+

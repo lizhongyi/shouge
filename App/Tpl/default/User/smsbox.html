@@ -1,0 +1,173 @@
+<include file="homeheader"/>
+
+<script>
+$(document).ready(function(e) {
+      
+	  /*回车发私信*/
+	         $('textarea').keydown(function(e) {
+  
+            if (e.ctrlKey && e.which ==13){
+               $(this).next().click();
+            }
+         });
+	   
+	  
+	  /*发送私信*/
+	  $('.sms_bt').click(function(e) {
+            
+		
+			if($('#content').val()=='' || $('#suser').val() == ""){
+                    $("#msg").html('内容不能为空')
+				    return false;
+				}
+				
+				
+				var content = guolv($('#content').val());
+				var suser = $('#toid').val();
+				//alert(content);
+				//alert($('#toid').val());
+				$.ajax({
+					type:"POST",
+					url:"{:U('User/sms',array('act'=>'send_sms'))}",
+					data:{toid:suser,content:content},
+					beforeSend: function(){
+						 $('#msg').html("发送中");
+						},
+						success: function(data){
+							
+							   if(data=='ok'){
+								   // $('#msg').html("chengle");
+								 window.location.reload();//此处可一步刷新
+								   
+								   }
+								else{
+									
+									$('#msg').html(data);
+									}
+								
+							
+							}
+					
+					
+            });
+			
+			return false;
+		    
+    });
+	
+	
+	
+	
+	 
+	 /*回复私信设置*/
+	 $('.fh').click(function(e) {
+           
+		   $("#content").focus();
+    });
+	
+	/**/
+	
+	$('a.del').click(function(e) {
+        
+		if($(this).attr('delid') == ""){
+			  return false;
+			}
+			$.ajax({
+				  type:"POST",
+				  url:"{:U('User/delsms')}",
+				  data:{id:$(this).attr('delid')},
+				  beforeSend: function(){
+					  
+					  
+					  },
+				  success: function(data){
+					 
+						if(data=='ok'){
+							
+							window.location.reload();
+							
+							}
+							else{
+								 
+								 $('#msg').html(data);
+								
+								}
+						  
+						  
+					  }
+				  
+				
+				
+				});
+		
+    });
+});
+</script>
+<div class="home_box mid">
+
+<div class="u_left_box">
+<ul>
+<li><a href="#">个人主页</a></li>
+<li>收藏</li>
+<li>分享</li>
+<li>我发布的文章</li>
+</ul>
+<h3>标签</h3>
+<ul>
+<li>吃货</li>
+<li>美食</li>
+<li>讲究</li>
+</ul>
+<include file="user.inc" />
+</div>
+<div class="u_right_box">
+<div class="like_box">
+<div class="hziliao">
+
+<div>
+ 
+  <span id="msg"></span>
+
+<div class="liu_f" style="margin-top:0px;">
+
+<div class="huifu_box" style="display:block; padding:18px;">
+
+<div class="close"><div class="ftitle">发送给 {:getuname($toid)} </div><span class="guanbi">×</span></div>
+<form action="" method="post" name="huifu_frm">
+
+<input type="hidden" name="toid" id="toid" value="{$toid}" />
+<textarea name="content" id="content" class="txtbox" toid='{$urr["id"]}'></textarea><div class="tjdiv"><span class="zishu"></span><button type="submit" class="sms_bt" >发送</button></div><div class="cl"></div></form>
+</div>
+
+</div>
+</div>
+<div class="cl"></div>
+</div>
+<div class="list">
+<h3>我的私信</h3>
+</div>
+<div class="list_box" >
+<ul>
+<volist name="dhlist" id="vo">
+ <div class="book_item" style="width:80%; margin-bottom:20px;<if condition="$vo['ut'] eq '我：'"> float:right; background:#f3f3f3; <else/> float:left; </if>">
+<li><div  class="sm_face"><img src="{$vo['uface']}" width="40" height="40" /></div><p>{$vo['ut']}　{$vo['content']}</p>
+<div class="si_cz" align="right"><if condition="$vo['ut'] neq '我：'"><a href="javascript:;" class="fh" toid="{$vo['uid']}">回复</a>|</if><a href="javascript:;" class="del" delid="{$vo['id']}">删除</a>{$vo['sz']}</div>
+</li>
+</div>
+</volist>
+</ul>
+</div>
+<div class="cl"></div>
+</div>
+
+
+
+
+
+
+</div>
+</div>
+</div>
+
+<include file="Public:footer"/>
+
