@@ -17,9 +17,9 @@ $(function(){
 	})
 	function slide(i) {
 		contents.css('display','none');
-		btns.removeClass('on');
-		contents.eq(i).fadeIn();
-		btns.eq(i).addClass('on');
+		btns.removeClass('on').animate({marginLeft:'0'},200);
+		contents.eq(i).fadeIn(300);
+		btns.eq(i).addClass('on').animate({marginLeft:'-10px'},200);
 	}
 	function autoslide(){
 		timer=setInterval(function(){
@@ -29,7 +29,7 @@ $(function(){
 				index=0;
 			}
 			slide(index);
-		},8000);
+		},5000);
 	}
 	btns.mouseover(function(){
 		clearInterval(timer);

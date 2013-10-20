@@ -14,6 +14,23 @@ if (!defined('YIGECMS')) exit();
 return array (
   0 => 
   array (
+    'id' => '2',
+    'module' => '',
+    'parent_id' => '1',
+    'title' => '行业动态',
+    'biaozhi' => 'hangyedongtai',
+    'html_url' => 'html/Article/gonsixinwen/index.html',
+    'menu' => '1',
+    'keyword' => '',
+    'description' => '公司动态',
+    'display_order' => '0',
+    'protected' => '0',
+    'status' => '0',
+    'create_time' => '1262410927',
+    'update_time' => '1382262122',
+  ),
+  1 => 
+  array (
     'id' => '14',
     'module' => 'Download',
     'parent_id' => '0',
@@ -29,7 +46,7 @@ return array (
     'create_time' => '1262411171',
     'update_time' => '1342680191',
   ),
-  1 => 
+  2 => 
   array (
     'id' => '15',
     'module' => '',
@@ -46,7 +63,7 @@ return array (
     'create_time' => '1262411182',
     'update_time' => '1262411190',
   ),
-  2 => 
+  3 => 
   array (
     'id' => '1',
     'module' => 'Article',
@@ -63,7 +80,7 @@ return array (
     'create_time' => '0',
     'update_time' => '0',
   ),
-  3 => 
+  4 => 
   array (
     'id' => '17',
     'module' => '',
@@ -80,7 +97,7 @@ return array (
     'create_time' => '1262411216',
     'update_time' => '0',
   ),
-  4 => 
+  5 => 
   array (
     'id' => '33',
     'module' => '',
@@ -97,7 +114,7 @@ return array (
     'create_time' => '1267112629',
     'update_time' => '1267288982',
   ),
-  5 => 
+  6 => 
   array (
     'id' => '32',
     'module' => 'Ad',
@@ -114,7 +131,7 @@ return array (
     'create_time' => '1267112377',
     'update_time' => '1267112406',
   ),
-  6 => 
+  7 => 
   array (
     'id' => '34',
     'module' => '',
@@ -131,7 +148,7 @@ return array (
     'create_time' => '1267112648',
     'update_time' => '0',
   ),
-  7 => 
+  8 => 
   array (
     'id' => '35',
     'module' => 'Link',
@@ -148,7 +165,7 @@ return array (
     'create_time' => '1267287014',
     'update_time' => '0',
   ),
-  8 => 
+  9 => 
   array (
     'id' => '36',
     'module' => '',
@@ -165,7 +182,24 @@ return array (
     'create_time' => '1267287066',
     'update_time' => '1267288647',
   ),
-  9 => 
+  10 => 
+  array (
+    'id' => '104',
+    'module' => '',
+    'parent_id' => '103',
+    'title' => '企业网站',
+    'biaozhi' => 'qiyewangzhan',
+    'html_url' => 'html/Product/shexiang/index.html',
+    'menu' => '1',
+    'keyword' => '',
+    'description' => '',
+    'display_order' => '0',
+    'protected' => '0',
+    'status' => '0',
+    'create_time' => '1342668413',
+    'update_time' => '1382252010',
+  ),
+  11 => 
   array (
     'id' => '99',
     'module' => '',
@@ -182,24 +216,41 @@ return array (
     'create_time' => '1324554041',
     'update_time' => '0',
   ),
-  10 => 
+  12 => 
   array (
-    'id' => '131',
-    'module' => '',
-    'parent_id' => '129',
-    'title' => '法律法规',
-    'biaozhi' => 'falvfagui‘',
+    'id' => '103',
+    'module' => 'Product',
+    'parent_id' => '0',
+    'title' => '产品模块',
+    'biaozhi' => 'Product',
     'html_url' => '',
-    'menu' => '0',
+    'menu' => '1',
+    'keyword' => '',
+    'description' => '产品的跟分类',
+    'display_order' => '0',
+    'protected' => '0',
+    'status' => '0',
+    'create_time' => '1342668340',
+    'update_time' => '1344836777',
+  ),
+  13 => 
+  array (
+    'id' => '98',
+    'module' => '',
+    'parent_id' => '1',
+    'title' => '解决方案',
+    'biaozhi' => 'jiejuefangan',
+    'html_url' => 'html/Article/meitijujiao/index.html',
+    'menu' => '1',
     'keyword' => '',
     'description' => '',
     'display_order' => '0',
     'protected' => '0',
     'status' => '0',
-    'create_time' => '1380617153',
-    'update_time' => '0',
+    'create_time' => '1324552052',
+    'update_time' => '1382262069',
   ),
-  11 => 
+  14 => 
   array (
     'id' => '84',
     'module' => '',
@@ -216,7 +267,7 @@ return array (
     'create_time' => '1316584975',
     'update_time' => '1324554013',
   ),
-  12 => 
+  15 => 
   array (
     'id' => '94',
     'module' => '',
@@ -233,26 +284,9 @@ return array (
     'create_time' => '1316832672',
     'update_time' => '1324552285',
   ),
-  13 => 
+  16 => 
   array (
-    'id' => '123',
-    'module' => '',
-    'parent_id' => '1',
-    'title' => '行业新闻',
-    'biaozhi' => 'hangyexinwen',
-    'html_url' => '',
-    'menu' => '0',
-    'keyword' => '',
-    'description' => '',
-    'display_order' => '0',
-    'protected' => '0',
-    'status' => '0',
-    'create_time' => '1351919657',
-    'update_time' => '1380617001',
-  ),
-  14 => 
-  array (
-    'id' => '124',
+    'id' => '121',
     'module' => '',
     'parent_id' => '1',
     'title' => '公司新闻',
@@ -264,50 +298,16 @@ return array (
     'display_order' => '0',
     'protected' => '0',
     'status' => '0',
-    'create_time' => '1352128047',
-    'update_time' => '1380616977',
-  ),
-  15 => 
-  array (
-    'id' => '117',
-    'module' => '',
-    'parent_id' => '32',
-    'title' => '分页广告',
-    'biaozhi' => 'fenye',
-    'html_url' => '',
-    'menu' => '0',
-    'keyword' => '',
-    'description' => '',
-    'display_order' => '0',
-    'protected' => '0',
-    'status' => '0',
-    'create_time' => '1351916455',
+    'create_time' => '1382262138',
     'update_time' => '0',
-  ),
-  16 => 
-  array (
-    'id' => '132',
-    'module' => 'Page',
-    'parent_id' => '0',
-    'title' => '单页管理',
-    'biaozhi' => 'guanyuwomen',
-    'html_url' => '',
-    'menu' => '0',
-    'keyword' => '',
-    'description' => '',
-    'display_order' => '0',
-    'protected' => '0',
-    'status' => '0',
-    'create_time' => '1380617214',
-    'update_time' => '1380617227',
   ),
   17 => 
   array (
-    'id' => '133',
-    'module' => '',
-    'parent_id' => '132',
+    'id' => '122',
+    'module' => 'Category',
+    'parent_id' => '0',
     'title' => '关于我们',
-    'biaozhi' => 'guanyuwomen',
+    'biaozhi' => 'guanyu',
     'html_url' => '',
     'menu' => '0',
     'keyword' => '',
@@ -315,16 +315,16 @@ return array (
     'display_order' => '0',
     'protected' => '0',
     'status' => '0',
-    'create_time' => '1380617249',
+    'create_time' => '1382266166',
     'update_time' => '0',
   ),
   18 => 
   array (
-    'id' => '134',
+    'id' => '123',
     'module' => '',
-    'parent_id' => '132',
-    'title' => '服务项目',
-    'biaozhi' => 'fuwuxiangmu',
+    'parent_id' => '122',
+    'title' => '关于我们',
+    'biaozhi' => 'guanyu',
     'html_url' => '',
     'menu' => '0',
     'keyword' => '',
@@ -332,16 +332,16 @@ return array (
     'display_order' => '0',
     'protected' => '0',
     'status' => '0',
-    'create_time' => '1380617266',
+    'create_time' => '1382266187',
     'update_time' => '0',
   ),
   19 => 
   array (
-    'id' => '130',
+    'id' => '124',
     'module' => '',
-    'parent_id' => '129',
-    'title' => '国家法规',
-    'biaozhi' => 'guojiafagui',
+    'parent_id' => '122',
+    'title' => '服务项目',
+    'biaozhi' => 'fuwu',
     'html_url' => '',
     'menu' => '0',
     'keyword' => '',
@@ -349,24 +349,7 @@ return array (
     'display_order' => '0',
     'protected' => '0',
     'status' => '0',
-    'create_time' => '1380617127',
-    'update_time' => '0',
-  ),
-  20 => 
-  array (
-    'id' => '129',
-    'module' => 'Fagui',
-    'parent_id' => '0',
-    'title' => '政策法规',
-    'biaozhi' => 'fagui',
-    'html_url' => '',
-    'menu' => '0',
-    'keyword' => '',
-    'description' => '',
-    'display_order' => '0',
-    'protected' => '0',
-    'status' => '0',
-    'create_time' => '1380617111',
+    'create_time' => '1382266204',
     'update_time' => '0',
   ),
 );

@@ -27,9 +27,14 @@ class IndexAction extends GlobalAction
 	 
 	public function index(){
 		
-		   
-		   
-		
+		   $fangan=M('Article')->Field('title,id,html_url')->where('category_id=98')->order('id desc')->limit(9)->select();
+		   $news=M('Article')->Field('title,id,html_url')->where('category_id=121')->order('id desc')->limit(9)->select();
+		   $shidian=M('Article')->Field('title,id,html_url')->where('category_id=2')->order('id desc')->limit(9)->select();
+		   $case=M('Product')->Field('id,title,category_id,attach_image')->order('recommend desc,id desc')->limit(9)->select();
+		   $this->assign('fangan',$fangan);
+		   $this->assign('news',$news);
+		   $this->assign('shidian',$shidian);
+		   $this->assign('case',$case);
 		   $this->display();
 	
          }	

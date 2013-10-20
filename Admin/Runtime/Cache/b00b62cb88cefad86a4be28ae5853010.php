@@ -158,7 +158,7 @@ $(document).ready(function(){
 
 		单页分类<select name="category_id"  id="select"  >
 
-                 <?php echo (buildselect($category,132)); ?>
+                 <?php echo (buildselect($category,122)); ?>
 
             
 
@@ -244,44 +244,82 @@ $(document).ready(function(){
 
 <div class="side">
 
-	<div class="block style1">
-		<h2><div class="set">常规设置</div></h2>
-		<ul class="folder">
-        <li class="Index"> <a href="<?php echo U('Index/index');?>">后台首页</a></li>
-		<li class="Config"><a href="<?php echo U("Config/index");?>">系统配置</a></li>
-        <li class="Module"><a href="<?php echo U("Module/index");?>">系统模块</a></li>
-        <li class="Theme"><a href="<?php echo U("Theme/index");?>">风格模板</a></li>
-        <li class="Admin"><a href="<?php echo U("Admin/index");?>">管理员管理</a></li>
-        <li class="AdminRole"><a href="<?php echo U("AdminRole/index");?>">角色管理</a></li>
-		</ul>
-	</div>
-
-	<div class="block style1">
-		<h2><div class="mod">模块管理</div></h2>
-		<ul class="folder">
-          <?php if(is_array($leftBar)): $i = 0; $__LIST__ = $leftBar;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$lb): $mod = ($i % 2 );++$i;?><li class="<?php echo ($lb['module_name']); ?>"><a href='<?php echo U($lb['module_name']."/index");?>'><?php echo ($lb["module_title"]); ?></a>
-                
-                </li><?php endforeach; endif; else: echo "" ;endif; ?>
-		</ul>
-	</div>
-	
-
-	<div class="block style1">
-		<h2><div class="gaoji">高级应用</div></h2>
-		<ul class="folder">
-        <li class="Tools"><a href="<?php echo U("Tools/index");?>">工具箱</a></li>
-        <li class="Label"><a href="<?php echo U("Label/index");?>">数据调用</a></li>
-        
-   <?php if($jingtai==1){ ?>
-        <li class="Html"><a href="<?php echo U("Html/index");?>">生成静态</a></li>
-        
-        <?php } ?>
-     
-		<li class="Database"><a href="<?php echo U("Database/index");?>">数据库管理</a></li>
-		<li class="AdminLog"><a href="<?php echo U("AdminLog/index");?>">操作日志</a></li>
-        <li><a href="http://www.YIGECMS.cn/manual.php" target="_blank">帮助中心</a></li>
-		</ul>
-	</div>
+	<div class="block style1">
+
+		<h2><div class="set">常规设置</div></h2>
+
+		<ul class="folder">
+
+        <li class="Index"> <a href="<?php echo U('Index/index');?>">后台首页</a></li>
+
+		<li class="Config"><a href="<?php echo U("Config/index");?>">系统配置</a></li>
+
+        <li class="Module"><a href="<?php echo U("Module/index");?>">系统模块</a></li>
+
+        <li class="Theme"><a href="<?php echo U("Theme/index");?>">风格模板</a></li>
+
+        <li class="Admin"><a href="<?php echo U("Admin/index");?>">管理员管理</a></li>
+
+        <li class="AdminRole"><a href="<?php echo U("AdminRole/index");?>">角色管理</a></li>
+
+		</ul>
+
+	</div>
+
+
+
+	<div class="block style1">
+
+		<h2><div class="mod">模块管理</div></h2>
+
+		<ul class="folder">
+
+          <?php if(is_array($leftBar)): $i = 0; $__LIST__ = $leftBar;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$lb): $mod = ($i % 2 );++$i;?><li class="<?php echo ($lb['module_name']); ?>"><a href='<?php echo U($lb['module_name']."/index");?>'><?php echo ($lb["module_title"]); ?></a>
+
+                
+
+                </li><?php endforeach; endif; else: echo "" ;endif; ?>
+
+		</ul>
+
+	</div>
+
+	
+
+
+
+	<div class="block style1">
+
+		<h2><div class="gaoji">高级应用</div></h2>
+
+		<ul class="folder">
+
+        <li class="Tools"><a href="<?php echo U("Tools/index");?>">工具箱</a></li>
+
+        <li class="Label"><a href="<?php echo U("Label/index");?>">数据调用</a></li>
+
+        
+
+   <?php if($jingtai==1){ ?>
+
+        <li class="Html"><a href="<?php echo U("Html/index");?>">生成静态</a></li>
+
+        
+
+        <?php } ?>
+
+     
+
+		<li class="Database"><a href="<?php echo U("Database/index");?>">数据库管理</a></li>
+
+		<li class="AdminLog"><a href="<?php echo U("AdminLog/index");?>">操作日志</a></li>
+
+        <li><a href="http://www.YIGECMS.cn/manual.php" target="_blank">帮助中心</a></li>
+
+		</ul>
+
+	</div>
+
 
 
 </div>

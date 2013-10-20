@@ -49,30 +49,24 @@ class FuwuxiangmuAction extends GlobalAction
 
      */
 
-    public function index()
-
-    {
-
-		$label=$_GET['lei'];
-				   
-				   $label=explode('/',$label);
-				  
-				   $label=$label[0];
-				   if($label <> ''){
-					     
-						 $dt=M('Page')->where('link_label="'.$label.'"')->find();
-					   
-					   }else{
-						   
-						    $dt=M('Page')->where('link_label="shanghaidaijiaoshebao"')->find();
-						   
-					   }
-					   
-					   $this->assign('dt',$dt);
-					   $this->display();
-
-    }
-
+    public function index(){
+	    
+		 $info= $_GET['info'];
+		 
+		 if($info=="") $info ="wangzhanjianshe";
+		 $list=M('Page')->field('id,link_label,title')->where('category_id=124')->order('id desc')->select();
+		 
+		 
+		 
+	     $detail=M('Page')->where('link_label="'.$info.'"')->find();
+		 
+	   
+	   $this->assign('list',$list);
+	   $this->assign('detail',$detail);
+	   
+	   $this->assign('moduleTitle', '服务项目');
+	   $this->display();
+	   }
 	
 
 	

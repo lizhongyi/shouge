@@ -1,0 +1,53 @@
+
+<include file="Public:header" />
+
+<div class="banner07">
+</div>
+
+
+<div class="location02">
+<p>当前位置：<a href="/">首页</a> &gt; 服务项目</p>
+<ul style="margin-top:10px;">            
+
+<volist name="list" id="vo">         
+<li><a href="/About/index/info/{$vo.link_label}" <if condition="$_GET['info'] eq $vo['link_label']"> class="hover"</if> >{$vo.title}</a></li>
+</volist>
+</ul></div>
+
+
+
+
+<div class="content">
+<div class="content_left">
+<div class="about">
+{$detail['content']}
+</div>
+</div>
+<div class="content_right">
+<div id="content">
+<p><a href="#"><img src="/Public/img/online03.jpg" width="215" height="80" /></a></p>
+</div>
+<div class="contenttit">
+<h1><a href="/view.html">more</a>视点</h1>
+</div>
+<ul>
+<li><a href="/info/2013/01/view_349.html" title="网站seo优化过程中应该监测哪些数据">网站seo优化过程中应该监测哪些...</a></li>
+<li><a href="/info/2013/01/view_348.html" title="新手写作软文的5个步骤">新手写作软文的5个步骤</a></li>
+<li><a href="/info/2012/12/view_347.html" title="活动推广营销的方法及具体操作方法">活动推广营销的方法及具体操作方法</a></li>
+<li><a href="/info/2012/12/view_346.html" title="怎么进行软文推广以及具体的操作方法">怎么进行软文推广以及具体的操作方...</a></li>
+<li><a href="/info/2012/12/view_344.html" title="怎么有效的做QQ群推广营销以及具体操作方法">怎么有效的做QQ群推广营销以及具...</a></li>
+<li><a href="/info/2012/11/view_337.html" title="中小企业怎么样系统的做网络营销（五）方案制定篇">中小企业怎么样系统的做网络营销（...</a></li>
+<li><a href="/info/2012/11/view_336.html" title="中小企业怎么样系统的做网络营销（四）用户分析篇">中小企业怎么样系统的做网络营销（...</a></li>
+<li><a href="/info/2012/11/view_334.html" title="中小企业怎么样系统的做网络营销（三）内容篇">中小企业怎么样系统的做网络营销（...</a></li>
+</ul>
+</div></div>
+<!--底部-->
+<div class="clear"></div>
+<div class="line02"></div>
+<div class="clear"></div>
+
+
+<include file="Public:footer"/>
+
+
+

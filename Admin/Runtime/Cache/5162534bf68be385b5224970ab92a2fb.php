@@ -125,7 +125,7 @@ $(document).ready(function(){
 
 		<li class="Config"><a href="<?php echo U("Config/index");?>">系统配置</a></li>
 
-       
+        <li class="Module"><a href="<?php echo U("Module/index");?>">系统模块</a></li>
 
         <li class="Theme"><a href="<?php echo U("Theme/index");?>">风格模板</a></li>
 

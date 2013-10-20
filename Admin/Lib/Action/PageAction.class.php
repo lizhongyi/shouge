@@ -34,7 +34,7 @@ class PageAction extends GlobalAction
 
 		
 
-		$category = D('Category')->where('parent_id=132')->Order('display_order DESC,id DESC')->select();
+		$category = D('Category')->where('parent_id=122')->Order('display_order DESC,id DESC')->select();
 
       
         

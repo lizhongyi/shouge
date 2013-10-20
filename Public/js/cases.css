@@ -1,0 +1,185 @@
+div.main .banner{
+	float:left;
+	border:1px solid #ddd;
+}
+
+div.main .banner img{
+	width:978px;
+	height:125px;
+}
+
+div.search{
+	margin:0 auto;
+	padding:5px 10px;
+	border:1px solid #ddd;
+	display:none;
+}
+
+div.search dl{
+	float:left;
+	width:100%;
+	border-bottom:1px dotted #ddd;
+}
+
+div.search dl dt{
+	float:left;
+	width:80px;
+	padding-left:10px;
+	line-height:30px;
+}
+
+div.search dl dd{
+	float:left;
+	width:90%;
+}
+
+div.search dl dd ul{
+	width:100%;
+}
+
+div.search dl dd ul li{
+	float:left;
+	margin-right:18px;
+	line-height:30px;
+}
+
+div.search dl dd ul li.r{
+	float:right;
+}
+
+div.search dl a{
+	color:#0078b6;
+}
+
+div.search dl a.cur{
+	color:#ff6600;
+	font-weight:bold;
+}
+
+div.search dl a:hover{
+	color:#ff6600;
+}
+
+div.search dl dd ul li.r a{
+	color:Red;
+}
+
+div.search dl dd ul li.r a:hover{
+	color:Red;
+	text-decoration:underline;
+}
+
+/* case list */
+
+div.cases ul{
+	margin:0 auto;
+	margin-top:15px;
+	position:relative;
+}
+
+div.cases ul li{
+	float:left;
+	width:280px;
+	padding:0 6px;
+	display:none;
+}
+
+div.cases ul li i{
+	display:block;
+	width:280px;
+	height:18px;
+	background:url(/images/casesBg.png) no-repeat;
+}
+
+div.cases ul li u{
+	display:block;
+	width:280px;
+	height:18px;
+	background:url(/images/casesBg.png) no-repeat 0px -38px;
+}
+
+div.cases ul li div{
+	width:280px;
+    background:url(/images/casesBg.png) right;
+}
+
+div.cases ul li div img{
+    display:block;
+	width:245px;
+    margin:0 auto;
+    padding:4px 0;
+}
+
+div.cases ul li div h3{
+    margin:0 18px;
+    margin-top:5px;
+    font-family:"Î¢ÈíÑÅºÚ";
+	font-size:14px;
+}
+
+div.cases ul li div h3 a:hover{
+    color:#ff3c00;
+}
+
+div.cases ul li div h4{
+    margin:0px 18px;
+    padding-top:3px;
+    font-size:12px;
+    font-weight:normal;
+    line-height:22px;
+    color:#808080;
+}
+
+div.cases ul li div h4 *{
+    color:#808080;
+}
+
+div.loading{
+	margin:0 auto;
+	margin-top:20px;
+	width:270px;
+	font-family:"Î¢ÈíÑÅºÚ";
+	font-size:14px;
+	display:none;
+}
+
+div.loading img{
+	margin-right:10px;
+	vertical-align:middle;
+}
+
+div.final{
+	margin:0 auto;
+	margin-top:20px;
+	width:400px;
+	height:40px;
+	background:url(/images/panel.gif) no-repeat 0px -740px;
+	display:none;
+}
+
+/* Cases Rss */
+
+ul.rss{
+	float:left;
+	width:980px;
+	margin:20px 0;
+	padding-bottom:20px;
+	border-bottom:1px dotted #ccc;
+}
+
+ul.rss li{
+	float:left;
+	width:300px;
+	_width:290px;
+	padding-left:16px;
+	margin-left:10px;
+	font-family:"Î¢ÈíÑÅºÚ";
+	font-size:14px;
+	line-height:30px;
+	background:url(/images/panel.gif) no-repeat -395px -235px;
+}
+
+ul.rss li a:hover{
+	color:Red;
+	text-decoration:underline;
+}

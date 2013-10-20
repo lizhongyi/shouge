@@ -3,13 +3,16 @@
 <!----main----->
 <div class="banner-slide">
 		<ul class="banner-btn">
-			
-			<li>2</li>
-			<li class="last">3</li>
+			<li class="s1">1</li>
+			<li class="s2">2</li>
+			<li class="last s3">3</li>
+            
+            
 		</ul>
-		
+		<div class="slide-con" id="slide-1"></div>
 		<div class="slide-con" id="slide-2"></div>
 		<div class="slide-con" id="slide-3"></div>
+        
 	</div>
 	<div class="g_r_1st grid1k clearfix mt30">
 		<a href="/service.html" class="one_fourth_box fl">
@@ -70,82 +73,50 @@
 	</div>
 	<div class="line"></div>
 	<div class="gallery grid1k clearfix">
+    
+    
+    
+    <volist name="case" id="vo">
     		<div class="g_items">
-			<a class="g_i_pic_wrap" href="/info/2013/07/case_352.html" title="中国之队" target="_blank"><img class="g_items_bg" src="smarty/upload/info/img/201307/1375070488951.jpg" alt="中国之队"/></a>
-			<a href="/info/2013/07/case_352.html" title="中国之队" target="_blank" class="g_items_border"><img src="/Public/img/case-border.png" alt="中国之队"></a>
+			<a class="g_i_pic_wrap" href="{:U('Case/detail',array('id'=>$vo['id']))}" title="{$vo['title']}" target="_blank"><img class="g_items_bg" src="/Uploads{$vo['attach_image']}" alt="{$vo['title']}"/></a>
+			<a href="{:U('Case/detail',array('id'=>$vo['id']))}" title="中国之队" target="_blank" class="g_items_border"><img src="/Public/img/case-border.png" alt="{$vo['title']}"></a>
 		</div>
-    		<div class="g_items">
-			<a class="g_i_pic_wrap" href="/info/2013/07/case_356.html" title="兴业银行" target="_blank"><img class="g_items_bg" src="smarty/upload/info/img/201307/1375070718399.jpg" alt="兴业银行"/></a>
-			<a href="/info/2013/07/case_356.html" title="兴业银行" target="_blank" class="g_items_border"><img src="/Public/img/case-border.png" alt="兴业银行"></a>
-		</div>
-    		<div class="g_items">
-			<a class="g_i_pic_wrap" href="/info/2013/07/case_159.html" title="方正宽带" target="_blank"><img class="g_items_bg" src="smarty/upload/info/img/201307/1375077805537.jpg" alt="方正宽带"/></a>
-			<a href="/info/2013/07/case_159.html" title="方正宽带" target="_blank" class="g_items_border"><img src="/Public/img/case-border.png" alt="方正宽带"></a>
-		</div>
-    		<div class="g_items">
-			<a class="g_i_pic_wrap" href="/info/2013/07/case_157.html" title="雷诺汽车" target="_blank"><img class="g_items_bg" src="smarty/upload/info/img/201307/1375077950726.jpg" alt="雷诺汽车"/></a>
-			<a href="/info/2013/07/case_157.html" title="雷诺汽车" target="_blank" class="g_items_border"><img src="/Public/img/case-border.png" alt="雷诺汽车"></a>
-		</div>
-    		<div class="g_items">
-			<a class="g_i_pic_wrap" href="/info/2013/07/case_154.html" title="HYET Sweet" target="_blank"><img class="g_items_bg" src="smarty/upload/info/img/201307/1375078052549.jpg" alt="HYET Sweet"/></a>
-			<a href="/info/2013/07/case_154.html" title="HYET Sweet" target="_blank" class="g_items_border"><img src="/Public/img/case-border.png" alt="HYET Sweet"></a>
-		</div>
-    		<div class="g_items">
-			<a class="g_i_pic_wrap" href="/info/2013/07/case_158.html" title="达芙荻丽" target="_blank"><img class="g_items_bg" src="smarty/upload/info/img/201307/1375078085525.jpg" alt="达芙荻丽"/></a>
-			<a href="/info/2013/07/case_158.html" title="达芙荻丽" target="_blank" class="g_items_border"><img src="/Public/img/case-border.png" alt="达芙荻丽"></a>
-		</div>
-    		<div class="g_items">
-			<a class="g_i_pic_wrap" href="/info/2013/07/case_357.html" title="棒师傅" target="_blank"><img class="g_items_bg" src="smarty/upload/info/img/201307/1375078970911.jpg" alt="棒师傅"/></a>
-			<a href="/info/2013/07/case_357.html" title="棒师傅" target="_blank" class="g_items_border"><img src="/Public/img/case-border.png" alt="棒师傅"></a>
-		</div>
-    		<div class="g_items">
-			<a class="g_i_pic_wrap" href="/info/2013/07/case_156.html" title="爱国者" target="_blank"><img class="g_items_bg" src="smarty/upload/info/img/201209/1347611633213.jpg" alt="爱国者"/></a>
-			<a href="/info/2013/07/case_156.html" title="爱国者" target="_blank" class="g_items_border"><img src="/Public/img/case-border.png" alt="爱国者"></a>
-		</div>
+    		
+            
+            </volist>
+            
     	</div>
 	<div class="g_r_3nd grid_full border_line mt20">
 		<div class="grid1k clearfix">
 			<div class="one_third_box fl dotted_line">
 				<h3>解决方案<span>SOLUTIONS</span></h3>
-				<p class="solution_des box_position">博越广维致力于高端网站建设，高端网站制作，高端网站设计，网站改版，满足你个性化需求。我们始终坚信为客户创造最大价值是我们存在的目标！</p>
-				<ul class="list_tiny">
-<li><a href="/program/34.html">企业官网</a></li>
-<li><a href="/program/35.html">SNS互动平台</a></li>
-<li><a href="/program/36.html">集团网站</a></li>
-<li><a href="/program/37.html">手机应用网站</a></li>
-<li><a href="/program/38.html">政府网站群</a></li>
-<li><a href="/program/39.html">教育信息网络平台</a></li>
-<li><a href="/program/40.html">电子商务平台系统</a></li>
+				<ul class="list_normal box_position">
+                
+                <volist name="fangan" id="vo">
+<li><a href="{:U('Article/sdetail',array('id'=>$vo['id']))}" target="_blank" title="{$vo['title']}">{$vo['title']|msubstr=0,16}</a></li>
+</volist>
 				</ul>
 				<div class="clear"></div>
 			</div>
 			<div class="one_third_box fl dotted_line ">
-				<h3><p class="fl">新闻<span>NEWS</span></p><a href="/news.html" class="more fr">MORE+</a></h3>
+				<h3><p class="fl">新闻<span>NEWS</span></p><a href="/Article.html" class="more fr">MORE+</a></h3>
 				<div class="clear"></div>
 				<ul class="list_normal box_position">
-<li><a href="/info/2012/09/news_150.html" target="_blank" title="恭贺博越广维成功牵手爱国者">恭贺博越广维成功牵手爱国者</a></li>
-<li><a href="/info/2012/09/news_19.html" target="_blank" title="庆贺教育平台成功上线">庆贺教育平台成功上线</a></li>
-<li><a href="/info/2012/09/news_20.html" target="_blank" title="博越广维成功签约盐城捷康官网项目">博越广维成功签约盐城捷康官网项目</a></li>
-<li><a href="/info/2012/09/news_21.html" target="_blank" title="博越广维为果园老农提供网络建设服务">博越广维为果园老农提供网络建设服务</a></li>
-<li><a href="/info/2012/09/news_22.html" target="_blank" title="祝贺博越广维与方正宽带再度合作">祝贺博越广维与方正宽带再度合作</a></li>
-<li><a href="/info/2012/09/news_23.html" target="_blank" title="瑞士哈弗莱公司中文官网建设完成上线">瑞士哈弗莱公司中文官网建设完成上线</a></li>
-<li><a href="/info/2012/09/news_24.html" target="_blank" title="博越广维与“黑番茄”资讯分享平台建立长期合作关系">博越广维与“黑番茄”资讯分享平台建立长期合作...</a></li>
-<li><a href="/info/2012/09/news_25.html" target="_blank" title="贺博越广维与留学生网签订长期合作意向">贺博越广维与留学生网签订长期合作意向</a></li>
+<volist name="news" id="vo">
+<li><a href="{:U('Article/detail',array('id'=>$vo['id']))}" target="_blank" title="{$vo['title']}">{$vo['title']|msubstr=0,16}</a></li>
+</volist>
 				</ul>
 				<div class="clear"></div>
 			</div>
 			<div class="one_third_box fl">
-				<h3><p class="fl">视点<span>VIEWPOINT</span></p><a href="/view.html" class="more fr">MORE+</a></h3>
+				<h3><p class="fl">行业视点<span>VIEWPOINT</span></p><a href="/view.html" class="more fr">MORE+</a></h3>
 				<div class="clear"></div>
 				<ul class="list_normal box_position">
-<li><a href="/info/2013/01/view_349.html" target="_blank" title="网站seo优化过程中应该监测哪些数据">网站seo优化过程中应该监测哪些数据</a></li>
-<li><a href="/info/2013/01/view_348.html" target="_blank" title="新手写作软文的5个步骤">新手写作软文的5个步骤</a></li>
-<li><a href="/info/2012/12/view_347.html" target="_blank" title="活动推广营销的方法及具体操作方法">活动推广营销的方法及具体操作方法</a></li>
-<li><a href="/info/2012/12/view_346.html" target="_blank" title="怎么进行软文推广以及具体的操作方法">怎么进行软文推广以及具体的操作方法</a></li>
-<li><a href="/info/2012/12/view_344.html" target="_blank" title="怎么有效的做QQ群推广营销以及具体操作方法">怎么有效的做QQ群推广营销以及具体操作方法</a></li>
-<li><a href="/info/2012/11/view_337.html" target="_blank" title="中小企业怎么样系统的做网络营销（五）方案制定篇">中小企业怎么样系统的做网络营销（五）方案制定...</a></li>
-<li><a href="/info/2012/11/view_336.html" target="_blank" title="中小企业怎么样系统的做网络营销（四）用户分析篇">中小企业怎么样系统的做网络营销（四）用户分析...</a></li>
-<li><a href="/info/2012/11/view_334.html" target="_blank" title="中小企业怎么样系统的做网络营销（三）内容篇">中小企业怎么样系统的做网络营销（三）内容篇</a></li>
+<ul class="list_normal box_position">
+<volist name="shidian" id="vo">
+<li><a href="{:U('Article/detail',array('id'=>$vo['id']))}" target="_blank" title="{$vo['title']}">{$vo['title']|msubstr=0,16}</a></li>
+</volist>
+				</ul>
 				</ul>
 				<div class="clear"></div>
 			</div>

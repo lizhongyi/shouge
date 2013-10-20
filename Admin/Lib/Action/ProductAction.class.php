@@ -500,7 +500,7 @@ class ProductAction extends GlobalAction
 
 					
 
-					exit('更新静态失败');
+					echo '更新静态失败';
 
 				}
 

@@ -86,7 +86,7 @@ class GlobalAction extends Action
         //导入分页类
         //import("ORG.Util.Page");
 		 include_once('includes/Page.class.php');
-        $this->assign('moduleName', MODULE_NAME);
+        $this->assign('module', MODULE_NAME);
 		
 	  
 		// 

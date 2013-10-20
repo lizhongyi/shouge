@@ -156,7 +156,7 @@ $(document).ready(function(){
 
 		<td><input name="link_label" type="text"   id="link_label" value="<?php echo ($vo["link_label"]); ?>" size="10"/>单页分类<select name="category_id"  id="select"  >
 
-             <?php echo (buildselect($category,132,$vo['category_id'])); ?>
+             <?php echo (buildselect($category,122,$vo['category_id'])); ?>
 
             
 
@@ -174,9 +174,7 @@ $(document).ready(function(){
 
 		   <textarea name="content" id="content_1" style="width:780px; height:300px;"><?php echo ($vo["content"]); ?></textarea>
 
-           <input name="kk" id="kk" value="2"/><button name="hh" id="hh" onclick="uu()
-
-">按钮</button>
+         
 
            </th>
 
@@ -258,7 +256,7 @@ $(document).ready(function(){
 
 		<li class="Config"><a href="<?php echo U("Config/index");?>">系统配置</a></li>
 
-       
+        <li class="Module"><a href="<?php echo U("Module/index");?>">系统模块</a></li>
 
         <li class="Theme"><a href="<?php echo U("Theme/index");?>">风格模板</a></li>
 
